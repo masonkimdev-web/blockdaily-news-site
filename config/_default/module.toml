@@ -1,0 +1,4 @@
+# Hugo module 설정 초기화 (newsroom 모듈 제거)
+[module]
+  # 테마는 파일 시스템 기반 themes/hugo-xmag 를 사용하므로
+  # 별도의 module.imports 는 사용하지 않음.
