@@ -1,0 +1,24 @@
+baseURL = "https://block-w-news.site/"
+languageCode = "ko-kr"
+title = "블록체인 뉴스룸"
+theme = "newsroom"
+
+# 한 페이지에 보여줄 기사 수
+[pagination]
+  pagerSize = 12
+
+enableRobotsTXT = true
+
+# 다크모드 기본값 (light / dark)
+[params]
+  defaultMode = "light"
+  description = "블록체인, 가상자산, 온체인 데이터, 규제·정책까지 한 번에 보는 한국어 블록체인 뉴스룸"
+
+  # 🔹 Newsroom 메인 섹션/아카이브 설정
+  blogDir = "news"         # View Archive 버튼 → /news 로 이동
+  mainSections = ["news"]  # 메인에 나오는 글 타입 = content/news/*
+
+[markup.goldmark.renderer]
+  unsafe = true          # raw HTML 렌더 허용
+
+ignoreLogs = ['warning-goldmark-raw-html']

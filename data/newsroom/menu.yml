@@ -1,0 +1,18 @@
+# data/menu.yml
+- item: 최신 뉴스
+  url: /
+
+- item: 온체인 데이터
+  url: /categories/onchain/
+
+- item: 디파이
+  url: /categories/defi/
+
+- item: 규제·정책
+  url: /categories/regulation/
+
+- item: 거래소·시장
+  url: /categories/exchange/
+
+- item: 칼럼·리포트
+  url: /categories/insight/

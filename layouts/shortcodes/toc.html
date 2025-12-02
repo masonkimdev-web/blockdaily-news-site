@@ -1,0 +1,9 @@
+﻿{{- $toc := .Page.TableOfContents -}}
+{{- if $toc -}}
+<div class="toc-container" style="margin:12px 0;">
+  <details open class="toc">
+    <summary class="toc-title" style="cursor:pointer;font-weight:700;">Table of Contents</summary>
+    {{ $toc | safeHTML }}
+  </details>
+</div>
+{{- end -}}

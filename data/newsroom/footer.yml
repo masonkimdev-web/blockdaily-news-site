@@ -1,0 +1,25 @@
+# data/footer.yml
+columns:
+  - title: 블록체인 뉴스룸
+    links:
+      - label: 소개
+        url: /about/
+
+  - title: 섹션
+    links:
+      - label: 온체인 데이터
+        url: /categories/onchain/
+      - label: 디파이
+        url: /categories/defi/
+      - label: 규제·정책
+        url: /categories/regulation/
+
+  - title: 기타
+    links:
+      - label: 이용약관
+        url: /terms/
+      - label: 개인정보처리방침
+        url: /privacy/
+
+bottom:
+  text: "© 2025 블록체인 뉴스룸 · 운영자: 김현수 · 이메일: fwowi@naver.com"

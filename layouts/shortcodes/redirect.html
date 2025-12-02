@@ -1,0 +1,14 @@
+{{- $to := .Get "to" -}}
+{{- $delayStr := or (.Get "delay") "0" -}}
+{{- $ms := int $delayStr -}}
+{{- $sec := div $ms 1000 -}}
+
+<!-- 메타 리다이렉트 (1~2초 후 자동 이동) -->
+<meta http-equiv="refresh" content="{{ $sec }};url={{ $to }}">
+
+<p>
+  곧 
+  <a href="{{ $to }}" rel="nofollow">바이비트 공식 홈페이지</a>
+  로 이동합니다.<br>
+  자동으로 이동하지 않으면 링크를 클릭해주세요.
+</p>

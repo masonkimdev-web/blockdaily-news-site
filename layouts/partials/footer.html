@@ -1,0 +1,33 @@
+{{ $footer := site.Data.newsroom.footer }}
+
+<footer class="site-footer" style="padding: 40px 0 20px; border-top: 1px solid #eee;">
+  <div class="footer-inner"
+       style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
+    
+    {{ range $footer.columns }}
+      <div class="footer-column"
+           style="flex: 1 1 160px; min-width: 160px;">
+        <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 12px;">
+          {{ .title }}
+        </h4>
+        <ul style="list-style: none; margin: 0; padding: 0; line-height: 1.9;">
+          {{ range .links }}
+            <li>
+              <a href="{{ .url }}" style="text-decoration: none; color: #333;">
+                {{ .label }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+
+  </div>
+
+  <div class="footer-bottom"
+       style="max-width: 1200px; margin: 24px auto 0; padding-top: 12px; border-top: 1px solid #f0f0f0; font-size: 13px; color: #777;">
+    <p style="margin: 0;">
+      {{ $footer.bottom.text }}
+    </p>
+  </div>
+</footer>
