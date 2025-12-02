@@ -1,11 +1,11 @@
-baseURL = "https://block-w-news.site/"
+baseURL = "https://blockdailynews.online/"
 languageCode = "ko-kr"
-title = "블록체인 뉴스룸"
-theme = "newsroom"
+title = "블록데일리뉴스"
+theme = "hugo-xmag"
 
 # 한 페이지에 보여줄 기사 수
 [pagination]
-  pagerSize = 12
+  pagerSize = 10
 
 enableRobotsTXT = true
 
