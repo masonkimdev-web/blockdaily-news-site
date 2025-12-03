@@ -13,7 +13,7 @@ tags:
   - "유로"
   - "스테이블코인"
 summary: "스위스 기반 Mt Pelerin이 개인용 암호화폐 IBAN 서비스를 출시해, 크립토 월렛과 전통 은행 간 송금의 경계를 허물었다."
-thumbnail: "news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban.jpg"
 ---
 
 스위스 제네바에 본사를 둔 Mt Pelerin이 2025년 12월 2일, 개인용 암호화폐 IBAN(국제은행계좌번호) 발급 서비스를 공식 출시했다고 밝혔다.
