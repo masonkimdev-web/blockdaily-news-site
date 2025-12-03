@@ -5,15 +5,6 @@ columns:
       - label: 소개
         url: /about/
 
-  - title: 섹션
-    links:
-      - label: 온체인 데이터
-        url: /categories/onchain/
-      - label: 디파이
-        url: /categories/defi/
-      - label: 규제·정책
-        url: /categories/regulation/
-
   - title: 기타
     links:
       - label: 이용약관
