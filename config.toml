@@ -5,7 +5,7 @@ theme = "hugo-xmag"
 
 # 한 페이지에 보여줄 기사 수
 [pagination]
-  pagerSize = 10
+  pagerSize = 9
 
 enableRobotsTXT = true
 
