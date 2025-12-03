@@ -12,7 +12,7 @@ tags:
   - "NFT"
   - "크리에이터 경제"
 summary: "11월 14일부터 16일까지 리스본에서 열리는 CCCC 2025에 누세이르 야신, 메이 머스크 박사 등 글로벌 인플루언서들이 모여 Web3 시대 수익 창출 전략을 공유한다."
-thumbnail: "news/2025/08/2025-08-19-lisbon-welcomes-global-icons-to-crypto-content-creator-campu.jpg"
+thumbnail: "images/news/2025/08/2025-08-19-lisbon-welcomes-global-icons-to-crypto-content-creator-campu.jpg"
 ---
 
 오는 11월 14일부터 16일까지 포르투갈 리스본에서 '크립토 콘텐츠 크리에이터 캠퍼스(Crypto Content Creator Campus, CCCC) 2025'가 개최된다. 이번 행사는 ‘Web3 시대의 수익화’를 주제로 세계적인 블록체인 및 크립토 분야의 인플루언서와 혁신가들이 한자리에 모여 새로운 콘텐츠 창작과 수익 모델을 모색하는 자리다.

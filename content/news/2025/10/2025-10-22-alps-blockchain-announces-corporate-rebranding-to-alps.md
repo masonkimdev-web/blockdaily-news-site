@@ -12,7 +12,7 @@ tags:
   - "블록체인"
   - "에너지효율"
 summary: "유럽 디지털 인프라 선도기업 알프스 블록체인이 사명을 ‘알프스’로 변경하며 비트코인 마이닝을 넘어 AI 고성능 컴퓨팅 인프라 구축에 나선다."
-thumbnail: "news/2025/10/2025-10-22-alps-blockchain-announces-corporate-rebranding-to-alps.jpg"
+thumbnail: "images/news/2025/10/2025-10-22-alps-blockchain-announces-corporate-rebranding-to-alps.jpg"
 ---
 
 이탈리아 트렌토에 본사를 둔 유럽 디지털 인프라 및 비트코인 마이닝 선도기업 알프스 블록체인(Alps Blockchain)이 2025년 10월 22일 사명을 기존 ‘알프스 블록체인’에서 ‘알프스(Alps)’로 변경한다고 발표했다. 이번 사명 변경은 비트코인 채굴 운영사를 넘어, 차세대 데이터센터 인프라를 설계·구축·운영하는 통합 인프라 기업으로 진화하고자 하는 의지를 반영한 것이다.

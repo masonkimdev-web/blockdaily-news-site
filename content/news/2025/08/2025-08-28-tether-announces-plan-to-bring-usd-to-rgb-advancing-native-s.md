@@ -12,7 +12,7 @@ tags:
   - "라이트닝네트워크"
   - "가상자산"
 summary: "테더가 비트코인과 라이트닝 네트워크에서 동작하는 차세대 프로토콜 RGB를 활용해 USD₮ 발행 계획을 발표했다."
-thumbnail: "news/2025/08/2025-08-28-tether-announces-plan-to-bring-usd-to-rgb-advancing-native-s.jpg"
+thumbnail: "images/news/2025/08/2025-08-28-tether-announces-plan-to-bring-usd-to-rgb-advancing-native-s.jpg"
 ---
 
 스테이블코인 업계의 거대 기업 테더(Tether)가 차세대 디지털 자산 발행 프로토콜인 RGB를 통해 비트코인과 라이트닝 네트워크에서 자사 스테이블코인 USD₮를 발행할 계획이라고 2025년 8월 28일 밝혔다.

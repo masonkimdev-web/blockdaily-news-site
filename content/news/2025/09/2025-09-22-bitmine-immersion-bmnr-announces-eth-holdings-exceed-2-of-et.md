@@ -12,7 +12,7 @@ tags:
   - "톰리"
   - "블록체인"
 summary: "비트마인이 이더리움 공급량의 2% 이상을 보유하며 총 114억 달러 규모의 암호화폐·현금 자산을 공개했다. 톰 리 의장은 이더리움 5% 보유 목표를 재확인했다."
-thumbnail: "news/2025/09/2025-09-22-bitmine-immersion-bmnr-announces-eth-holdings-exceed-2-of-et.jpg"
+thumbnail: "images/news/2025/09/2025-09-22-bitmine-immersion-bmnr-announces-eth-holdings-exceed-2-of-et.jpg"
 ---
 
 암호화폐 장기 투자에 집중하는 비트코인 및 이더리움 네트워크 기업 비트마인(BitMine Immersion Technologies)이 2025년 9월 21일 기준 이더리움(ETH) 보유량이 전체 공급량의 2%를 넘어섰다고 밝혔다. 현재 비트마인은 241만 6,054 ETH(개당 약 4,497달러 기준)를 보유 중이며, 현금 3억 4,500만 달러와 기타 암호화폐, ‘문샷’ 투자금으로 총 114억 달러(한화 약 14조 원)의 자산을 보유하고 있다.

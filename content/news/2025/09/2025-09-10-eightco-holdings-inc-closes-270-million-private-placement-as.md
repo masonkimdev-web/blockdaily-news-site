@@ -12,7 +12,7 @@ tags:
   - "AI인증"
   - "가상자산"
 summary: "에이트코 홀딩스가 월드코인(WLD)을 재무 자산으로 확보하는 전략적 2억7천만 달러 사모투자를 완료하며, AI 신원 인증 ‘Proof of Human’ 구현을 주도한다."
-thumbnail: "news/2025/09/2025-09-10-eightco-holdings-inc-closes-270-million-private-placement-as.jpg"
+thumbnail: "images/news/2025/09/2025-09-10-eightco-holdings-inc-closes-270-million-private-placement-as.jpg"
 ---
 
 미국 펜실베니아주 이스턴에 위치한 에이트코 홀딩스(Eightco Holdings Inc., NASDAQ: OCTO)가 2025년 9월 10일, 2억7천만 달러 규모의 사모투자(private placement)를 성공적으로 마감했다고 발표했다. 이번 투자금은 세계 최초로 월드코인(Worldcoin, WLD)을 회사의 재무 준비 자산으로 활용하는 전략을 실행하기 위해 사용된다.

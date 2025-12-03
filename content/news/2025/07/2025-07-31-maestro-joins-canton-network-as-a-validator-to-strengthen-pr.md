@@ -12,7 +12,7 @@ tags:
   - "Maestro"
   - "디지털자산"
 summary: "기업용 인프라 제공사 Maestro가 글로벌 금융사와 함께 Canton 네트워크 검증자로 참여해 프라이버시 중심의 블록체인 금융 시스템 구축을 강화한다."
-thumbnail: "news/2025/07/2025-07-31-maestro-joins-canton-network-as-a-validator-to-strengthen-pr.jpg"
+thumbnail: "images/news/2025/07/2025-07-31-maestro-joins-canton-network-as-a-validator-to-strengthen-pr.jpg"
 ---
 
 2025년 7월 31일, 미국 텍사스 오스틴 – 블록체인 인프라 전문기업 Maestro가 Canton 네트워크의 검증자(Validator)로 공식 합류했다. Binance, BitGo, Bank of America, Galaxy Digital, Mastercard, Citadel, Nasdaq 등 글로벌 주요 금융 및 디지털 자산 기업들과 함께 검증자로 참여한 Maestro는 프라이버시와 준수를 중시하는 금융 기관들의 블록체인 시스템 도입을 지원할 예정이다.

@@ -12,7 +12,7 @@ tags:
   - "기관투자"
   - "암호화폐 커스터디"
 summary: "바이비트의 스테이킹 토큰 bbSOL이 미국 최초 연방 인가 암호화폐 은행 앵커리지 디지털의 기관 보관 지원을 받으며 기관용 디파이 자산으로서 입지를 강화했다."
-thumbnail: "news/2025/10/2025-10-30-bybits-bbsol-gains-institutional-custody-support-from-anchor.jpg"
+thumbnail: "images/news/2025/10/2025-10-30-bybits-bbsol-gains-institutional-custody-support-from-anchor.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit)는 2025년 10월 30일, 자사의 스테이킹 SOL 토큰인 bbSOL이 미국 최초 연방 인가 암호화폐 은행을 보유한 앵커리지 디지털(Anchorage Digital)의 기관용 커스터디(자산 보관) 서비스 지원을 받게 되었다고 발표했다.

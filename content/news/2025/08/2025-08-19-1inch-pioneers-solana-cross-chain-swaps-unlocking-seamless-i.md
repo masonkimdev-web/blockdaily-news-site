@@ -12,7 +12,7 @@ tags:
   - "EVM"
   - "MEV"
 summary: "1inch가 솔라나와 12개 이상의 EVM 네트워크 간 안전하고 신속한 신뢰 기반 크로스체인 스왑을 선보이며 DeFi 상호운용성의 새 시대를 열었다."
-thumbnail: "news/2025/08/2025-08-19-1inch-pioneers-solana-cross-chain-swaps-unlocking-seamless-i.jpg"
+thumbnail: "images/news/2025/08/2025-08-19-1inch-pioneers-solana-cross-chain-swaps-unlocking-seamless-i.jpg"
 ---
 
 글로벌 DEX 애그리게이터 1inch가 솔라나와 주요 EVM 네트워크 간의 네이티브 탈중앙화 크로스체인 스왑 기능을 공식 출시했다. 이번 업데이트로 사용자는 브리지나 불안정한 메시징 프로토콜 없이도 솔라나와 12개 이상의 다양한 EVM 체인 간에 자산을 신뢰할 수 있고 MEV 공격으로부터 보호받으며 자유롭게 교환할 수 있다.

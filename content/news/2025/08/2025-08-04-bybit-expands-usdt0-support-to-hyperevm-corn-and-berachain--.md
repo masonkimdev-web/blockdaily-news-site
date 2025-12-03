@@ -12,7 +12,7 @@ tags:
   - "디파이"
   - "Layer1"
 summary: "바이비트가 USDT의 통합 유동성 네트워크 USDT0 지원을 하이퍼EVM, 콘, 베라체인까지 확대하며 크로스체인 스테이블코인 접근성을 강화했다."
-thumbnail: "news/2025/08/2025-08-04-bybit-expands-usdt0-support-to-hyperevm-corn-and-berachain--.jpg"
+thumbnail: "images/news/2025/08/2025-08-04-bybit-expands-usdt0-support-to-hyperevm-corn-and-berachain--.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit)가 세계에서 가장 널리 사용되는 스테이블코인 테더(USDT)의 통합 유동성 네트워크인 USDT0 지원을 하이퍼EVM(HyperEVM), 콘(Corn), 베라체인(Berachain)까지 확대했다고 2025년 8월 5일 발표했다. 이번 확장으로 네트워크 간 브릿지, 래핑된 자산, 중복된 유동성 풀 없이도 네이티브 입출금이 가능해져 디파이(DeFi) 생태계 간 상호 운용성이 크게 강화됐다.

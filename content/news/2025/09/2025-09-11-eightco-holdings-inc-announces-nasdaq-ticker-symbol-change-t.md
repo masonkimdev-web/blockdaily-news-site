@@ -13,7 +13,7 @@ tags:
   - "가상자산"
   - "디지털 신원"
 summary: "Eightco Holdings가 나스닥 티커를 ‘ORBS’로 변경하고 2억 7천만 달러 규모 투자 유치로 AI 시대 ‘Proof of Human’ 검증 기술 선도에 나섰다."
-thumbnail: "news/2025/09/2025-09-11-eightco-holdings-inc-announces-nasdaq-ticker-symbol-change-t.jpg"
+thumbnail: "images/news/2025/09/2025-09-11-eightco-holdings-inc-announces-nasdaq-ticker-symbol-change-t.jpg"
 ---
 
 미국 펜실베이니아 이스턴에 본사를 둔 Eightco Holdings Inc.(나스닥: ORBS)가 2025년 9월 11일부터 나스닥 상장 티커를 ‘ORBS’로 변경했다고 밝혔다. 이번 변경은 최근 완료한 2억 7천만 달러 규모의 사모 투자 유치와 함께 이루어졌으며, 주주들은 별도의 조치 없이 새 티커로 주식을 거래할 수 있다.

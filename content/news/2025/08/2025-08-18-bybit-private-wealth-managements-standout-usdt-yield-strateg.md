@@ -12,7 +12,7 @@ tags:
   - "디지털 자산"
   - "7월 실적"
 summary: "바이비트 프라이빗 웰스 매니지먼트(PWM)가 7월 USDT 기반 고수익 전략으로 월간 평균 APR 160% 상승과 19.77% APR 기록을 달성했다."
-thumbnail: "news/2025/08/2025-08-18-bybit-private-wealth-managements-standout-usdt-yield-strateg.jpg"
+thumbnail: "images/news/2025/08/2025-08-18-bybit-private-wealth-managements-standout-usdt-yield-strateg.jpg"
 ---
 
 세계 거래량 기준 두 번째로 큰 암호화폐 거래소인 바이비트(Bybit)가 2025년 7월, 프라이빗 웰스 매니지먼트(PWM) 유닛에서 기록적인 성과를 발표했다. 최근 공개된 7월 뉴스레터에 따르면, 바이비트 PWM은 전월 대비 평균 APR이 160% 이상 뛰어오르며 눈에 띄는 성과를 냈다.

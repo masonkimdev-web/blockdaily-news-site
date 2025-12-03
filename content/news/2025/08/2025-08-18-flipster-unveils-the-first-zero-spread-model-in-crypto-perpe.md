@@ -11,7 +11,7 @@ tags:
   - "플립스터"
   - "암호화폐거래소"
 summary: "플립스터가 업계 최초로 주요 영구 계약 페어에 대해 숨겨진 가격 차이 없이 단일가로 거래 가능한 제로 스프레드 모델을 선보였다."
-thumbnail: "news/2025/08/2025-08-18-flipster-unveils-the-first-zero-spread-model-in-crypto-perpe.jpg"
+thumbnail: "images/news/2025/08/2025-08-18-flipster-unveils-the-first-zero-spread-model-in-crypto-perpe.jpg"
 ---
 
 빠르게 성장 중인 가상자산 영구계약 거래 플랫폼 플립스터(Flipster)가 업계 최초로 ‘제로 스프레드’ 모델을 도입하며 새로운 거래 패러다임을 제시했다. 이를 통해 기존 거래소들이 당연시해 온 매수·매도 가격 간 숨겨진 차이인 스프레드를 완전히 제거, 거래자들이 인지하지 못하던 비용 부담을 근본적으로 없앴다.

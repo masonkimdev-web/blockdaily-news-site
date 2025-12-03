@@ -13,7 +13,7 @@ tags:
   - "토큰화"
   - "중동금융"
 summary: "바이비트가 중동 최대 금융그룹 QNB와 DMZ Finance와 손잡고 DFSA 승인 QCDT 토큰을 디지털 자산 담보로 최초 도입하며, 최대 10억 달러 규모의 기관 자금 진입을 촉진한다."
-thumbnail: "news/2025/09/2025-09-19-bybit-becomes-first-crypto-exchange-to-partner-with-qnb-grou.jpg"
+thumbnail: "images/news/2025/09/2025-09-19-bybit-becomes-first-crypto-exchange-to-partner-with-qnb-grou.jpg"
 ---
 
 글로벌 거래량 기준 세계 2위 암호화폐 거래소인 바이비트(Bybit)가 2025년 9월 19일 아랍에미리트 두바이에서 카타르 최대 금융그룹 QNB 그룹(QNB Group) 및 DMZ Finance와 전략적 협업을 발표했다. 이번 제휴를 통해 세계 최초로 두바이 금융 서비스 당국(DFSA)의 승인을 받은 토큰화 머니마켓펀드(MMF)인 QCDT가 바이비트 플랫폼에 담보 자산으로 도입되며, 전통 금융과 디지털 자산 간 연결 고리를 강화한다.

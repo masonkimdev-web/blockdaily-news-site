@@ -12,7 +12,7 @@ tags:
   - "토큰화 자산"
   - "블록체인"
 summary: "글로벌 거래량 2위 바이비트가 기관·기업 고객 전용 B2B 유닛 출범을 발표하며, 안전한 수탁과 효율적 결제, 토큰화 자산 접근성을 강화한다."
-thumbnail: "news/2025/09/2025-09-05-bybit-establishes-new-b2b-unit-to-drive-institutional-adopti.jpg"
+thumbnail: "images/news/2025/09/2025-09-05-bybit-establishes-new-b2b-unit-to-drive-institutional-adopti.jpg"
 ---
 
 암호화폐 거래량 세계 2위인 바이비트(Bybit)가 2025년 9월 5일, 기관 및 기업 고객에게 특화된 비즈니스 투 비즈니스 유닛(BBU)을 공식 출범했다고 밝혔다. 이번 BBU 신설은 기관 투자자의 진화하는 니즈를 반영해 전통 금융과 디지털 자산의 융합 가속화를 목표로 한다.

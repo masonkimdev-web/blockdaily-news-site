@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "디파이"
 summary: "세계 2위 거래소 바이비트가 맨틀 네트워크의 USDT0 입출금을 지원하며, 통합 스테이블코인 유동성 인프라 구축에 앞장선다."
-thumbnail: "news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme.jpg"
+thumbnail: "images/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme.jpg"
 ---
 
 글로벌 거래량 기준 세계 2위 암호화폐 거래소인 바이비트(Bybit)가 맨틀 네트워크(Mantle Network)와 협력해 USDT0의 입출금을 지원한다고 2025년 11월 27일 발표했다. 이로써 바이비트는 전 세계 주요 거래소 중 최초로 USDT0의 원활한 크로스체인 유동성을 구현하는 거래소 중 하나가 됐다. 

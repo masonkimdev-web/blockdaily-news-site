@@ -12,7 +12,7 @@ tags:
   - "가상자산"
   - "ThomsonReuters"
 summary: "글로벌 디지털 자산 솔루션 기업 체인업이 2025 ALB 판아시안 규제상에서 2개 부문 최종 후보에 올라, 기관급 보안과 컴플라이언스 역량을 인정받았다."
-thumbnail: "news/2025/09/2025-09-04-chainup-named-double-finalist-at-thomson-reuters-alb-pan-asi.jpg"
+thumbnail: "images/news/2025/09/2025-09-04-chainup-named-double-finalist-at-thomson-reuters-alb-pan-asi.jpg"
 ---
 
 싱가포르, 2025년 9월 4일 – 글로벌 디지털 자산 솔루션 제공업체 체인업(ChainUp)이 2025년 아시아 법률 비즈니스(ALB) 판아시안 규제상에서 두 개 부문 최종 후보에 올랐다. Thomson Reuters가 주관하는 이번 수상은 빠르게 성숙해가는 디지털 자산 산업에서 규제 준수를 위한 견고한 기술력의 중요성을 부각시킨다.

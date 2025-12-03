@@ -12,7 +12,7 @@ tags:
   - "KYC"
   - "블록체인"
 summary: "바이빗이 인도 앱스토어 및 구글 플레이에서 전면 서비스를 재개하며, FIU 등록과 KYC 강화로 인도 암호화폐 시장에 다시 도전장을 냈다."
-thumbnail: "news/2025/09/2025-09-08-bybit-resumes-full-access-for-indian-users-reinforces-commit.jpg"
+thumbnail: "images/news/2025/09/2025-09-08-bybit-resumes-full-access-for-indian-users-reinforces-commit.jpg"
 ---
 
 세계 2위 규모의 암호화폐 거래소 바이빗(Bybit)이 인도 시장에서의 사업 재개에 속도를 내고 있다. 2025년 9월 8일, 바이빗은 인도 사용자들을 대상으로 앱스토어와 구글 플레이에서 Bybit 앱의 완전한 접근 권한을 복원했다고 밝혔다. 바이빗 웹사이트 역시 단계적으로 서비스 재개 중이며, 이르면 향후 3~4일 내에 완전한 이용이 가능할 전망이다.

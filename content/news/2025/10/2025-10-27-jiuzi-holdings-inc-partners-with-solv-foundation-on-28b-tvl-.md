@@ -13,7 +13,7 @@ tags:
   - "솔라나"
   - "TVL"
 summary: "나스닥 상장사 지우지홀딩스가 총 28억 달러 TVL을 가진 솔브 재단과 전략적 협력으로 비트코인 중심의 재무전략을 가속화한다."
-thumbnail: "news/2025/10/2025-10-27-jiuzi-holdings-inc-partners-with-solv-foundation-on-28b-tvl-.jpg"
+thumbnail: "images/news/2025/10/2025-10-27-jiuzi-holdings-inc-partners-with-solv-foundation-on-28b-tvl-.jpg"
 ---
 
 중국 항저우에 본사를 둔 나스닥 상장 기업 지우지홀딩스(Jiuzi Holdings, Inc., NASDAQ: JZXN)는 2025년 10월 27일, 크로스체인 비트코인 스테이킹 및 구조화 금융 플랫폼인 솔브 재단(SOLV Foundation)과 총 가치 예치금액(TVL) 28억 달러 규모의 전략적 협력 계약을 체결했다고 발표했다.

@@ -13,7 +13,7 @@ tags:
   - "VerifiedX"
   - "OTC거래"
 summary: "VerifiedX가 Crypto.com과 협력해 15억 달러 규모 기관용 디지털 자산 수탁 및 OTC 거래 서비스를 제공한다."
-thumbnail: "news/2025/11/2025-11-20-verifiedx-partners-with-cryptocom-for-institutional-custody-.jpg"
+thumbnail: "images/news/2025/11/2025-11-20-verifiedx-partners-with-cryptocom-for-institutional-custody-.jpg"
 ---
 
 글로벌 Web3 지갑 인프라 및 셀프 커스터디(자가 보관) 분야 선도 기업인 VerifiedX(VFX)와 Crypto.com이 2025년 11월 21일 전략적 파트너십을 발표했다. 이번 협력을 통해 Crypto.com은 VerifiedX 네트워크가 보유한 약 15억 달러 규모의 디지털 자산에 대해 기관용 보안 수탁과 유동성 지원, 그리고 OTC(장외) 거래 서비스까지 제공한다.

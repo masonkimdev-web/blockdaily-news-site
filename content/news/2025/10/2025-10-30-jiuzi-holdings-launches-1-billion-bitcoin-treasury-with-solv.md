@@ -12,7 +12,7 @@ tags:
   - "솔브"
   - "디지털자산"
 summary: "중국 주즈홀딩스가 솔브파운데이션과 협력해 비트코인 스테이킹 등 디지털 자산 운용에 10억 달러를 투입, 기관 투자자의 디파이 접근성을 강화한다."
-thumbnail: "news/2025/10/2025-10-30-jiuzi-holdings-launches-1-billion-bitcoin-treasury-with-solv.jpg"
+thumbnail: "images/news/2025/10/2025-10-30-jiuzi-holdings-launches-1-billion-bitcoin-treasury-with-solv.jpg"
 ---
 
 중국 항저우에 본사를 둔 나스닥 상장 기업 주즈홀딩스(Jiuzi Holdings, Inc., NASDAQ: JZXN)가 2025년 10월 30일, 비트코인 파이낸스 분야 선도 플랫폼인 솔브파운데이션(SOLV Foundation)과의 전략적 파트너십을 발표하며, 10억 달러 규모의 디지털 자산 계획 중 최대 10억 달러를 비트코인 스테이킹 및 수익형 상품에 투입한다고 밝혔다.

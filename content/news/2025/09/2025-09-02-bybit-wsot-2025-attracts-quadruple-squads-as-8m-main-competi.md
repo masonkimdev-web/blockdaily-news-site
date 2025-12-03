@@ -12,7 +12,7 @@ tags:
   - "트레이딩대회"
   - "솔라나"
 summary: "바이비트가 주최하는 WSOT 2025 메인 경쟁이 8월 27일 시작되며, 1,400개 팀과 35만명 이상 참가자가 총 800만 달러 상금을 두고 경쟁한다."
-thumbnail: "news/2025/09/2025-09-02-bybit-wsot-2025-attracts-quadruple-squads-as-8m-main-competi.jpg"
+thumbnail: "images/news/2025/09/2025-09-02-bybit-wsot-2025-attracts-quadruple-squads-as-8m-main-competi.jpg"
 ---
 
 세계 2위 거래량을 자랑하는 암호화폐 거래소 바이비트(Bybit)가 주최하는 세계 최대 규모의 트레이딩 대회 '월드 시리즈 오브 트레이딩(WSOT) 2025' 메인 경쟁이 지난 8월 27일 공식 라이브 방송을 통해 시작됐다. 이에 앞서 10일간 진행된 예열 단계에서는 7억 8천만 달러의 거래량을 기록하며 67만 달러의 상금을 참가자들 사이에 분배했다.

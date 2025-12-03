@@ -13,7 +13,7 @@ tags:
   - "NFT"
   - "인간 인증"
 summary: "Eightco가 Cathie Wood의 ARK Invest와 함께 Mythical Games 시리즈 D 투자에 참여하며 게임 내 인간 인증과 디지털 신원 구축에 박차를 가한다."
-thumbnail: "news/2025/10/2025-10-13-eightco-holdings-inc-orbs-makes-strategic-investment-into-my.jpg"
+thumbnail: "images/news/2025/10/2025-10-13-eightco-holdings-inc-orbs-makes-strategic-investment-into-my.jpg"
 ---
 
 Eightco Holdings Inc.(나스닥: ORBS)가 Mythical Games의 시리즈 D 투자 라운드에 전략적 투자자로 참여했다고 2025년 10월 13일 공식 발표했다. 이번 투자 라운드는 Cathie Wood의 ARK Invest와 World Foundation이 주도하며, 거래는 10월 셋째 주에 마무리될 예정이다.

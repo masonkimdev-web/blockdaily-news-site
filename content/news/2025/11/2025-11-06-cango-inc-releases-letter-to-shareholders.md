@@ -12,7 +12,7 @@ tags:
   - "글로벌 확장"
   - "NYSE 상장"
 summary: "Cango가 비트코인 채굴 사업 1년 만에 50 EH/s 규모로 성장하며 올해 2분기 매출 1억 4천만 달러를 기록, 향후 에너지와 HPC 시장으로 사업 영역을 확대할 계획을 밝혔다."
-thumbnail: "news/2025/11/2025-11-06-cango-inc-releases-letter-to-shareholders.jpg"
+thumbnail: "images/news/2025/11/2025-11-06-cango-inc-releases-letter-to-shareholders.jpg"
 ---
 
 홍콩, 2025년 11월 6일 – 비트코인 채굴 분야로의 대규모 사업 전환 1주년을 맞은 Cango Inc.(NYSE: CANG)가 주주 서한을 통해 지난 성과와 향후 계획을 공개했다. 

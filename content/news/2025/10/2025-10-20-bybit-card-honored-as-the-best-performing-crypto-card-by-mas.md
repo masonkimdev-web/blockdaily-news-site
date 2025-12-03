@@ -11,7 +11,7 @@ tags:
   - "가상자산 결제"
   - "핀테크 혁신"
 summary: "바이비트 카드가 글로벌 결제 기술 리더 마스터카드로부터 ‘최고 성과 암호화폐 카드’로 인정받으며 디지털 자산 결제 혁신을 입증했다."
-thumbnail: "news/2025/10/2025-10-20-bybit-card-honored-as-the-best-performing-crypto-card-by-mas.jpg"
+thumbnail: "images/news/2025/10/2025-10-20-bybit-card-honored-as-the-best-performing-crypto-card-by-mas.jpg"
 ---
 
 세계 2위 규모 암호화폐 거래소 바이비트(Bybit)가 2025년 10월 20일(현지시간), 마스터카드가 주최한 글로벌 결제 혁신 포럼 EDGE 2025에서 자사 ‘바이비트 카드(Bybit Card)’가 ‘최고 성과 암호화폐 카드(Best Performing Crypto Card)’로 선정됐다고 밝혔다.

@@ -12,7 +12,7 @@ tags:
   - "뉴에이블스"
   - "가상자산규제"
 summary: "뉴에이블스는 알트코인 가격 변동에 레버리지로 대응하는 CFD 거래 플랫폼으로, 빠른 체결과 리스크 관리 도구를 제공하지만 실제 토큰 소유나 스테이킹은 불가능하다."
-thumbnail: "news/2025/10/2025-10-09-nuevawealth-for-altcoin-cfd-trading--pros-cons--tips.jpg"
+thumbnail: "images/news/2025/10/2025-10-09-nuevawealth-for-altcoin-cfd-trading--pros-cons--tips.jpg"
 ---
 
 알트코인은 비트코인을 제외한 모든 암호화폐를 일컫습니다. 이더리움, 솔라나, 라이트코인부터 NFT, 디파이, 프라이버시 강화 프로젝트까지 다양한 목적을 가진 수천 개의 토큰이 존재하며, 비트코인보다 가격 변동성이 커 단기 투기에 적합한 경우가 많습니다.

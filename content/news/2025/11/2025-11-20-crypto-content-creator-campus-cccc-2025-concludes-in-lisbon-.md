@@ -6,7 +6,7 @@ draft: false
 categories: ["블록체인"]
 tags:
 summary: "Lisbon, Portugal, November 20th, 2025, Chainwire  The  Crypto Content Creator Campus (CCCC) 2025  wrapped up a successful, sold-out three-day event in…"
-thumbnail: "news/2025/11/2025-11-20-crypto-content-creator-campus-cccc-2025-concludes-in-lisbon-.jpg"
+thumbnail: "images/news/2025/11/2025-11-20-crypto-content-creator-campus-cccc-2025-concludes-in-lisbon-.jpg"
 ---
 
 Lisbon, Portugal, November 20th, 2025, Chainwire

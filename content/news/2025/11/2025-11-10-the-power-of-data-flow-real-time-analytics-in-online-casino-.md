@@ -11,7 +11,7 @@ tags:
   - "게임개발"
   - "플레이어경험"
 summary: "온라인 카지노 플랫폼은 실시간 데이터 분석을 통해 게임의 속도와 반응성을 최적화하며, 플레이어 경험을 한층 매끄럽게 만든다."
-thumbnail: "news/2025/11/2025-11-10-the-power-of-data-flow-real-time-analytics-in-online-casino-.png"
+thumbnail: "images/news/2025/11/2025-11-10-the-power-of-data-flow-real-time-analytics-in-online-casino-.png"
 ---
 
 온라인 카지노의 모든 스핀, 클릭, 결정은 단순한 결과를 넘어 게임 내부의 흐름과 리듬으로 기록된다. 이러한 데이터의 흐름은 플랫폼이 게임 성능을 이해하고 플레이어의 움직임을 파악하며, 시스템을 원활히 유지하는 보이지 않는 동력원이다.

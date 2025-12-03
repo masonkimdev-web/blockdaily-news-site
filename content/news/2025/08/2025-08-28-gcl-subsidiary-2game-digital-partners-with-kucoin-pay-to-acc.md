@@ -12,7 +12,7 @@ tags:
   - "웹3"
   - "디지털게임"
 summary: "GCL 자회사 2Game Digital이 쿠코인페이와 파트너십을 맺고 2Game.com에서 실시간 안전한 암호화폐 결제 시스템을 도입한다."
-thumbnail: "news/2025/08/2025-08-28-gcl-subsidiary-2game-digital-partners-with-kucoin-pay-to-acc.jpg"
+thumbnail: "images/news/2025/08/2025-08-28-gcl-subsidiary-2game-digital-partners-with-kucoin-pay-to-acc.jpg"
 ---
 
 게임 및 엔터테인먼트 분야의 글로벌 리더 GCL Global Holdings Ltd.의 자회사인 2Game Digital이 세계적인 암호화폐 거래소 쿠코인(KuCoin)과 전략적 파트너십을 체결했다고 2025년 8월 28일 발표했다. 이를 통해 2Game.com의 전자상거래 스토어에 쿠코인페이(KuCoin Pay)가 결제 수단으로 도입된다.

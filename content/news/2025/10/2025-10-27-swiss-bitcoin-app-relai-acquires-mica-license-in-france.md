@@ -13,7 +13,7 @@ tags:
   - "프랑스"
   - "Relai"
 summary: "스위스 비트코인 전용 앱 Relai가 프랑스 금융청(AMF)으로부터 MiCA 라이선스를 획득하며 EU 내 규제 서비스 제공 준비에 돌입했다."
-thumbnail: "news/2025/10/2025-10-27-swiss-bitcoin-app-relai-acquires-mica-license-in-france.jpg"
+thumbnail: "images/news/2025/10/2025-10-27-swiss-bitcoin-app-relai-acquires-mica-license-in-france.jpg"
 ---
 
 스위스 취리히에 본사를 둔 비트코인 전용 앱 ‘Relai’가 프랑스 금융시장청(AMF)으로부터 유럽연합(EU) 가상자산 규제인 MiCA 라이선스를 획득하며 유럽 시장 확장에 나섰다. Relai는 비트코인 서비스 제공자로는 손꼽히는 최초 획득 기업 중 하나다.

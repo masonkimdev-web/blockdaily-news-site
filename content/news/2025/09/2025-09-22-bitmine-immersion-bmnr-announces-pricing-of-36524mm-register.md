@@ -12,7 +12,7 @@ tags:
   - "워런트"
   - "자금조달"
 summary: "비트마인 이머션(BMNR)이 주당 70달러로 5.22백만 주 및 10.4백만 워런트 발행을 통해 약 3억 6,500만 달러 자금을 확보했다. 이 자금은 ETH 5% 확보에 투입될 예정이다."
-thumbnail: "news/2025/09/2025-09-22-bitmine-immersion-bmnr-announces-pricing-of-36524mm-register.jpg"
+thumbnail: "images/news/2025/09/2025-09-22-bitmine-immersion-bmnr-announces-pricing-of-36524mm-register.jpg"
 ---
 
 비트마인 이머션 테크놀로지스(BitMine Immersion Technologies, 이하 비트마인, NYSE AMERICAN: BMNR)가 2025년 9월 22일(현지시간) 5,217,715주의 보통주를 주당 70달러에, 워런트 10,435,430주를 행사가 87.5달러에 발행하는 등록 직접 공모(registered direct offering)를 통해 약 3억 6,524만 달러의 자금을 조달했다고 발표했다.

@@ -13,7 +13,7 @@ tags:
   - "선물거래"
   - "마진거래"
 summary: "피멕스가 BTC, ETH 등 여러 암호자산을 통합해 활용하는 ‘멀티애셋 모드’를 출시해 거래 자본 효율성과 리스크 관리를 크게 향상시켰다."
-thumbnail: "news/2025/09/2025-09-12-phemex-launches-multi-assets-mode-to-enhance-trading-efficie.jpg"
+thumbnail: "images/news/2025/09/2025-09-12-phemex-launches-multi-assets-mode-to-enhance-trading-efficie.jpg"
 ---
 
 글로벌 암호화폐 거래소 피멕스(Phemex)가 2025년 9월 12일, 여러 암호화폐를 하나의 통합된 마진 풀로 결합해 사용할 수 있는 '멀티애셋 모드(Multi-Assets Mode)'를 공식 출시했다.

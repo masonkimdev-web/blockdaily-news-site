@@ -11,7 +11,7 @@ tags:
   - "블록체인"
   - "지우지홀딩스"
 summary: "지우지홀딩스(JZXN)가 비트코인 100개를 통한 사모 유상증자를 완료하고, 디지털 자산 보관 플랫폼 및 첨단 암호화 저장 기술 개발에 투자한다고 밝혔다."
-thumbnail: "news/2025/10/2025-10-13-jiuzi-holdings-inc-jzxn-secures-100-bitcoin-via-private-plac.jpg"
+thumbnail: "images/news/2025/10/2025-10-13-jiuzi-holdings-inc-jzxn-secures-100-bitcoin-via-private-plac.jpg"
 ---
 
 중국 항저우에 본사를 둔 지우지홀딩스(나스닥: JZXN)가 2025년 10월 13일, 총 거래대금 100 비트코인(BTC)으로 진행된 가상자산 기반 사모 유상증자 건에 대해 구체적인 진행 상황을 발표했다.

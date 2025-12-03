@@ -11,7 +11,7 @@ tags:
   - "Cango"
   - "가상자산"
 summary: "Cango가 2025년 8월 한 달간 663.7개의 비트코인을 채굴하며 보유량이 5,193개를 돌파했다. 운영 해시레이트도 6.9% 상승하며 채굴 효율을 강화했다."
-thumbnail: "news/2025/09/2025-09-02-cango-inc-announces-august-2025-bitcoin-production-and-minin.jpg"
+thumbnail: "images/news/2025/09/2025-09-02-cango-inc-announces-august-2025-bitcoin-production-and-minin.jpg"
 ---
 
 홍콩, 2025년 9월 2일 – 미국 증시 상장사 Cango Inc.(NYSE: CANG)가 2025년 8월 비트코인 채굴 성과 및 운영 현황을 발표했다.

@@ -12,7 +12,7 @@ tags:
   - "전략적제휴"
   - "디지털자산"
 summary: "제타네트워크그룹이 솔브재단과 전략적 제휴를 맺고 비트코인 중심 디지털 금융 생태계 확장에 나선다. 양사는 공동 연구와 혁신을 통해 기관 투자자 대상 금융 서비스 강화에 집중한다."
-thumbnail: "news/2025/10/2025-10-07-zeta-network-group-enters-strategic-partnership-with-solv-fo.jpg"
+thumbnail: "images/news/2025/10/2025-10-07-zeta-network-group-enters-strategic-partnership-with-solv-fo.jpg"
 ---
 
 2025년 10월 7일 뉴욕 - 나스닥 상장 기업 제타네트워크그룹(코드명: ZNB)은 다중 체인 비트코인 스테이킹 및 기관급 구조화 금융 플랫폼인 솔브재단(SOLV)과 전략적 파트너십 계약을 체결했다고 밝혔다. 양사는 총관리자산(TVL) 25억 달러 규모의 솔브BTC 플랫폼을 활용해 바이낸스, 베이스, 솔라나 등 주요 체인에서 비트코인 기반 금융 생태계 확장에 협력할 예정이다.

@@ -13,7 +13,7 @@ tags:
   - "기관 투자"
   - "블록체인"
 summary: "바이비트와 디지FT가 UBS의 첫 토큰형 머니마켓펀드인 UBS uMINT 토큰의 담보 활용을 지원하며 전통 금융과 디지털 자산의 연결을 강화한다."
-thumbnail: "news/2025/10/2025-10-13-collaboration-across-bybit-digift-and-ubs-umint-expands-coll.jpg"
+thumbnail: "images/news/2025/10/2025-10-13-collaboration-across-bybit-digift-and-ubs-umint-expands-coll.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit)가 디지FT(DigiFT)와 전략적 협력을 통해 UBS의 USD 머니마켓 투자펀드 토큰인 UBS uMINT를 담보로 활용할 수 있는 서비스를 선보였다. UBS uMINT는 UBS자산운용이 처음으로 출시한 토큰형 투자펀드로 이더리움 퍼블릭 블록체인 위에 구축되었으며, 2024년 11월부터 외부 투자자에 개방됐다.

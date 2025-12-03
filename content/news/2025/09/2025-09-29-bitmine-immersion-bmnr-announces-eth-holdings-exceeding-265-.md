@@ -11,7 +11,7 @@ tags:
   - "기관투자자"
   - "블록체인"
 summary: "비트마인이 이더리움 265만 개 이상을 보유하며 전체 ETH 물량의 2% 이상을 차지했다. 자산 총액은 암호화폐와 현금을 합쳐 약 116억 달러에 달한다."
-thumbnail: "news/2025/09/2025-09-29-bitmine-immersion-bmnr-announces-eth-holdings-exceeding-265-.jpg"
+thumbnail: "images/news/2025/09/2025-09-29-bitmine-immersion-bmnr-announces-eth-holdings-exceeding-265-.jpg"
 ---
 
 비트마인(BMNR)은 2025년 9월 28일 기준, 2,650,900 이더리움(ETH)을 보유하며 전체 이더리움 공급량의 2% 이상을 차지했다고 공식 발표했다. 한 개당 이더리움 가격을 4,141달러(블룸버그 기준)로 계산할 때, 이더리움 보유액만 약 110억 달러에 달하는 수준이다.

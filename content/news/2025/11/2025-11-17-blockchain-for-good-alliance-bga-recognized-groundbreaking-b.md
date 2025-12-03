@@ -12,7 +12,7 @@ tags:
   - "금융포용"
   - "기후변화"
 summary: "덴마크 코펜하겐에서 열린 ‘Blockchain for Good Alliance’ 2025 포럼이 UNDP와 협력해 블록체인 기술을 통한 지속가능발전목표(SDGs) 달성 사례를 공유하며 혁신 프로젝트를 시상했다."
-thumbnail: "news/2025/11/2025-11-17-blockchain-for-good-alliance-bga-recognized-groundbreaking-b.jpg"
+thumbnail: "images/news/2025/11/2025-11-17-blockchain-for-good-alliance-bga-recognized-groundbreaking-b.jpg"
 ---
 
 덴마크 코펜하겐에서 2025년 11월 4일부터 5일까지 이틀간 열린 'Blockchain for Good Alliance(BGA) 포럼'이 성황리에 마무리되었다. 이번 행사는 Bybit가 설립한 블록체인 비영리 단체인 BGA가 주최하고 유엔개발계획(UNDP) 대체금융랩(AltFinLab)과 협력해 진행됐다. 30개국 이상에서 300여 명의 정책입안자, 기술 전문가, 임팩트 리더들이 모여 블록체인이 UN 지속가능발전목표(SDGs)의 실질적 성과를 어떻게 이끌어낼 수 있는지 모색했다.

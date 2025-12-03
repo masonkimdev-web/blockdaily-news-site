@@ -13,7 +13,7 @@ tags:
   - "알트코인"
   - "디파이"
 summary: "바이비트 2025년 3분기 자산 배분 보고서에 따르면, 기관 중심으로 스테이블코인 보유량이 감소하고 SOL, XRP 등 알트코인과 DEX 토큰에 대한 투자 선호가 뚜렷해졌다."
-thumbnail: "news/2025/09/2025-09-17-bybit-q3-2025-asset-allocation-report-stablecoin-holdings-dr.jpg"
+thumbnail: "images/news/2025/09/2025-09-17-bybit-q3-2025-asset-allocation-report-stablecoin-holdings-dr.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit)가 2025년 3분기 자산 배분 보고서를 9월 17일 발표했다. 보고서에 따르면 투자자들은 기존 스테이블코인 보유량을 줄이고, 솔라나(Solana, SOL), XRP 등 알트코인과 분산형 거래소(DEX) 토큰으로 자산을 적극 재배분하는 경향을 보였다.

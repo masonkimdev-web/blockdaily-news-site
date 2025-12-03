@@ -13,7 +13,7 @@ tags:
   - "런던"
   - "FX거래"
 summary: "McKay Brothers가 런던과 싱가포르를 잇는 최고속도 암호화폐 및 FX 거래 전용 데이터 전송 서비스를 선보였다. 왕복 지연시간은 137밀리초 미만으로, 클라우드 기반 플랫폼에 최적화됐다."
-thumbnail: "news/2025/09/2025-09-29-mckay-brothers-launches-fastest-private-transport-for-crypto.jpg"
+thumbnail: "images/news/2025/09/2025-09-29-mckay-brothers-launches-fastest-private-transport-for-crypto.jpg"
 ---
 
 세계적인 디지털 및 FX 거래용 데이터 전송 서비스 제공사인 McKay Brothers가 2025년 9월 29일 런던과 싱가포르 구간을 연결하는 새로운 전송 서비스를 출시했다. 이 서비스는 왕복 지연시간이 137밀리초 이하로, 기존 시장에서 가장 빠른 수준이다.

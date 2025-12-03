@@ -11,7 +11,7 @@ tags:
   - "가상자산"
   - "온체인데이터"
 summary: "탈중앙화 거래소 아스터의 토큰 $ASTER가 TGE 첫날 371억 원 거래량과 33만 개 신규 지갑을 기록하며 폭발적 성장세를 보였다."
-thumbnail: "news/2025/09/2025-09-19-aster-tge-day-one-performance-shines-exclusive-aster-dex-lau.jpg"
+thumbnail: "images/news/2025/09/2025-09-19-aster-tge-day-one-performance-shines-exclusive-aster-dex-lau.jpg"
 ---
 
 세이셸 마헤, 2025년 9월 19일 – 탈중앙화 거래소 아스터(Aster)의 네이티브 토큰 $ASTER가 토큰 생성 이벤트(TGE) 첫날부터 뜨거운 반응을 보이며 강력한 시장 데뷔를 치렀다. 해당 토큰은 출시 24시간 이내에 아스터 DEX에서 독점적으로 거래되며, 글로벌 유일의 $ASTER 거래 플랫폼으로 자리매김했다.

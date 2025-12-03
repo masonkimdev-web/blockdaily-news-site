@@ -12,7 +12,7 @@ tags:
   - "미국시장"
   - "규제준수"
 summary: "토아렉 그룹이 미국에 자회사 'Touareg Group Technologies Co.'를 설립하고 차세대 암호화폐 거래소와 AI, 블록체인 기술 개발에 나선다."
-thumbnail: "news/2025/10/2025-10-13-touareg-group-expands-global-presence-with-establishment-of-.jpg"
+thumbnail: "images/news/2025/10/2025-10-13-touareg-group-expands-global-presence-with-establishment-of-.jpg"
 ---
 
 2025년 10월 13일, 토아렉 그룹(Touareg Group)은 미국에 기술 자회사 'Touareg Group Technologies Co.'를 설립했다고 발표했다. 토아렉 그룹은 금융, 디지털 자산, 기술 혁신 분야의 국제적 선도 기업으로, 이번 확장은 그룹의 장기 성장 전략의 핵심 단계로 평가된다.

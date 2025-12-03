@@ -12,7 +12,7 @@ tags:
   - "유동성"
   - "스테이블코인"
 summary: "클랩파이낸스가 여러 암호화폐를 담보로 한 다중담보 신용라인을 출시해 판매 없이도 즉시 자금을 확보할 수 있는 혁신적인 서비스를 선보였다."
-thumbnail: "news/2025/11/2025-11-19-clapp-finance-launches-multi-collateral-crypto-credit-line-u.jpg"
+thumbnail: "images/news/2025/11/2025-11-19-clapp-finance-launches-multi-collateral-crypto-credit-line-u.jpg"
 ---
 
 프라하, 2025년 11월 19일 – 유럽 기반 핀테크 기업 클랩파이낸스(Clapp Finance)가 다중담보 암호화폐 신용 대출 서비스를 공식 출시했다. 이 서비스는 최대 19종의 암호화폐를 담보로 활용해 자산을 매도하지 않고도 즉시 현금 또는 스테이블코인을 빌릴 수 있는 새로운 금융 솔루션을 제공한다.

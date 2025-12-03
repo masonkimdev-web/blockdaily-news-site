@@ -13,7 +13,7 @@ tags:
   - "카카오"
   - "라인"
 summary: "글로벌 거래소 플립스터가 카카오·라인 지원 ‘카이아’와 협력해 아시아 내 네이티브 USDT 생태계 확장과 실생활 활용을 가속화한다."
-thumbnail: "news/2025/08/2025-08-06-flipster-and-kaia-partner-to-extend-stablecoin-access-across.jpg"
+thumbnail: "images/news/2025/08/2025-08-06-flipster-and-kaia-partner-to-extend-stablecoin-access-across.jpg"
 ---
 
 2025년 8월 6일, 파나마시티 — 글로벌 암호화폐 거래 플랫폼 플립스터가 카카오와 라인의 IT 대기업들이 지원하는 고성능 퍼블릭 블록체인 카이아와 손잡았다. 이번 파트너십은 카이아의 네이티브 USDT 연동 및 활용도를 확대해 아시아 전역에서 스테이블코인의 채택을 촉진하고, 디지털 달러 자산의 실생활 접목을 목표로 한다.

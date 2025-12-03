@@ -12,7 +12,7 @@ tags:
   - "가상자산"
   - "솔라나"
 summary: "바이비트가 한층 업그레이드된 웹3 인프라 ‘Bybit Web3’를 공개하며, 20만 USDT 규모의 상금 이벤트를 진행한다."
-thumbnail: "news/2025/08/2025-08-08-the-new-bybit-web3-is-herefueling-on-chain-thrills-with-2000.jpg"
+thumbnail: "images/news/2025/08/2025-08-08-the-new-bybit-web3-is-herefueling-on-chain-thrills-with-2000.jpg"
 ---
 
 글로벌 2위 가상자산 거래소 바이비트(Bybit)가 새롭게 업그레이드된 웹3 인프라 ‘Bybit Web3’를 공식 발표했다. 지난 5월 리뉴얼 준비를 위해 일시 중단했던 서비스가 한층 개선되어 돌아온 것이다. 

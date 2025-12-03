@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "규제"
 summary: "Bybit EU가 2025년 8월 14일 XION과 협력해 MiCAR 라이선스 기반의 유럽 첫 Launchpool을 시작하며 29개 EEA 국가 이용자에게 규제 준수된 가상자산 투자 기회를 제공한다."
-thumbnail: "news/2025/08/2025-08-14-bybit-eu-taps-xion-for-inaugural-launchpool-in-the-eu-openin.jpg"
+thumbnail: "images/news/2025/08/2025-08-14-bybit-eu-taps-xion-for-inaugural-launchpool-in-the-eu-openin.jpg"
 ---
 
 글로벌 가상자산 거래소 Bybit의 유럽 법인인 Bybit EU가 2025년 8월 14일 XION을 최초 런치풀(Launchpool) 프로젝트 파트너로 선정하고, MiCAR(Markets in Crypto-Assets Regulation) 라이선스를 기반으로 한 유럽 최초 규제 준수형 런치풀 서비스를 공식 출시한다.

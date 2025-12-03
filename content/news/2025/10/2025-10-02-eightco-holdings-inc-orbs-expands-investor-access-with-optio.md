@@ -12,7 +12,7 @@ tags:
   - "Eightco Holdings"
   - "ORBS"
 summary: "Eightco Holdings의 월드코인 인증 인원이 1,700만명을 넘었으며, 나스닥에서 ORBS 옵션 거래도 시작돼 투자자 접근성이 개선됐다."
-thumbnail: "news/2025/10/2025-10-02-eightco-holdings-inc-orbs-expands-investor-access-with-optio.jpg"
+thumbnail: "images/news/2025/10/2025-10-02-eightco-holdings-inc-orbs-expands-investor-access-with-optio.jpg"
 ---
 
 미국 동부 이스턴 소재 Eightco Holdings Inc.(나스닥: ORBS)가 최신 보고서를 통해 월드 인증 인원 수가 1,700만 명을 돌파했다고 2025년 10월 2일 발표했습니다. 이는 지난 3주 전 월드코인 트레저리(자산관리) 론칭 이후 200만 명 이상이 새롭게 인증을 받은 결과로, 빠른 성장세가 이어지고 있음을 보여줍니다.

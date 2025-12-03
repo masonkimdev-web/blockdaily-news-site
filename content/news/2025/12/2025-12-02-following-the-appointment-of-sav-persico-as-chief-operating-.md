@@ -12,7 +12,7 @@ tags:
   - "암호화폐"
   - "위험관리"
 summary: "토큰캣이 10억 달러 규모의 가상자산 투자 정책을 승인하고, 30년 경력의 사브 페르시코를 COO로 임명해 전략 실행에 나선다."
-thumbnail: "news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-.jpg"
 ---
 
 2025년 12월 2일, 베이징 – 나스닥 상장사 토큰캣 리미티드(Token Cat Limited)는 이사회를 통해 최대 10억 달러 규모의 가상자산 투자 정책을 공식 승인했다고 밝혔다. 이번 정책은 엄격한 위험관리 체계 내에서 현금 일부를 선별된 암호화폐 자산에 배분하는 내용을 담고 있다.

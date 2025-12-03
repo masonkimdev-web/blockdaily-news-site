@@ -11,7 +11,7 @@ tags:
   - "투자"
   - "핀테크"
 summary: "투아렉 그룹이 10억 달러 자본금으로 ‘트러스트글로브X’ 거래소를 공식 론칭하며 글로벌 디지털 자산 시장에 도전장을 내밀었다."
-thumbnail: "news/2025/11/2025-11-20-touareg-group-technologies-co-launches-with-usd-1-billion-ca.jpg"
+thumbnail: "images/news/2025/11/2025-11-20-touareg-group-technologies-co-launches-with-usd-1-billion-ca.jpg"
 ---
 
 뉴욕, 2025년 11월 20일 – 글로벌 투자 및 핀테크 기업 투아렉 그룹은 10억 달러 규모의 자본금을 출자한 신설 법인 ‘투아렉 그룹 테크놀로지스’를 공식 발표했다. 이번 출범의 핵심은 그룹의 주력 암호화폐 거래소인 ‘트러스트글로브X’로, 탁월한 유동성과 최첨단 인프라를 바탕으로 글로벌 디지털 자산 산업에 새로운 기준을 제시할 전망이다.

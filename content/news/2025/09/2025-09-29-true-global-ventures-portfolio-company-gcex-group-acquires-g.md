@@ -13,7 +13,7 @@ tags:
   - "가상자산"
   - "핀테크"
 summary: "규제 디지털 프라임 브로커 GCEX가 유럽 자산관리 플랫폼 글로벌블록을 인수해 부유층 대상 디지털 자산 및 자산관리 서비스 강화에 나섰다."
-thumbnail: "news/2025/09/2025-09-29-true-global-ventures-portfolio-company-gcex-group-acquires-g.jpg"
+thumbnail: "images/news/2025/09/2025-09-29-true-global-ventures-portfolio-company-gcex-group-acquires-g.jpg"
 ---
 
 영국 런던발 2025년 9월 29일, 규제받는 디지털 프라임 브로커 GCEX 그룹이 유럽 기반 가상자산 중개 및 자산관리 전문 기업 글로벌블록 유럽(GlobalBlock Europe UAB)을 인수했다고 밝혔다. 글로벌블록은 고액 자산가(HNWI)를 대상으로 6,000만 달러 이상의 고객 자산을 운용 중이며, 이번 인수는 GCEX의 기존 장외거래(OTC), 거래소 전환 기술 분야에서 자산·부유층 투자자를 위한 디지털 자산 서비스 전반으로 사업을 확장하는 전략적 행보다.

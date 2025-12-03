@@ -11,7 +11,7 @@ tags:
   - "캉고"
   - "가상자산"
 summary: "캉고(Cango Inc.)가 2025년 7월 비트코인 채굴량이 전월 대비 45% 증가했다고 발표했다. 해시레이트도 50EH/s로 확장하며 효율적인 운영과 성장세를 이어가고 있다."
-thumbnail: "news/2025/08/2025-08-05-cango-inc-announces-july-2025-bitcoin-production-and-mining-.jpg"
+thumbnail: "images/news/2025/08/2025-08-05-cango-inc-announces-july-2025-bitcoin-production-and-mining-.jpg"
 ---
 
 홍콩에 본사를 둔 비트코인 채굴 기업 캉고(Cango Inc., NYSE: CANG)가 2025년 7월 비트코인 생산 및 채굴 운영 현황을 공개했다. 

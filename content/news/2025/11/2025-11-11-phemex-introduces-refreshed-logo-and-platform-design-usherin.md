@@ -11,7 +11,7 @@ tags:
   - "플랫폼 업데이트"
   - "디지털자산"
 summary: "글로벌 암호화폐 거래소 Phemex가 새로운 로고와 업그레이드된 플랫폼 디자인을 선보이며, 사용자 경험 강화와 효율성 혁신에 나섰다."
-thumbnail: "news/2025/11/2025-11-11-phemex-introduces-refreshed-logo-and-platform-design-usherin.jpg"
+thumbnail: "images/news/2025/11/2025-11-11-phemex-introduces-refreshed-logo-and-platform-design-usherin.jpg"
 ---
 
 글로벌 암호화폐 거래소 Phemex는 2025년 11월 11일, 새로운 로고와 플랫폼 디자인을 공개하며 본격적인 브랜드 리뉴얼에 나섰다. 이번 변화는 고성능 거래소에서 종합 디지털 자산 플랫폼으로 진화해 나가는 Phemex의 방향성을 시각적으로 담아냈다.  

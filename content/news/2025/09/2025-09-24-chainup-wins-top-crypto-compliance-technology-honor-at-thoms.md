@@ -13,7 +13,7 @@ tags:
   - "톰슨로이터"
   - "FATF"
 summary: "글로벌 디지털 자산 기술사 체인업이 아시아 규제 어워드에서 거래 모니터링 솔루션 부문 최우수상을 받으며 강화되는 암호화폐 규제 대응 중요성을 입증했다."
-thumbnail: "news/2025/09/2025-09-24-chainup-wins-top-crypto-compliance-technology-honor-at-thoms.jpg"
+thumbnail: "images/news/2025/09/2025-09-24-chainup-wins-top-crypto-compliance-technology-honor-at-thoms.jpg"
 ---
 
 싱가포르, 2025년 9월 24일 – 글로벌 B2B 디지털 자산 기술 선도기업 체인업(ChainUp)이 톰슨로이터가 주최하는 아시아 법률 비즈니스(ALB) 팬아시안 규제 어워드 2025에서 ‘올해의 거래 모니터링 솔루션 제공업체’로 선정됐다. 이번 수상은 전 세계적으로 암호화폐 거래에 대한 규제 감독이 강화되고 있는 가운데, 디지털 자산 분야에서 보다 견고한 컴플라이언스 체계 구축 요구가 높아지고 있음을 반영한다.

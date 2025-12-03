@@ -11,7 +11,7 @@ tags:
   - "디지털자산"
   - "블록체인"
 summary: "Cango Inc.가 2025년 9월 비트코인 채굴 운영 현황을 공개하며, 해시율 89.7%와 보유 비트코인 5,800개 이상을 기록했다고 밝혔다."
-thumbnail: "news/2025/10/2025-10-06-cango-inc-announces-september-2025-bitcoin-production-and-mi.jpg"
+thumbnail: "images/news/2025/10/2025-10-06-cango-inc-announces-september-2025-bitcoin-production-and-mi.jpg"
 ---
 
 홍콩, 2025년 10월 3일 – 글로벌 비트코인 채굴 기업 Cango Inc.(NYSE: CANG)가 2025년 9월 채굴 생산 및 운영 업데이트를 발표했다. 

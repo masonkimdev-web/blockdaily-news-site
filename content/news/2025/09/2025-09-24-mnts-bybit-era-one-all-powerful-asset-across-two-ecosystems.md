@@ -12,7 +12,7 @@ tags:
   - "ZK 롤업"
   - "디파이"
 summary: "Bybit가 만틀(MNT) 생태계 완전 통합을 마무리하고, MNT 가격은 9월 23일 1.88달러로 사상 최고가를 경신하며 Layer 2 시장을 선도하고 있다."
-thumbnail: "news/2025/09/2025-09-24-mnts-bybit-era-one-all-powerful-asset-across-two-ecosystems.jpg"
+thumbnail: "images/news/2025/09/2025-09-24-mnts-bybit-era-one-all-powerful-asset-across-two-ecosystems.jpg"
 ---
 
 글로벌 2위 암호화폐 거래소 Bybit가 만틀(Mantle, MNT) 생태계와의 완전한 통합을 공식 완료했다. 이번 통합은 ‘Mantle x Bybit 로드맵’ 발표 이후 이뤄진 것으로, MNT가 Bybit 내 다양한 상품 라인과 만틀버스(Mantleverse)를 잇는 전략적 핵심 자산으로 자리매김했다.

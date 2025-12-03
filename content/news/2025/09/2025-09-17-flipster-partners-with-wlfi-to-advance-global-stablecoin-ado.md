@@ -12,7 +12,7 @@ tags:
   - "가상자산"
   - "디지털달러"
 summary: "플립스터가 WLFI와 협력해 규제된 달러 스테이블코인 USD1을 도입한다. 사용자에게 다양한 스테이블코인 선택지와 보상 프로그램을 제공한다."
-thumbnail: "news/2025/09/2025-09-17-flipster-partners-with-wlfi-to-advance-global-stablecoin-ado.jpg"
+thumbnail: "images/news/2025/09/2025-09-17-flipster-partners-with-wlfi-to-advance-global-stablecoin-ado.jpg"
 ---
 
 암호화폐 무기한 선물거래 플랫폼 플립스터(FLipster)가 2025년 9월 17일, 월드 리버티 파이낸셜(WLFI)과 파트너십을 맺고 규제받는 완전 담보 기반 달러 스테이블코인 ‘USD1’을 자사 거래 환경에 통합한다고 발표했다. 이번 협력으로 글로벌 시장에서 신뢰할 수 있는 디지털 달러 접근성이 한층 강화된다.

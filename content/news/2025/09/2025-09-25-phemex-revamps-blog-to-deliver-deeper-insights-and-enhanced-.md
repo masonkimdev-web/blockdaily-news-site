@@ -11,7 +11,7 @@ tags:
   - "블록체인 교육"
   - "Phemex"
 summary: "Phemex가 블로그 전면 개편을 통해 심도 있는 시장 인사이트와 향상된 사용자 경험을 제공하며, 교육 플랫폼과 연계한 정보 생태계를 구축했다."
-thumbnail: "news/2025/09/2025-09-25-phemex-revamps-blog-to-deliver-deeper-insights-and-enhanced-.jpg"
+thumbnail: "images/news/2025/09/2025-09-25-phemex-revamps-blog-to-deliver-deeper-insights-and-enhanced-.jpg"
 ---
 
 가장 효율적인 암호화폐 거래소 중 하나인 Phemex가 글로벌 이용자들을 위해 블로그를 전면 리뉴얼했다고 2025년 9월 25일 발표했다. 이번 개편은 단순한 디자인 변경을 넘어, 더 풍부한 인사이트 제공과 직관적인 사용 경험을 목표로 한다.

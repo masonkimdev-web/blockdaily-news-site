@@ -12,7 +12,7 @@ tags:
   - "Eightco"
   - "기업 보안"
 summary: "Eightco Holdings(ORBS)가 AI 기반 인증 기술을 기업용으로 확장하는 신규 파일럿 프로그램을 발표하며 보안과 신원 확인 문제 해소에 나섰다."
-thumbnail: "news/2025/10/2025-10-10-eightco-holdings-inc-orbs-expands-its-strategic-vision-into-.jpg"
+thumbnail: "images/news/2025/10/2025-10-10-eightco-holdings-inc-orbs-expands-its-strategic-vision-into-.jpg"
 ---
 
 미국 펜실베이니아 이스턴 소재 Eightco Holdings Inc.(나스닥: ORBS)가 2025년 10월 10일, 기업용 AI 인증 기술을 발전시키기 위한 신규 파일럿 프로그램을 공식 발표했다. 이번 이니셔티브는 AI 활용이 대규모로 확산됨에 따라 증가하는 신원 확인과 인증 문제를 해결하는 혁신적 방안을 모색하는 데 중점을 둔다.

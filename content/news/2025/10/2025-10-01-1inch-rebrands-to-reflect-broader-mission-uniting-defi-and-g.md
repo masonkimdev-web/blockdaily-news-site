@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "보안인증"
 summary: "1inch가 새 브랜드와 디자인을 공개하며 디파이와 전통 금융의 통합에 집중, 글로벌 기관과의 협업 확대에 나섰다."
-thumbnail: "news/2025/10/2025-10-01-1inch-rebrands-to-reflect-broader-mission-uniting-defi-and-g.jpg"
+thumbnail: "images/news/2025/10/2025-10-01-1inch-rebrands-to-reflect-broader-mission-uniting-defi-and-g.jpg"
 ---
 
 디파이 생태계 선도 플랫폼 1inch가 2025년 10월 1일 싱가포르에서 열린 Token2049 행사에서 새로운 브랜드 아이덴티티와 함께 플랫폼 주소도 1inch.com으로 변경하며 리브랜딩을 공식 발표했다. 이번 변화는 1inch가 단순한 디파이 거래소를 넘어 전통 금융과 디파이 생태계를 잇는 핵심 인프라 제공자로서 거듭남을 의미한다.

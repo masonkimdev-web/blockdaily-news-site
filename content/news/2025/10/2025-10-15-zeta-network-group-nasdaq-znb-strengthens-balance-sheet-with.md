@@ -12,7 +12,7 @@ tags:
   - "나스닥"
   - "솔브프로토콜"
 summary: "Zeta Network Group이 2억 3천만 달러 규모의 비트코인 연동 자산 투자로 재무 건전성을 높이고 기관용 디지털 자산 운용에 박차를 가한다."
-thumbnail: "news/2025/10/2025-10-15-zeta-network-group-nasdaq-znb-strengthens-balance-sheet-with.jpg"
+thumbnail: "images/news/2025/10/2025-10-15-zeta-network-group-nasdaq-znb-strengthens-balance-sheet-with.jpg"
 ---
 
 미국 나스닥 상장사 Zeta Network Group(티커: ZNB)이 약 2억 3천만 달러 규모의 비트코인 담보 연계 자산 투자를 단행하며 재무구조를 대폭 강화했다고 2025년 10월 15일 밝혔다.

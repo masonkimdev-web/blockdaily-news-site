@@ -12,7 +12,7 @@ tags:
   - "크립토결제"
   - "마스터카드"
 summary: "세계 2위 거래소 바이비트가 유럽경제지역(EEA)에 바이비트 카드를 공식 출시하며, 9월 한 달 동안 신규 사용자에게 최대 20% 캐시백을 제공한다."
-thumbnail: "news/2025/09/2025-09-03-bybit-card-launches-in-europe-with-unmatched-20-cashback.jpg"
+thumbnail: "images/news/2025/09/2025-09-03-bybit-card-launches-in-europe-with-unmatched-20-cashback.jpg"
 ---
 
 세계 거래량 기준 2위 암호화폐 거래소인 바이비트(Bybit)가 2025년 9월 3일 유럽경제지역(EEA) 전역에 '바이비트 카드(Bybit Card)'를 공식 출시했다. 이를 통해 유럽 내 가상자산의 일상 결제 편의성을 획기적으로 높이고자 한다.

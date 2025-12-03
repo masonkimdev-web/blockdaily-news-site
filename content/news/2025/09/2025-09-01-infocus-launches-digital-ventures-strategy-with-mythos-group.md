@@ -13,7 +13,7 @@ tags:
   - "호주"
   - "투자"
 summary: "인포커스 그룹이 블록체인, AI, 비트코인 등 신기술 분야에 진출하기 위해 마이토스 그룹과 1000만 호주달러 투자 계약을 발표했다. 이 중 250만 호주달러는 비트코인 ETF에 선투자된다."
-thumbnail: "news/2025/09/2025-09-01-infocus-launches-digital-ventures-strategy-with-mythos-group.jpg"
+thumbnail: "images/news/2025/09/2025-09-01-infocus-launches-digital-ventures-strategy-with-mythos-group.jpg"
 ---
 
 호주 시드니, 2025년 9월 1일 - 데이터 분석 및 소프트웨어 솔루션 기업인 인포커스 그룹 홀딩스(ASX: IFG)가 블록체인, 디지털 자산, 인공지능(AI) 등 최첨단 기술에 집중하는 신규 사업부 '인포커스 디지털 벤처스'를 출범한다고 밝혔다. 이번 사업 추진은 아시아태평양 지역의 디지털 자산 전문 기업인 마이토스 그룹이 제공하는 1000만 호주달러 규모의 금융 지원을 기반으로 한다.

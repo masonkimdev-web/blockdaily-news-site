@@ -11,7 +11,7 @@ tags:
   - "NYSE"
   - "가상자산"
 summary: "캉고가 10월 비트코인 채굴량과 보유량에서 모두 증가세를 보이며 6,400 BTC 이상을 보유하게 됐다. ADR 종료 및 NYSE 직상장을 예고해 미국 중심 경영을 강화한다."
-thumbnail: "news/2025/11/2025-11-03-cango-inc-announces-october-2025-bitcoin-production-and-mini.jpg"
+thumbnail: "images/news/2025/11/2025-11-03-cango-inc-announces-october-2025-bitcoin-production-and-mini.jpg"
 ---
 
 홍콩 소재 비트코인 채굴 기업 캉고(Cango Inc., NYSE: CANG)가 2025년 10월 비트코인 채굴 실적 및 운영 현황을 발표했다.

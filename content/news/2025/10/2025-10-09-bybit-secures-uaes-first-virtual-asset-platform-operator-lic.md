@@ -13,7 +13,7 @@ tags:
   - "규제"
   - "플랫폼 라이선스"
 summary: "세계 2위 거래소 바이비트가 UAE 증권상품청으로부터 최초로 가상자산 플랫폼 운영자 라이선스를 받아 중동 디지털자산 허브 구축에 앞장선다."
-thumbnail: "news/2025/10/2025-10-09-bybit-secures-uaes-first-virtual-asset-platform-operator-lic.jpg"
+thumbnail: "images/news/2025/10/2025-10-09-bybit-secures-uaes-first-virtual-asset-platform-operator-lic.jpg"
 ---
 
 세계 거래량 기준 글로벌 2위 암호화폐 거래소 바이비트(Bybit)가 아랍에미리트(UAE) 증권상품청(Securities and Commodities Authority, SCA)으로부터 '가상자산 플랫폼 운영자 라이선스'를 공식 취득했다고 2025년 2월 발표했다. 

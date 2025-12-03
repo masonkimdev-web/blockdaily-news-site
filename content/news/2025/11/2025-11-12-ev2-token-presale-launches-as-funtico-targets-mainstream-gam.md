@@ -12,7 +12,7 @@ tags:
   - "Web3"
   - "이더리움"
 summary: "Funtico가 블록체인 기반 SF MMO ‘Earth Version 2’의 $EV2 토큰 프리세일을 시작했다. 쉽고 다양한 결제 방식을 통해 메인스트림 게이머 접근성을 높인 점이 특징이다."
-thumbnail: "news/2025/11/2025-11-12-ev2-token-presale-launches-as-funtico-targets-mainstream-gam.jpg"
+thumbnail: "images/news/2025/11/2025-11-12-ev2-token-presale-launches-as-funtico-targets-mainstream-gam.jpg"
 ---
 
 블록체인 게임 개발사 Funtico가 차세대 멀티플레이어 SF MMO 게임 ‘Earth Version 2’(EV2)의 토큰 프리세일을 2025년 11월 12일부터 공식 개시했다. 이번 프리세일에서는 전체 공급량 28억 8천만 개 중 40%에 해당하는 $EV2 토큰을 조기 구매자에게 우선 배분한다.

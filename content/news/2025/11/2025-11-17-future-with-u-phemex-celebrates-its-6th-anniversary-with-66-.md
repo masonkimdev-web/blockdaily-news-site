@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "재브랜딩"
 summary: "피멕스가 6주년을 맞아 2025년 사용자 66% 증가와 현물 거래량 122% 상승을 기록하며 재도약을 알렸다."
-thumbnail: "news/2025/11/2025-11-17-future-with-u-phemex-celebrates-its-6th-anniversary-with-66-.jpg"
+thumbnail: "images/news/2025/11/2025-11-17-future-with-u-phemex-celebrates-its-6th-anniversary-with-66-.jpg"
 ---
 
 글로벌 암호화폐 거래소 피멕스(Phemex)가 2025년 6주년을 맞아 전 세계 사용자 1,000만 명 돌파와 함께 66%의 사용자 성장을 기록했다고 11월 17일 발표했다. 특히 현물 거래량은 122% 급증했고, 선물 거래량도 전년 대비 26% 증가하며 두드러진 성장세를 이어갔다.

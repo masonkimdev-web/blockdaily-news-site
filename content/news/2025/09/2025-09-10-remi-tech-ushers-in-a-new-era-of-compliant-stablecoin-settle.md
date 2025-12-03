@@ -12,7 +12,7 @@ tags:
   - "크로스보더결제"
   - "레미테크"
 summary: "레미 테크가 세계 최초로 AML/CFT 및 실시간 규제 감시를 통합한 스테이블코인 결제 인프라를 공개하며 전통 금융과 Web3의 경계를 허문다."
-thumbnail: "news/2025/09/2025-09-10-remi-tech-ushers-in-a-new-era-of-compliant-stablecoin-settle.jpg"
+thumbnail: "images/news/2025/09/2025-09-10-remi-tech-ushers-in-a-new-era-of-compliant-stablecoin-settle.jpg"
 ---
 
 싱가포르, 2025년 9월 10일 – 규제 준수형 디지털 금융 솔루션 선도 기업인 레미 테크(Rem Technology)는 오늘 세계 최초로 AML(자금세탁방지)과 CFT(테러자금차단) 기능이 내장된 은행급 스테이블코인 청산 시스템인 '레미 글로벌 스테이블코인 클리어링 시스템'을 공식 출시했다. 이 혁신적인 인프라는 스테이블코인의 효율성과 금융 규제의 확실성을 결합해 은행, 금융기관, Web3 기업들이 국경을 넘나드는 결제를 신속하고 안전하게 처리하도록 지원한다.

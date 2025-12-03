@@ -12,7 +12,7 @@ tags:
   - "파이낸스"
   - "전략적제휴"
 summary: "지우지홀딩스가 비트코인 중심의 금융 확대를 위해 BitFi와 전략적 협력 계약을 맺고, 27억 5천만 달러 규모 자산 운용에 본격 참여한다."
-thumbnail: "news/2025/10/2025-10-20-jiuzi-holdings-inc-enters-strategic-partnership-with-bitfi-t.jpg"
+thumbnail: "images/news/2025/10/2025-10-20-jiuzi-holdings-inc-enters-strategic-partnership-with-bitfi-t.jpg"
 ---
 
 중국 항저우에 본사를 둔 지우지홀딩스(Jiuzi Holdings, Inc., NASDAQ: JZXN)가 2025년 10월 20일 세계적인 비트코인 핀테크 플랫폼 BitFi와 전략적 협력 계약을 공식 체결했다고 발표했다.

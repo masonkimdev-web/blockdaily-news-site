@@ -11,7 +11,7 @@ tags:
   - "프로모션"
   - "할로윈이벤트"
 summary: "피멕스가 10월 10일부터 31일까지 총 20만 USDT 규모 보상을 내건 할로윈 선물 거래 이벤트를 진행한다. 신규 및 기존 거래자 모두 참여 가능하다."
-thumbnail: "news/2025/10/2025-10-13-phemex-announces-halloween-futures-trading-festival-with-200.jpg"
+thumbnail: "images/news/2025/10/2025-10-13-phemex-announces-halloween-futures-trading-festival-with-200.jpg"
 ---
 
 글로벌 가상자산 거래소 피멕스(Phemex)가 2025년 10월 할로윈을 맞아 대규모 선물 거래 축제인 ‘할로윈 선물 거래 페스티벌’을 개최한다고 13일 밝혔다. 

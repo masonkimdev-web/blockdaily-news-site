@@ -12,7 +12,7 @@ tags:
   - "글로벌협력"
   - "가상자산"
 summary: "Blockchain for Good Alliance가 UN 인터넷거버넌스포럼 20주년 행사에서 블록체인 기반 신뢰와 협력의 디지털 생태계 구축 비전을 발표했다."
-thumbnail: "news/2025/07/2025-07-29-blockchain-for-good-alliance-leads-global-digital-cooperatio.jpg"
+thumbnail: "images/news/2025/07/2025-07-29-blockchain-for-good-alliance-leads-global-digital-cooperatio.jpg"
 ---
 
 2025년 7월 30일, 아랍에미리트 두바이 – Bybit가 설립한 비영리 단체인 Blockchain for Good Alliance(BGA)가 노르웨이 오슬로에서 열린 제20회 유엔 인터넷거버넌스포럼(UN IGF) 20주년 기념 행사에서 주목받았다. 싱가포르 인터넷거버넌스포럼(SGIGF)과 협력해 오슬로의 역사적인 아케르스후스 요새에서 '미래를 잇다: 블록체인, 거버넌스 및 글로벌 협력'이라는 고위급 만찬을 공동 주최했다.

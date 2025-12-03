@@ -12,7 +12,7 @@ tags:
   - "가상자산"
   - "수익률"
 summary: "페멕스가 자체 플랫폼 내에서 스테이킹 보상을 통합하는 ‘온체인 언’ 서비스를 출시해 ETH와 SOL 등 자산의 수익률과 자본 효율성을 높였다."
-thumbnail: "news/2025/09/2025-09-19-phemex-introduces-on-chain-earn-to-streamline-staking-and-im.jpg"
+thumbnail: "images/news/2025/09/2025-09-19-phemex-introduces-on-chain-earn-to-streamline-staking-and-im.jpg"
 ---
 
 글로벌 암호화폐 거래소 페멕스(Phemex)가 2025년 9월 19일 새로운 스테이킹 서비스 ‘온체인 언(On-chain Earn)’을 공식 출시했다. 이번 서비스는 ETH(이더리움), SOL(솔라나) 등 주요 자산을 플랫폼 내에서 간편하게 스테이킹하여 보상을 받을 수 있도록 설계되었다.

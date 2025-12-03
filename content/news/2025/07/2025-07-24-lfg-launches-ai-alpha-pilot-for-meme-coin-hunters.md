@@ -13,7 +13,7 @@ tags:
   - "오라이체인"
   - "암호화폐지갑"
 summary: "Oraichain Labs가 개발한 LFG!!!가 iOS·안드로이드용 밈코인 전문 트레이딩 월렛을 출시했다. AI Pilot의 실시간 데이터 분석과 최대 100배 레버리지를 지원하며, 100만 달러 환영 보너스 이벤트도 진행한다."
-thumbnail: "news/2025/07/2025-07-24-lfg-launches-ai-alpha-pilot-for-meme-coin-hunters.jpg"
+thumbnail: "images/news/2025/07/2025-07-24-lfg-launches-ai-alpha-pilot-for-meme-coin-hunters.jpg"
 ---
 
 2025년 7월 25일, 뉴욕— Oraichain Labs가 후원하는 암호화폐 프로젝트 LFG!!!가 iOS 및 안드로이드용 밈코인 전문 트레이딩 월렛을 공식 출시했다. 이번 출시로 소매 투자자는 수천 개의 위험한 토큰 출시 가운데 진짜 기회를 포착하고, 기관 전용이었던 고급 롱·숏 거래 도구를 사용할 수 있게 됐다.

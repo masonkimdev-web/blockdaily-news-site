@@ -11,7 +11,7 @@ tags:
   - "블록체인"
   - "AI 인증"
 summary: "Eightco Holdings(ORBS)의 월드코인이 1,690만 명의 검증된 유저를 확보하며, 향후 12개월 내 1억 명 달성을 목표로 한다고 발표했다."
-thumbnail: "news/2025/09/2025-09-29-eightco-holdings-inc-orbs-announces-169-million-verified-wor.jpg"
+thumbnail: "images/news/2025/09/2025-09-29-eightco-holdings-inc-orbs-announces-169-million-verified-wor.jpg"
 ---
 
 Eightco Holdings Inc.(나스닥: ORBS)는 2025년 9월 29일, 월드코인(Worldcoin)의 'Power of 8' 이니셔티브를 공개하며 8억 개의 WLD 토큰 발행과 80억 명의 검증된 사용자 확보를 목표로 한다고 밝혔다.

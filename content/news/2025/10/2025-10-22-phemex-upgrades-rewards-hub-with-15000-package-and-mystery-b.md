@@ -11,7 +11,7 @@ tags:
   - "미스터리 박스"
   - "크립토 거래소"
 summary: "피멕스가 최대 1만5천 달러 상당의 보상과 미션, 미스터리 박스 시스템을 도입한 리워드 허브를 새롭게 선보였다. 신규 및 기존 이용자 모두에게 다양한 혜택을 제공한다."
-thumbnail: "news/2025/10/2025-10-22-phemex-upgrades-rewards-hub-with-15000-package-and-mystery-b.jpg"
+thumbnail: "images/news/2025/10/2025-10-22-phemex-upgrades-rewards-hub-with-15000-package-and-mystery-b.jpg"
 ---
 
 가장 효율적인 암호화폐 거래소 중 하나로 평가받는 피멕스(Phemex)가 2025년 10월 22일, 리워드 허브(Rewards Hub)를 대대적으로 업그레이드했다고 발표했다. 이번 개편을 통해 총 1만5천 달러(USDT) 상당의 보상 패키지와 함께 미스터리 박스 시스템 및 신규와 숙련 트레이더를 위한 다양한 미션을 선보인다.

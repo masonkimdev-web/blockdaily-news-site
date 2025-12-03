@@ -13,7 +13,7 @@ tags:
   - "블록체인 교육"
   - "크립토 채택"
 summary: "세계 2위 거래소 바이비트와 스테이블코인 테더가 브라질의 암호화폐 확산을 위해 공동 캠페인과 교육 프로그램을 발표했다."
-thumbnail: "news/2025/07/2025-07-25-bybit-and-tether-launch-strategic-partnership-to-accelerate-.jpg"
+thumbnail: "images/news/2025/07/2025-07-25-bybit-and-tether-launch-strategic-partnership-to-accelerate-.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit)가 스테이블코인 ‘USD₮’을 발행하는 선도 기업 테더(Tether)와 손잡고 브라질 암호화폐 대중화에 나선다. 이번 전략적 파트너십은 현지 기관 협력, 대형 행사 후원, 교육 캠페인 등 다방면에서 암호화폐 사용 확대를 목표로 한다.

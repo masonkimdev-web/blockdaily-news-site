@@ -12,7 +12,7 @@ tags:
   - "암호화폐"
   - "블록체인"
 summary: "비트마인이 283만 개 이상의 이더리움을 보유하며 전체 이더리움 공급량의 2%를 넘겼다. 가상자산과 현금 자산을 합쳐 총 134억 달러 규모로 성장했다."
-thumbnail: "news/2025/10/2025-10-06-bitmine-immersion-bmnr-announces-eth-holdings-exceeding-283-.jpg"
+thumbnail: "images/news/2025/10/2025-10-06-bitmine-immersion-bmnr-announces-eth-holdings-exceeding-283-.jpg"
 ---
 
 비트마인(BitMine Immersion Technologies)이 이더리움(ETH) 2,830,151개를 포함해 가상자산과 현금 등 총 134억 달러 규모의 자산을 보유하고 있다고 2025년 10월 6일 발표했다. 이는 이더리움 전체 공급량의 2% 이상에 해당하며, 비트마인은 5% 보유 목표인 ‘Alchemy of 5%’에 한 발짝 더 다가섰다.

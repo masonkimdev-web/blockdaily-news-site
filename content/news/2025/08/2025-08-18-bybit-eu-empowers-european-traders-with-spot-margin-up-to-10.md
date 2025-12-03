@@ -12,7 +12,7 @@ tags:
   - "규제준수"
   - "리스크관리"
 summary: "바이빗 EU가 최대 10배 레버리지 제공하는 현물 마진 거래를 도입하며 유럽 규제 기준에 맞춘 투명하고 안전한 거래 환경을 선보였다."
-thumbnail: "news/2025/08/2025-08-18-bybit-eu-empowers-european-traders-with-spot-margin-up-to-10.jpg"
+thumbnail: "images/news/2025/08/2025-08-18-bybit-eu-empowers-european-traders-with-spot-margin-up-to-10.jpg"
 ---
 
 글로벌 거래량 2위 가상자산 거래소 바이빗(Bybit)이 2025년 8월 18일 유럽 플랫폼에서 현물 마진 거래(Spot Margin Trading) 서비스를 공식 출시했다. 이를 통해 유럽 이용자들은 최대 10배 레버리지를 활용해 기존 자산보다 더 큰 규모의 거래를 진행할 수 있게 됐으며, 완전한 규제 준수와 투명성, 그리고 강화된 위험 관리 시스템이 함께 제공된다.

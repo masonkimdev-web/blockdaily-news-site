@@ -12,7 +12,7 @@ tags:
   - "암호화폐"
   - "CSR"
 summary: "글로벌 가상자산 거래소 바이비트가 WSOT 2025와 연계해 지역별 맞춤 블록체인 교육 지원을 목표로 하는 ‘라이징 펀드’를 발표했다."
-thumbnail: "news/2025/08/2025-08-11-bybit-rising-fund-a-global-initiative-to-transform-crypto-ed.jpg"
+thumbnail: "images/news/2025/08/2025-08-11-bybit-rising-fund-a-global-initiative-to-transform-crypto-ed.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이비트(Bybit, 2025년 8월 11일)는 교육 지원을 중심으로 한 혁신적 사회공헌사업인 ‘바이비트 라이징 펀드(Bybit Rising Fund)’의 출범을 공식 발표했다. 이번 펀드는 볼리비아, 남아프리카공화국, 북유럽 등 4개 대륙 15개 이상의 지역에서 활동하며 일회성 기부에서 벗어나 지속가능하고 상호 유익한 교육 협력 모델을 제시한다.

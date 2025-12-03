@@ -13,7 +13,7 @@ tags:
   - "규제"
   - "디파이"
 summary: "세계 2위 가상자산 거래소 바이비트가 7주년을 맞아 250만 달러 규모의 보상 이벤트를 진행하며 글로벌 거래자들과 소통을 강화한다. 유럽·중동 등에서 규제 허가를 획득하며 신뢰도도 높였다."
-thumbnail: "news/2025/11/2025-11-26-level-up-with-7up-bybits-7th-anniversary-shares-a-25-million.jpg"
+thumbnail: "images/news/2025/11/2025-11-26-level-up-with-7up-bybits-7th-anniversary-shares-a-25-million.jpg"
 ---
 
 세계 2위 가상자산 거래소 바이비트(Bybit)가 2025년 11월 26일 창립 7주년을 맞아 약 8,000만 명의 글로벌 사용자 커뮤니티에 감사의 뜻을 전하는 대규모 보상 행사를 시작했다.

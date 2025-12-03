@@ -11,7 +11,7 @@ tags:
   - "시장 신뢰"
   - "거래지원"
 summary: "Phemex가 10월 11일부터 31일까지 변동성 심한 암호화폐 시장에서 거래자 지원을 위한 ‘시장 신뢰 캠페인’을 선보인다. 수수료 면제, 예치금 캐시백 등 실질 혜택을 제공한다."
-thumbnail: "news/2025/10/2025-10-11-phemex-launches-market-confidence-campaign-to-support-trader.jpg"
+thumbnail: "images/news/2025/10/2025-10-11-phemex-launches-market-confidence-campaign-to-support-trader.jpg"
 ---
 
 암호화폐 거래소 Phemex가 2025년 10월 11일부터 31일까지 글로벌 ‘시장 신뢰 캠페인’을 시작한다고 밝혔다. 이번 캠페인은 최근 매크로 경제 불확실성과 레버리지 축소 압력, 위험 선호 약화로 인해 주요 암호화폐 가격이 전반적으로 하락하는 가운데, 거래자들이 감정에 휘둘리지 않고 전략적 거래를 지속할 수 있도록 지원하기 위해 마련됐다.

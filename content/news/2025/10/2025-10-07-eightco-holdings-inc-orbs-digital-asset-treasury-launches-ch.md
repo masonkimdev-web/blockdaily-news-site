@@ -13,7 +13,7 @@ tags:
   - "토큰"
   - "Proof of Human"
 summary: "Eightco Holdings가 월드코인 8억 개 토큰 확보 및 10달러 가치 목표를 밝히며 ‘회장 메시지’ 영상 시리즈를 시작했다. 전 세계 1,700만 명 인증 완료, 향후 1억 명 검증 목표다."
-thumbnail: "news/2025/10/2025-10-07-eightco-holdings-inc-orbs-digital-asset-treasury-launches-ch.jpg"
+thumbnail: "images/news/2025/10/2025-10-07-eightco-holdings-inc-orbs-digital-asset-treasury-launches-ch.jpg"
 ---
 
 Eightco Holdings Inc.(나스닥: ORBS)가 2025년 10월 7일, ‘회장 메시지(Chairman’s Message)’ 영상 시리즈와 기업 발표를 공식 론칭했다고 밝혔다. 해당 메시지는 매월 제작될 예정이다.

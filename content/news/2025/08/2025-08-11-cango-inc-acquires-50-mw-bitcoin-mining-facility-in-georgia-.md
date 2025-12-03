@@ -12,7 +12,7 @@ tags:
   - "조지아"
   - "가상자산"
 summary: "Cango가 미국 조지아에 위치한 50MW 비트코인 채굴시설을 1,950만 달러에 인수하며, 채굴 및 에너지 인프라 다각화 전략의 첫발을 내딛었다."
-thumbnail: "news/2025/08/2025-08-11-cango-inc-acquires-50-mw-bitcoin-mining-facility-in-georgia-.jpg"
+thumbnail: "images/news/2025/08/2025-08-11-cango-inc-acquires-50-mw-bitcoin-mining-facility-in-georgia-.jpg"
 ---
 
 미국 증시에 상장된 Cango Inc.(NYSE: CANG)가 2025년 8월 11일, 미국 조지아주에 위치한 50MW 규모의 완전 가동 중인 비트코인 채굴시설을 약 1,950만 달러에 인수했다고 발표했다. 이번 인수는 Cango가 비트코인 채굴과 에너지 인프라를 아우르는 다각화된 사업 전략으로 전환하는 중요한 전환점이다.

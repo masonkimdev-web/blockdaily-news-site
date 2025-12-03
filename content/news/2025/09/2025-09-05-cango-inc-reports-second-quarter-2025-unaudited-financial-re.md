@@ -12,7 +12,7 @@ tags:
   - "2분기 실적"
   - "에너지 효율"
 summary: "캉고는 2분기 비감사 실적에서 50 EH/s 채굴능력을 달성하며 44% 생산 증가를 기록, 전략적 자산 매각과 유연한 확장 전략을 통해 안정적 성장세를 이어갔다."
-thumbnail: "news/2025/09/2025-09-05-cango-inc-reports-second-quarter-2025-unaudited-financial-re.jpg"
+thumbnail: "images/news/2025/09/2025-09-05-cango-inc-reports-second-quarter-2025-unaudited-financial-re.jpg"
 ---
 
 미국 뉴욕증권거래소 상장사인 캉고(Cango Inc.)가 2025년 2분기(4월~6월) 비감사 재무 결과를 공개하며 전 세계 주요 비트코인 채굴 업체 중 하나로 자리매김하고 있음을 재확인했다.

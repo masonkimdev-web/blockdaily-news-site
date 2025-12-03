@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "규제"
 summary: "비트코인을 활용한 일상 결제와 암호화폐 카지노 이용법부터 장단점, 규제 이슈까지 한눈에 살펴본다."
-thumbnail: "news/2025/11/2025-11-04-how-to-use-bitcoin-for-everyday-shopping-and-crypto-casino-t.jpg"
+thumbnail: "images/news/2025/11/2025-11-04-how-to-use-bitcoin-for-everyday-shopping-and-crypto-casino-t.jpg"
 ---
 
 비트코인이 단순한 투자 자산을 넘어 일상생활의 결제 수단으로 빠르게 자리잡고 있다. 아마존, 스타벅스 등 인기 소매점에서 사용 가능한 비트코인 선불카드를 비롯해, Fold, Cash App과 같은 앱을 통해 친구 및 가족 간 즉시 송금 역시 가능하다. 또한 BitPay, Coinify 같은 서비스는 각종 공과금이나 세금까지 비트코인으로 납부할 수 있는 환경을 제공한다.

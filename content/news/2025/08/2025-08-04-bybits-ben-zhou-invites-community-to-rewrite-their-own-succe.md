@@ -12,7 +12,7 @@ tags:
   - "디파이"
   - "커뮤니티"
 summary: "바이빗 CEO 벤 저우가 8월 6일 라이브 키노트를 통해 2025년 상반기 성과를 되돌아보고, 안전성과 혁신을 중심으로 한 새로운 비전과 프로젝트를 공개한다."
-thumbnail: "news/2025/08/2025-08-04-bybits-ben-zhou-invites-community-to-rewrite-their-own-succe.jpg"
+thumbnail: "images/news/2025/08/2025-08-04-bybits-ben-zhou-invites-community-to-rewrite-their-own-succe.jpg"
 ---
 
 글로벌 암호화폐 거래소 바이빗(Bybit)이 공동창업자 겸 CEO 벤 저우(Ben Zhou)의 단독 라이브 키노트를 8월 6일 오전 8시(UTC) 개최한다고 밝혔다. 이번 행사는 2025년 상반기 바이빗의 주요 성과를 되짚고, 블록체인과 가상자산 산업의 다음 국면을 여는 새로운 전략을 제시할 예정이다.

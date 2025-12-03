@@ -11,7 +11,7 @@ tags:
   - "기관투자자"
   - "시장확장"
 summary: "쥬이지홀딩스가 10억 달러 규모 암호화폐 매입 계획을 단계별로 실행하며, 2주 내 첫 비트코인 구매를 완료할 예정이라고 밝혔다."
-thumbnail: "news/2025/10/2025-10-08-jiuzi-holdings-inc-announces-phased-rollout-of-1-billion-cry.jpg"
+thumbnail: "images/news/2025/10/2025-10-08-jiuzi-holdings-inc-announces-phased-rollout-of-1-billion-cry.jpg"
 ---
 
 중국 항저우에 본사를 둔 쥬이지홀딩스(Jiuzi Holdings, Inc., NASDAQ: JZXN)가 10월 8일, 이전에 발표한 10억 달러 규모의 자본 조달 및 암호화폐 매입 계획의 구체적인 실행 방안을 공개했다. 회사는 시장 투자자들을 통한 자금 조달을 진행하며, 10억 달러 한도 내에서 단계적인 매입 프로그램을 운영할 예정이다.

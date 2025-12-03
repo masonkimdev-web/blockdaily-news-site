@@ -13,7 +13,7 @@ tags:
   - "ETH"
   - "블록체인"
 summary: "비트마인이 89억 8천만 달러 규모의 암호화폐 및 현금 보유 현황을 공개하며, 톰 리 의장이 SEC 규제 시대의 이더리움 성장 잠재력을 강조했다."
-thumbnail: "news/2025/09/2025-09-02-bitmine-immersion-bmnr-announces-release-of-august-investor-.jpg"
+thumbnail: "images/news/2025/09/2025-09-02-bitmine-immersion-bmnr-announces-release-of-august-investor-.jpg"
 ---
 
 비트코인 및 이더리움 전문 기업인 비트마인(BitMine Immersion Technologies, NYSE AMERICAN: BMNR)이 2025년 9월 2일 최신 투자자 프레젠테이션과 8월 의장 메시지 영상을 공개했다. 이번 자료는 ‘5%의 연금술(Alchemy of 5%)’이라는 제목으로 비트마인의 이더리움 재무 전략과 장기 전망을 담고 있다.

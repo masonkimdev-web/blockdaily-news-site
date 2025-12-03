@@ -13,7 +13,7 @@ tags:
   - "기관투자자"
   - "청산시스템"
 summary: "SGX가 11월 24일 비트코인과 이더리움 무기한 선물을 공식 출범하며 전통 금융과 디지털 자산 시장 간 가교 역할을 강화한다."
-thumbnail: "news/2025/11/2025-11-17-sgx-derivatives-breaks-new-ground-with-institutional-grade-c.jpg"
+thumbnail: "images/news/2025/11/2025-11-17-sgx-derivatives-breaks-new-ground-with-institutional-grade-c.jpg"
 ---
 
 싱가포르 거래소(SGX) 파생상품부문이 오는 11월 24일 비트코인과 이더리움 무기한 선물을 최초로 출시한다고 발표했다. 이번 상품은 만기 없는 구조로, 기존 암호화폐 투자자들이 선호하는 거래 방식을 유지하는 동시에, 글로벌 금융시장의 엄격한 청산 및 증거금 관리 기준을 적용해 투명성과 안정성을 높였다.

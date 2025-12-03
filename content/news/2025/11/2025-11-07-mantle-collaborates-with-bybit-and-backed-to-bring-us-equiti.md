@@ -13,7 +13,7 @@ tags:
   - "온체인"
   - "가상자산"
 summary: "망틀이 바이비트, 백드와 협력해 미국 주요 주식을 24시간 온체인으로 거래 가능한 토큰화 자산으로 선보인다. 이를 통해 전통 금융과 디파이를 연결하는 새로운 자본시장 인프라 구축에 나선다."
-thumbnail: "news/2025/11/2025-11-07-mantle-collaborates-with-bybit-and-backed-to-bring-us-equiti.jpg"
+thumbnail: "images/news/2025/11/2025-11-07-mantle-collaborates-with-bybit-and-backed-to-bring-us-equiti.jpg"
 ---
 
 블록체인 기반 실물자산(RWA) 분산형 유동성 플랫폼인 망틀(Mantle)이 글로벌 가상자산 거래소 바이비트(Bybit) 및 규제준수 토큰화 플랫폼 백드(Backed)와 손잡고 미국 주식 토큰화 프로젝트 xStocks를 선보인다. 이번 협업은 엔비디아(NVDAx), 애플(AAPLx), 마이크로스트래티지(MSTRx) 등 미국 주요 주식을 망틀 생태계 내 24시간 온체인으로 거래할 수 있게 하는 것을 목표로 한다.

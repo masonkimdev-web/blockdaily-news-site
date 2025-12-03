@@ -12,7 +12,7 @@ tags:
   - "디지털자산"
   - "사용자경험"
 summary: "피멕스가 창립 6주년을 맞아 ‘사용자 우선’ 철학과 혁신을 담은 새로운 브랜드 정체성을 발표하며, 디지털 자산 생태계로 진화하는 의지를 밝혔다."
-thumbnail: "news/2025/11/2025-11-13-phemex-unveils-new-brand-identity-a-forward-thinking-evoluti.jpg"
+thumbnail: "images/news/2025/11/2025-11-13-phemex-unveils-new-brand-identity-a-forward-thinking-evoluti.jpg"
 ---
 
 2025년 11월 13일, 피멕스(Phemex)가 전면적인 브랜드 리뉴얼을 완료하며 새로운 브랜드 정체성을 공개했다. 이번 리브랜딩은 ‘사용자 우선 암호화폐 거래소’라는 포지셔닝 아래, 고성능 거래소에서 신뢰와 접근성, 목적성을 갖춘 종합 디지털 자산 생태계로의 도약을 알리는 의미 있는 변화다.  

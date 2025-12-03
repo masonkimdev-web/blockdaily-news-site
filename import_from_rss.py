@@ -319,7 +319,7 @@ def main():
                 if r.status_code == 200:
                     with open(img_path, "wb") as f:
                         f.write(r.content)
-                    # XMag 리스트용: thumbnail: "news/YYYY/MM/파일명"
+                    # XMag 리스트용: thumbnail: "images/news/YYYY/MM/파일명"
                     featured_image = f"news/{year}/{month}/{img_filename}"
                 else:
                     print(

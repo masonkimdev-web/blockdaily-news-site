@@ -12,7 +12,7 @@ tags:
   - "VIP"
   - "투자전략"
 summary: "글로벌 가상자산 거래소 바이비트가 VIP 고객 대상 프라이빗 자산관리 가입 최소 금액을 50% 낮춰 25만 USDT로 조정, 연말 한시적 혜택을 선보였다."
-thumbnail: "news/2025/11/2025-11-25-bybit-lowers-barrier-to-elite-wealth-management-solutions-wi.jpg"
+thumbnail: "images/news/2025/11/2025-11-25-bybit-lowers-barrier-to-elite-wealth-management-solutions-wi.jpg"
 ---
 
 글로벌 가상자산 거래소 바이비트(Bybit)가 VIP 고객을 대상으로 프라이빗 자산관리(Private Wealth Management, PWM) 프로그램 가입 최소 금액을 기존 대비 50% 낮춘 25만 USDT로 조정하는 연말 한시 혜택을 2025년 11월 25일 발표했다.

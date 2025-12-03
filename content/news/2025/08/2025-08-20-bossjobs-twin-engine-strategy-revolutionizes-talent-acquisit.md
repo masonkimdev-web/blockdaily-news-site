@@ -12,7 +12,7 @@ tags:
   - "도쿄웹엑스"
   - "토큰2049"
 summary: "아시아 최대 Web3 인재 플랫폼 보스잡이 도쿄 WebX 서밋에서 AI 기반 플랫폼과 맞춤형 헤드헌팅을 결합한 혁신적 인재 확보 전략을 선보인다."
-thumbnail: "news/2025/08/2025-08-20-bossjobs-twin-engine-strategy-revolutionizes-talent-acquisit.jpg"
+thumbnail: "images/news/2025/08/2025-08-20-bossjobs-twin-engine-strategy-revolutionizes-talent-acquisit.jpg"
 ---
 
 서울, 2025년 8월 20일 – 아시아를 선도하는 Web3 인재 생태계 보스잡(Bossjob)이 오는 8월 25일부터 26일까지 도쿄에서 열리는 Tokyo WebX Summit에 골드 파트너로 참여한다. 이번 행사에서 보스잡은 AI 기반 채용 플랫폼과 최정상급 헤드헌팅 서비스를 결합한 ‘투엔진 드라이브’ 전략을 아시아 시장에 처음 공개할 예정이다. 또한 10월 싱가포르에서 열리는 아시아 최대 디지털 자산 행사인 Token2049 참가도 공식 발표한다.

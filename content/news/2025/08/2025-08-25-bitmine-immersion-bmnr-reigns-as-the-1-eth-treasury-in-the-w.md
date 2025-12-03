@@ -12,7 +12,7 @@ tags:
   - "블록체인"
   - "주식거래"
 summary: "비트마인 임머전(BMNR)은 이더리움 보유량 1위이자 세계 2위 암호화폐 재무고를 자랑하며, 하루 평균 28억 달러에 달하는 주식 거래량을 기록하고 있다."
-thumbnail: "news/2025/08/2025-08-25-bitmine-immersion-bmnr-reigns-as-the-1-eth-treasury-in-the-w.jpg"
+thumbnail: "images/news/2025/08/2025-08-25-bitmine-immersion-bmnr-reigns-as-the-1-eth-treasury-in-the-w.jpg"
 ---
 
 라스베이거스, 2025년 8월 25일 – 비트마인 임머전 테크놀로지스(이하 비트마인, NYSE AMERICAN: BMNR)가 암호화폐와 현금을 합쳐 총 88억 2천만 달러 규모의 자산을 보유했다고 24일(현지시간) 발표했다. 이 중 이더리움(ETH) 토큰은 171만 3,899개, 비트코인(BTC)은 192개이며, 현금은 5억 6,200만 달러에 달한다.

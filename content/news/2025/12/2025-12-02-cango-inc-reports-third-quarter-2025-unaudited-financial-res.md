@@ -13,7 +13,7 @@ tags:
   - "뉴욕증시"
   - "에너지효율"
 summary: "비트코인 채굴 전문기업 캉고(Cango Inc.)가 2025년 3분기 매출 224.6백만 달러를 기록하며 전분기 대비 60.6% 성장했다. 일평균 비트코인 채굴량도 21BTC로 37.5% 증가했다."
-thumbnail: "news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res.jpg"
 ---
 
 2025년 12월 2일, 미국 댈러스에 본사를 둔 비트코인 채굴 기업 캉고(Cango Inc., NYSE: CANG)가 2025년 3분기(7월~9월) 미감사 재무실적을 발표했다.

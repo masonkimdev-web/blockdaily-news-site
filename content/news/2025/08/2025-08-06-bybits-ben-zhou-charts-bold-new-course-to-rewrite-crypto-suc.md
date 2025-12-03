@@ -12,7 +12,7 @@ tags:
   - "디파이"
   - "거래소"
 summary: "바이비트 CEO 벤 저우가 EU 규제 준수와 보안 강화, 거래 인프라 업그레이드, 디지털 자산 실사용 확대 등 중장기 로드맵을 발표했다."
-thumbnail: "news/2025/08/2025-08-06-bybits-ben-zhou-charts-bold-new-course-to-rewrite-crypto-suc.jpg"
+thumbnail: "images/news/2025/08/2025-08-06-bybits-ben-zhou-charts-bold-new-course-to-rewrite-crypto-suc.jpg"
 ---
 
 글로벌 거래량 2위 암호화폐 거래소 바이비트(Bybit)의 CEO이자 공동창업자인 벤 저우(Ben Zhou)가 2025년 8월 7일 두바이에서 열린 ‘Keynote with Ben: Reshaping What’s Next, Bit by Bit’ 키노트에서 암호화폐 산업의 새로운 장을 여는 비전을 제시했다.

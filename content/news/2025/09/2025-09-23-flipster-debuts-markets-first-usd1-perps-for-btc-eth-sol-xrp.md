@@ -12,7 +12,7 @@ tags:
   - "플립스터"
   - "가상자산거래소"
 summary: "플립스터가 WLFI의 규제 안정코인 USD1 기반 BTC, ETH, SOL, XRP, DOGE 페퍼츄얼 계약을 세계 최초로 출시하며 무스프레드 거래를 도입했다."
-thumbnail: "news/2025/09/2025-09-23-flipster-debuts-markets-first-usd1-perps-for-btc-eth-sol-xrp.jpg"
+thumbnail: "images/news/2025/09/2025-09-23-flipster-debuts-markets-first-usd1-perps-for-btc-eth-sol-xrp.jpg"
 ---
 
 글로벌 가상자산 파생상품 플랫폼 플립스터가 2025년 9월 23일, 월드 리버티 파이낸셜(WLFI)이 발행하는 규제 완전담보 안정코인 USD1을 기반으로 한 비트코인(BTC), 이더리움(ETH), 솔라나(SOL), 리플(XRP), 도지코인(DOGE) 페퍼츄얼(무기한 계약)을 세계 최초로 선보였다.

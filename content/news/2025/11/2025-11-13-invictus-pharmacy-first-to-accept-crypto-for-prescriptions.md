@@ -13,7 +13,7 @@ tags:
   - "블록체인"
   - "의약품 결제"
 summary: "미국 Invictus Pharmacy가 내년 1월부터 전국 매장 및 온라인에서 이더리움(ETH), 솔라나(SOL), 리플(XRP) 등 가상자산 결제를 공식 도입한다."
-thumbnail: "news/2025/11/2025-11-13-invictus-pharmacy-first-to-accept-crypto-for-prescriptions.jpg"
+thumbnail: "images/news/2025/11/2025-11-13-invictus-pharmacy-first-to-accept-crypto-for-prescriptions.jpg"
 ---
 
 미국의 약국 네트워크인 Invictus Pharmacy가 2025년 11월 13일, 전국 매장에서 처방전 결제 수단으로 암호화폐를 도입한다고 발표했다. 이번 조치는 미국 내 전국적으로 허가받은 약국 중 최초로 가상자산을 환자 결제 인프라에 포함시킨 사례로 주목받고 있다. 
