@@ -7,7 +7,7 @@ draft: false
 categories: ["블록체인"]
 keywords: ["Binance", "바이낸스", "바이낸스 가입방법", "바이낸스 가입", "Binance 회원가입","바이낸스 인증","바이낸스 수수료", "Binance KYC", "해외 거래소 정보", "가상자산 거래소 안내", "해외거래소 가입방법"]
 summary: "해외 가상자산 거래소 바이낸스 거래소 장점, 수수료 정보 제공 및 신규 가입을 준비하는 분들을 위한 교육용 가이드 — 모바일 가입 절차, 본인인증 과정, 보안 설정 방법까지 단계별로 정리했습니다"
-thumbnail: "images/join-binance/binance_guide.webp"
+thumbnail: "images/join-binance/binance_guide_600.webp"
 ---
 ### 바이낸스 가입방법 A to Z 가이드 (2025 최신)
 
