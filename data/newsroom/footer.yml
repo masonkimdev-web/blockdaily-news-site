@@ -1,6 +1,6 @@
 # data/footer.yml
 columns:
-  - title: 블록체인 뉴스룸
+  - title: 블록데일리뉴스
     links:
       - label: 소개
         url: /about/
@@ -22,4 +22,4 @@ columns:
         url: /privacy/
 
 bottom:
-  text: "© 2025 블록체인 뉴스룸 · 운영자: 김현수 · 이메일: fwowi@naver.com"
+  text: "© 2025 블록데일리뉴스 · 운영자: 김민수 · 이메일: ubergo400@naver.com"
