@@ -4,6 +4,9 @@ description = "Bitget 거래소 이용 전 참고용 핵심 안내 페이지입�
 url = "/go/bitget-next/"
 draft = false
 categories = ["go"]
+[_build]
+list = "never"   # ✅ 리스트(홈/아카이브/페이지네이션)에서 제외
+render = "always" # ✅ 단일 페이지(/go/binance-next/)는 그대로 살아있음
 +++
 
 # Bitget 거래소 핵심 안내
