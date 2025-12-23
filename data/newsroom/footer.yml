@@ -1,6 +1,6 @@
 # data/footer.yml
 columns:
-  - title: 블록데일리뉴스
+  - title: 바이낸스
     links:
       - label: 소개
         url: /about/
@@ -13,4 +13,4 @@ columns:
         url: /privacy/
 
 bottom:
-  text: "© 2025 블록데일리뉴스 · 운영자: 조하나 · 이메일: bearlavender@naver.com"
+  text: "© 2025 바이낸스 · 운영자: 조하나 · 이메일: bearlavender@naver.com"

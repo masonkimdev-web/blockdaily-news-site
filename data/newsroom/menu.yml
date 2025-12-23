@@ -1,5 +1,5 @@
 # data/menu.yml
-- item: 최신 뉴스
+- item: 칼럼
   url: /
 
 - item: 온체인 데이터

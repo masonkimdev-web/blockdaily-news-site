@@ -101,50 +101,57 @@ def extract_featured_image_from_post(
 
 def rewrite_with_openai(title: str, content: str) -> tuple[str, str, str, list[str]]:
     """
-    영어 워드프레스 글을:
-    - 한국어 뉴스 기사 스타일로 재작성
-    - 클릭 잘 나오는 새 제목
-    - 한 줄 요약(summary)
-    - 한국어 태그 리스트
-    를 생성해서 (새 제목, 요약, 새 본문, 태그목록)을 반환
+    참고 텍스트를 바탕으로 블로그형 칼럼(약 1000자) 생성
+    - title: 제목(앞에 [바이낸스] 자동)
+    - summary: 2~3문장 요약
+    - body: 본문(약 900~1100자)
+    - tags: 태그 리스트(최대 8개)
     """
     prompt = f"""
-너는 블록체인·가상자산 뉴스를 다루는 한국어 온라인 미디어의 편집 기자다.
-아래 영어 원문을 바탕으로, 한국 독자를 위한 기사로 재구성해줘.
+너는 '블록체인 공부 기록 블로그'의 글쓴이야.
+아래 텍스트는 참고자료일 뿐이며, 원문을 재작성/의역/요약해서는 안 돼.
+반드시 **내가 직접 생각해서 쓴 블로그 글**처럼 완전히 새로 작성해줘.
 
-[원래 제목]
+[참고 제목]
 {title}
 
-[원래 본문]
+[참고 내용]
 {content}
 
-요구사항:
-- 결과물은 **반드시 한국어**로 작성할 것
-- 제목(title):
-  - 클릭률(CTR)이 높게 보이도록 새롭게 재창작
-  - 원래 제목을 그대로 번역하거나 복사하지 말 것
-- 요약(summary):
-  - 1~2문장, 120자 내외
-  - 기사의 핵심 포인트(가격 변동, 주요 발언, 규제 이슈 등)를 간단히 정리
-- 태그(tags):
-  - 한국어 단어/구로만 구성
-  - 예: ["비트코인", "이더리움", "현물 ETF", "SEC", "온체인 데이터"]
-  - 3~7개 정도, 너무 길지 않게
-- 본문(content):
-  - 블로그용 뉴스 기사 톤 (너무 캐주얼 X, 너무 논문체 X)
-  - 원문이 담고 있는 사실 관계, 수치(가격, 날짜, 수량 등)는 정확히 유지
-  - 불필요한 반복/군더더기 문장은 정리
-  - 단락을 적절히 나눠서 가독성 좋게 작성
+✅ 작성 목표(아주 중요)
+- 결과물은 "블로그 글"이며, 기자/뉴스/리포트 문체 금지
+- '발표했다/전망된다/밝혔다/관계자' 같은 뉴스 표현 금지
+- 문장 구조를 원문과 완전히 다르게(원문 문장 그대로 사용 금지)
+- 내가 공부하면서 떠올린 질문/생각/관점을 1인칭으로 자연스럽게 포함
+- 과장, 확정적 단정, 선동적 표현 금지
 
-반환 형식(JSON) 예시:
+✅ 분량
+- 본문은 **공백 제외 약 1000자(900~1100자)** 범위
+- 너무 짧거나 길면 실패로 간주
+
+✅ SEO 블로그 구조(이 순서 그대로)
+1) 도입(2~3문장): 독자가 검색해서 들어왔을 때 "왜 중요한지" 바로 납득되는 후킹
+2) 핵심 정리(3~5문장): 참고 내용의 '맥락'만 내 말로 풀어서 설명(복붙 금지)
+3) 내가 보는 포인트(불릿 3개): "내가 주목한 점"을 짧게 요약
+4) 내 생각/해석(6~9문장): 공부하면서 든 생각, 헷갈린 지점, 연결되는 개념 등을 자연스럽게
+5) 마무리(2~3문장): 독자에게 던지는 질문 1개 + 다음에 더 파볼 주제 1개
+
+✅ 톤 가이드
+- 블로그 칼럼 톤: 친절하지만 가볍지 않게
+- "저는/제가/개인적으로/제 기준에서는" 같은 1인칭 표현을 최소 3번 포함
+- 문장에 날짜/속보/단독 같은 뉴스 요소 넣지 말 것
+
+✅ 출력(JSON) 형식 (반드시 이 키만 사용)
 {{
-  "title": "새로 재작성된 한국어 제목",
-  "summary": "기사를 1~2문장으로 요약한 한국어 문장.",
-  "tags": ["비트코인", "ETF", "SEC"],
-  "content": "재작성된 한국어 본문 전체"
+  "title": "새 제목(클릭 유도형이되 과장 금지)",
+  "summary": "2~3문장 요약(블로그 소개글처럼)",
+  "content": "본문(약 1000자)",
+  "tags": ["블록체인", "태그2", "태그3", "태그4", "태그5"]
 }}
 
-JSON만 출력해줘.
+추가 규칙:
+- title에는 [바이낸스]를 붙이지 마(코드에서 붙임).
+- tags는 최대 8개, 중복 금지, 너무 일반적인 단어만 나열하지 말 것.
 """
 
     try:
@@ -155,41 +162,33 @@ JSON만 출력해줘.
         )
 
         msg = resp.choices[0].message
-
-        # SDK 버전에 따라 content 타입이 다를 수 있어 방어적으로 처리
-        if isinstance(msg.content, list):
-            content_str = "".join(
-                getattr(part, "text", str(part)) for part in msg.content
-            )
-        else:
-            content_str = msg.content
-
+        content_str = "".join(getattr(part, "text", str(part)) for part in msg.content) if isinstance(msg.content, list) else msg.content
         data = json.loads(content_str)
 
-        new_title = data.get("title", title).strip()
-        new_summary = data.get("summary", "").strip()
-        new_content = data.get("content", content).strip()
+        new_title = (data.get("title") or title).strip()
+        new_summary = (data.get("summary") or "").strip()
+        new_body = (data.get("content") or content).strip()
+        new_tags = data.get("tags") or []
 
-        raw_tags = data.get("tags", [])
-        if isinstance(raw_tags, list):
-            new_tags = [str(t).strip() for t in raw_tags if str(t).strip()]
-        else:
-            # "비트코인, ETF, SEC" 이런 식으로 올 수도 있으니 분리
-            new_tags = [t.strip() for t in str(raw_tags).split(",") if t.strip()]
+        if not new_title.startswith("[바이낸스]"):
+            new_title = f"[바이낸스] {new_title}"
 
-        # 모델이 원제목 그대로 돌려줄 경우 최소한의 변형
-        if new_title == title:
-            new_title = f"{title}… 핵심 이슈 정리"
+        if not isinstance(new_tags, list):
+            new_tags = []
+        new_tags = [str(t).strip() for t in new_tags if str(t).strip()][:8]
 
-        return new_title, new_summary, new_content, new_tags
+        if not new_summary:
+            new_summary = (new_body[:120] + "...") if len(new_body) > 120 else new_body
+
+        return new_title, new_summary, new_body, new_tags
 
     except Exception as e:
         print("[WARN] OpenAI 재작성 실패:", e)
-        # 실패 시: 원본 기준으로 fallback
-        fallback_summary = (
-            (content[:150].replace("\n", " ") + "…") if content else ""
-        )
-        return title, fallback_summary, content, []
+        fallback_title = f"[바이낸스] {title}" if not title.startswith("[바이낸스]") else title
+        fallback_summary = (content[:120] + "...") if len(content) > 120 else content
+        return fallback_title, fallback_summary, content, []
+
+
 
 
 def fetch_wp_posts(
