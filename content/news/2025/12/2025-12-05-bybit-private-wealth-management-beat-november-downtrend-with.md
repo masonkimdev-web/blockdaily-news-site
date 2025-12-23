@@ -11,7 +11,7 @@ tags:
   - "디지털자산관리"
   - "포트폴리오전략"
 summary: "이번 글에서는 Bybit의 Private Wealth Management가 불안정한 암호화폐 시장에서도 안정적인 수익을 낸 사례를 살펴봅니다. 다양한 전략과 데이터 기반 운용이 어떻게 성과로 이어졌는지 이해해보겠습니다."
-thumbnail: "news/2025/12/2025-12-05-bybit-private-wealth-management-beat-november-downtrend-with.jpg"
+thumbnail: "images/news/2025/12/2025-12-05-bybit-private-wealth-management-beat-november-downtrend-with.jpg"
 ---
 
 최근 암호화폐 시장은 큰 변동성을 보이면서 투자자들에게 적지 않은 고민거리를 던져주고 있습니다. 이런 상황에서 고액 자산가들을 대상으로 한 맞춤형 자산관리 서비스가 어떤 결과를 만들어내는지 궁금했는데요, Bybit의 Private Wealth Management(PWM) 부문이 11월에 약 29.7%의 연간 수익률을 기록하며 눈길을 끌었습니다. 단순히 한두 종목에 베팅한 게 아니라 여러 전략을 섞고, 데이터에 기반해 리스크를 관리한 덕분이라 하니 더욱 흥미로운 지점입니다.

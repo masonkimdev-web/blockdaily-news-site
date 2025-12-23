@@ -14,7 +14,7 @@ tags:
   - "탈중앙화"
   - "암호화폐거래소"
 summary: "Phemex가 주최한 LONGITUDE 행사에서는 암호화폐 보안의 변화와 발전 방향에 대해 다양한 대화가 오갔다. AI를 활용한 예측 보안과 Web2와 Web3를 잇는 지갑 개발 같은 혁신적 시도가 주목받은 자리였다."
-thumbnail: "news/2025/12/2025-12-12-phemex-co-hosts-longitude-spotlighting-the-next-era-of-crypt.jpg"
+thumbnail: "images/news/2025/12/2025-12-12-phemex-co-hosts-longitude-spotlighting-the-next-era-of-crypt.jpg"
 ---
 
 암호화폐 거래소를 이용하면서 가장 신경 쓰이는 부분 중 하나가 보안입니다. 어떠한 플랫폼이라도 해킹이나 개인정보 유출 위험에서 완전히 자유롭기 어렵기에, 이용자로서 보안 강화에 관한 최신 움직임을 아는 건 중요한 일입니다. 최근 Phemex가 아부다비에서 열린 LONGITUDE 행사에서 보안에 관한 새로운 시도들을 중심으로 여러 분야 전문가들과 논의를 펼쳐 주목받았는데, 이 이야기를 통해 현재 암호화폐 산업이 어떤 방향으로 나아가고 있는지 공유해보고자 합니다.

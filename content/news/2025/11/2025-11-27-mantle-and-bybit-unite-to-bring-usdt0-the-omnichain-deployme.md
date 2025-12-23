@@ -14,7 +14,7 @@ tags:
   - "블록체인네트워크"
   - "암호화폐유동성"
 summary: "Mantle 네트워크와 Bybit가 함께 USDT의 차세대 크로스체인 버전인 USDT0를 지원하면서 스테이블코인 유동성의 변화를 예고한다. 이 협업은 단일 유동성 레이어와 간편한 크로스체인 전송이라는 시스템 혁신을 보여준다."
-thumbnail: "news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme.jpg"
+thumbnail: "images/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme.jpg"
 ---
 
 스테이블코인은 암호화폐 생태계에서 중요한 역할을 맡고 있는데, 여러 네트워크에 걸쳐 안정적인 가치 저장소 역할을 하면서도 자산의 이동성이 관건이죠. 제가 공부하면서 특히 흥미로웠던 부분은 USDT0라는 개념인데요, 기존의 USDT가 다양한 체인과 브리지로 나뉘고 복잡해졌던 문제를 해결하려는 시도입니다. Mantle 네트워크와 Bybit와의 협력을 통해 이 새로운 USDT0가 실질적으로 쓰일 수 있는 환경이 조성됐다는 점이 인상적이었습니다. 

@@ -14,7 +14,7 @@ tags:
   - "디파이"
   - "블록체인금융"
 summary: "Bybit와 Circle이 손잡으면서 USDC의 접근성과 활용 범위가 크게 넓어졌습니다. 규제 준수와 글로벌 확장이라는 두 축으로 디지털 달러 생태계가 어떻게 진화하는지 살펴봅니다."
-thumbnail: "news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob.jpg"
+thumbnail: "images/news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob.jpg"
 ---
 
 암호화폐 시장에서 안정적인 디지털 달러, 즉 스테이블코인의 역할은 점점 커지고 있습니다. USDC는 이러한 스테이블코인 중 신뢰성과 투명성을 기반으로 가장 널리 사용되는 대표주자로 자리 잡았죠. 이번에 Bybit와 Circle이 전략적 파트너십을 맺으면서, 글로벌 거래소와 발행사가 협력해 USDC의 활용성이 한층 강화되는 움직임이 눈에 띕니다.

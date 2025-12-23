@@ -14,7 +14,7 @@ tags:
   - "투자전략"
   - "암호화폐시장"
 summary: "금과 비트코인의 최근 움직임 차이가 자본의 흐름과 투자자 관점에 어떤 변화를 만들어내는지 살펴봅니다. 토큰화된 원자재가 블록체인 생태계 내에서 어떤 역할을 하며, 디지털 금으로서 비트코인의 위치 변화에 대해 고민해봅니다."
-thumbnail: "news/2025/12/2025-12-21-why-bitcoin-is-underperforming-gold--and-what-tokenized-comm.png"
+thumbnail: "images/news/2025/12/2025-12-21-why-bitcoin-is-underperforming-gold--and-what-tokenized-comm.png"
 ---
 
 금과 비트코인은 오랫동안 디지털 금과 전통적 금이라는 관계로 비교되어 왔습니다. 그런데 최근 저는 둘 사이의 격차가 꽤 크게 벌어지고 있다는 점이 흥미롭게 다가왔습니다. 특히 금은 지정학적 불안과 중앙은행의 적극적인 매수 덕분에 강한 상승세를 유지하는 반면, 비트코인은 기대만큼 힘을 내지 못하는 모습입니다.

@@ -14,7 +14,7 @@ tags:
   - "게임이론"
   - "레이어2솔루션"
 summary: "Gensyn이 자체 토큰인 $AI를 기반으로 한 토큰 세일을 진행하며 메인넷을 준비 중입니다. 분산 AI 네트워크에서 경제적 인센티브와 투명한 거래 체계를 어떻게 구현하는지 궁금한 분들을 위한 글입니다."
-thumbnail: "news/2025/12/2025-12-15-gensyn-launches-ai-token-sale-on-sonar.jpg"
+thumbnail: "images/news/2025/12/2025-12-15-gensyn-launches-ai-token-sale-on-sonar.jpg"
 ---
 
 최근 AI와 블록체인이 결합된 여러 프로젝트를 공부하면서 Gensyn의 $AI 토큰 세일 소식이 눈에 들어왔어요. 탈중앙화 AI 네트워크라는 차별점을 가진 Gensyn은 곧 메인넷 론칭을 앞두고 있으며, 이번 세일을 통해 생태계에 쓰일 유틸리티 토큰을 선보입니다. 블록체인 연구를 하면서 저는 단순히 토큰 세일 행사라고 넘길 수 없는 몇 가지 포인트를 발견하게 됐습니다.

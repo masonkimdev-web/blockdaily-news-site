@@ -12,7 +12,7 @@ tags:
   - "암호화폐투자"
   - "증권시장전환"
 summary: "Cango가 2025년 11월 비트코인 채굴 성과와 사업 방향을 공유하며, 해시레이트 확장과 운영 최적화, 증권시장 전환 같은 변화를 맞이한 과정을 살펴봅니다. 이 과정에서 저의 관점을 더해 장기 비전과 관련된 궁금증도 풀어봅니다."
-thumbnail: "news/2025/12/2025-12-08-cango-inc-announces-november-2025-bitcoin-production-and-min.jpg"
+thumbnail: "images/news/2025/12/2025-12-08-cango-inc-announces-november-2025-bitcoin-production-and-min.jpg"
 ---
 
 최근 블록체인 분야에서 중요한 관심사 중 하나는 비트코인 채굴 사업의 운영 효율성과 전략 변화입니다. 특히 대규모 해시레이트 확장과 함께 친환경 에너지 도입, 그리고 주식시장에서의 입지 변화는 채굴 업체의 미래를 가늠하는 지표가 되곤 합니다. 저는 이번 Cango의 2025년 11월 비트코인 채굴 운영 업데이트를 보면서 몇 가지 흥미로운 점을 발견할 수 있었습니다. 

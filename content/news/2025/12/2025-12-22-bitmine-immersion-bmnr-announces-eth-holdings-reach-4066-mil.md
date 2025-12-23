@@ -14,7 +14,7 @@ tags:
   - "디파이"
   - "암호화폐시장"
 summary: "Bitmine이 400만 개 이상의 이더리움을 보유하며 전체 공급량의 3.37%를 차지하는 상황을 살펴본다. 단순한 보유 규모를 넘어 회사가 추구하는 장기적 투자 방향과 스테이킹 인프라 구축까지 어떻게 진행되고 있는지 이야기한다."
-thumbnail: "news/2025/12/2025-12-22-bitmine-immersion-bmnr-announces-eth-holdings-reach-4066-mil.jpg"
+thumbnail: "images/news/2025/12/2025-12-22-bitmine-immersion-bmnr-announces-eth-holdings-reach-4066-mil.jpg"
 ---
 
 최근 암호화폐 투자와 활용 방식에 대해 공부하면서 Bitmine이라는 기업에 관심이 갔다. 이 회사는 이더리움(ETH)을 약 406만 개 이상 보유하며 전체 공급량의 3%가 넘는 지분을 확보하고 있다고 한다. 이런 규모는 생각보다 상당히 큰 수치인데, 이를 ‘Alchemy of 5%’ 목표에 가까워지는 과정으로 보는 시각이 흥미로웠다. 제가 개인적으로 궁금했던 점은, 단순히 코인 수만 많은 것이 아닌 이런 대규모 보유가 시장이나 기업 전략 측면에서 어떤 의미를 갖는가 하는 점이었다.

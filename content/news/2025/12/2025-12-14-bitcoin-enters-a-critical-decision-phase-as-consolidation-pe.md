@@ -14,7 +14,7 @@ tags:
   - "채굴현황"
   - "기관투자"
 summary: "비트코인은 최근 강한 변동성 없이 좁은 가격대에서 움직이고 있다. 이런 움직임이 다음 큰 상승의 신호인지, 아니면 더 깊은 조정의 시작인지 아직 명확하지 않다. 이번 글에서는 현재 비트코인이 처한 기술적 상황과 온체인 데이터, 기관 투자 동향을 중심으로 나눈 생각을 정리해본다."
-thumbnail: "news/2025/12/2025-12-14-bitcoin-enters-a-critical-decision-phase-as-consolidation-pe.png"
+thumbnail: "images/news/2025/12/2025-12-14-bitcoin-enters-a-critical-decision-phase-as-consolidation-pe.png"
 ---
 
 비트코인이 최근 눈에 띄게 잠잠해진 모습이다. 긴 가을 랠리 이후 가격은 크게 흔들리지 않으면서도 단 하나의 방향을 고르지 못하는 딜레마에 빠져 있는 것 같은 인상이다. 자연스럽게 투자자들 사이에서는 이 조용한 움직임이 ‘잠시 쉬는 타임’인지, ‘더 깊은 조정을 위한 전초전’인지 궁금증이 커지고 있다. 

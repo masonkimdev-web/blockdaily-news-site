@@ -13,7 +13,7 @@ tags:
   - "토큰 이코노미"
   - "암호화폐 시장분석"
 summary: "최근 한 기업이 AI 기술과 암호화폐 거래를 접목한 프로젝트에 대규모 토큰 인수를 추진하며 관심을 모으고 있다. 이번 협력은 AI 진단부터 거래 엔진까지 통합하는 플랫폼 구축을 목표로 하며, 실제 시장 진입과 기술적 시너지에 주목해볼 만하다."
-thumbnail: "news/2025/12/2025-12-17-jzxn-in-discussions-to-acquire-1b-in-tokens-from-ai-trading-.jpg"
+thumbnail: "images/news/2025/12/2025-12-17-jzxn-in-discussions-to-acquire-1b-in-tokens-from-ai-trading-.jpg"
 ---
 
 블록체인과 AI가 결합된 프로젝트는 이미 여러 차례 등장했지만, 이번에는 특정 기업이 1조 원에 가까운 가치 규모의 토큰을 대량으로 확보하는 방안을 검토하면서 다시 한번 업계 주목을 받고 있다. 토큰 인수와 동시에 AI 기반 암호화폐 거래 플랫폼을 공동 개발하는 모양새인데, 단순 투자 이상의 협력 시너지 가능성에 호기심이 생긴다.

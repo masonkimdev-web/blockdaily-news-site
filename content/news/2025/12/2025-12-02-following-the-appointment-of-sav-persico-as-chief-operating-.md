@@ -11,7 +11,7 @@ tags:
   - "리스크관리"
   - "암호화폐거버넌스"
 summary: "Token Cat Limited가 대규모 암호화폐 투자 정책을 수립하며 블록체인 자산 관리에 대한 관심이 커지고 있다. 이 정책은 철저한 리스크 관리와 명확한 거버넌스를 기반으로 장기적 가치를 추구하는 점이 특징이다."
-thumbnail: "news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-.jpg"
 ---
 
 최근 기업이 기존 현금 자산의 일부를 디지털 자산에 투자하기 시작하는 모습이 점점 흔해지고 있습니다. 저는 평소 이런 움직임이 단순한 트렌드인지, 아니면 블록체인 기술과 시장이 성숙해가고 있다는 신호인지 궁금했는데, Token Cat Limited의 사례를 공부하면서 한 가지 방향을 잡게 됐습니다. 그들이 수십억 달러 규모의 전략을 세우고 전문경영진을 영입하는 모습은 기업 차원에서 암호화폐를 자산 포트폴리오에 포함하는 것이 단순한 모험이 아님을 보여줍니다.

@@ -14,7 +14,7 @@ tags:
   - "자본구조"
   - "비트코인경제"
 summary: "Cango가 최근 분기 실적에서 비트코인 채굴 사업의 성장을 보여주며 운영 효율성과 자본 구조 변화에 대한 인사이트를 제공한다. 이번 글에서는 채굴 해시레이트 증가와 비용 관리, 그리고 장기 전략에 대해 살펴본다."
-thumbnail: "news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res.jpg"
 ---
 
 비트코인 채굴 산업에 관심 있는 사람이라면 Cango라는 기업이 최근 몇 개월 간 보여준 움직임이 꽤 흥미롭게 다가올 것이다. 채굴 사업의 실적이 크게 향상되면서 회사가 단순 채굴사를 넘어 장기적인 기술 및 에너지 전략을 구상하는 과정도 엿볼 수 있기 때문이다. 저도 공부하면서 이번 사례가 단순 재무 수치 외에도 산업에서 어떤 흐름을 의미하는지 자연스럽게 궁금해졌다.

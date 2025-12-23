@@ -14,7 +14,7 @@ tags:
   - "온체인투명성"
   - "거래자동화"
 summary: "Bybit와 Komainu의 협업은 기관투자자가 디지털 자산을 안전하게 보관하면서 24시간 거래할 수 있는 환경을 조성합니다. 이 글에서는 이 파트너십의 핵심 요소와 제가 느낀 점을 정리해봅니다."
-thumbnail: "news/2025/12/2025-12-03-bybit-partners-with-komainu-to-offer-247-secure-trading-of-s.jpg"
+thumbnail: "images/news/2025/12/2025-12-03-bybit-partners-with-komainu-to-offer-247-secure-trading-of-s.jpg"
 ---
 
 디지털 자산 시장에서 기관투자자들이 어떻게 더 안전하고 효율적으로 거래할 수 있을지가 점점 더 중요한 화두로 떠오르고 있습니다. 제가 공부하면서 가장 흥미롭게 다가온 부분은 바로 ‘기관 고객이 거래소에 자산을 미리 예치할 필요 없이, 별도의 규제된 수탁사에 안전하게 자산을 맡기면서도 24시간 언제든 거래할 수 있는 구조’라는 점이었습니다.

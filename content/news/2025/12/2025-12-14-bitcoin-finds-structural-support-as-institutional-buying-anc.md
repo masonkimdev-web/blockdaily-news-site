@@ -11,7 +11,7 @@ tags:
   - "비트코인ETF"
   - "암호화폐규제"
 summary: "최근 비트코인 가격은 약 $90,000 부근에서 움직이고 있지만, 온체인 데이터를 보면 $80,000 부근에 중요한 지지선이 형성돼 있음을 알 수 있습니다. 특히 기관 투자자의 매집과 ETF 흐름이 눈에 띄며, 규제 환경 변화도 장기적으로 긍정적인 신호입니다."
-thumbnail: "news/2025/12/2025-12-14-bitcoin-finds-structural-support-as-institutional-buying-anc.png"
+thumbnail: "images/news/2025/12/2025-12-14-bitcoin-finds-structural-support-as-institutional-buying-anc.png"
 ---
 
 비트코인 가격이 최근 약 $90,000 근처에서 상승과 하락을 반복하는 모습을 보이고 있어요. 제가 이 구간을 중요하게 생각하는 이유는, 단순한 가격 변동뿐 아니라 온체인 데이터를 통해 좀 더 깊이 있는 구조적 지지선이 확인되기 때문입니다. 특히 $80,000 수준에서 여러 지표가 모이고 있어, 이 영역이 단순한 심리적 지지선을 넘어선 실질적인 매수세가 존재하는 곳으로 보입니다.

@@ -14,7 +14,7 @@ tags:
   - "신규트레이더지원"
   - "커뮤니티인센티브"
 summary: "Phemex가 총 상금 45만 USDT 규모로 연말 선물거래 대회를 진행한다. 초보자와 경험자를 모두 포용하는 대회 구조와 일상적으로 참여 가능한 이벤트들이 흥미롭다. 이번 경험을 통해 파생상품 시장과 커뮤니티 인센티브가 어떻게 맞물리는지 살펴본다."
-thumbnail: "news/2025/12/2025-12-04-phemex-ignites-year-end-trading-frenzy-with-450000-futures-a.jpg"
+thumbnail: "images/news/2025/12/2025-12-04-phemex-ignites-year-end-trading-frenzy-with-450000-futures-a.jpg"
 ---
 
 파생상품 거래를 공부하다 보면 거래소마다 독특한 이벤트를 연말에 열곤 하는데, 이번에 Phemex가 진행하는 ‘Futures Trading Apex Competition’에 대해 관심이 생겼다. 총 45만 USDT 규모의 상금이 걸린 이 대회는 단순한 거래 이벤트에 머무르지 않고, 다양한 레벨의 트레이더를 고려한 참여 방식을 갖추고 있어 거래 생태계가 어떻게 진화하는지 살펴볼 좋은 기회라고 생각했다.

@@ -14,7 +14,7 @@ tags:
   - "토큰화자산"
   - "탈중앙금융"
 summary: "Bybit, Mantle, Aave가 손잡아 글로벌 규모로 확장하는 기관급 DeFi 유동성의 흐름을 살펴봅니다. 서로 다른 강점을 결합한 이번 협력이 어떻게 중앙화 거래소와 탈중앙화 금융의 연결고리를 강화하는지 알아봅니다."
-thumbnail: "news/2025/12/2025-12-02-bybit-mantle-and-aave-partner-to-bring-institutional-grade-d.jpg"
+thumbnail: "images/news/2025/12/2025-12-02-bybit-mantle-and-aave-partner-to-bring-institutional-grade-d.jpg"
 ---
 
 최근 Bybit, Mantle, 그리고 Aave가 협력하며 DeFi(탈중앙화금융) 환경에 기관급 유동성을 온체인 상에서 효율적으로 유입시키는 구조를 만들어가고 있다는 점이 눈에 띕니다. 저는 이 협력이 단순한 기술 제휴를 넘어, 중앙집중식 거래소와 탈중앙 금융 생태계를 잇는 다리 역할을 할 가능성에 주목하고 있습니다. 이런 움직임이 곧 전통 금융과 블록체인 기반 금융의 경계를 흐릿하게 만들 수 있을까요?
