@@ -17,7 +17,7 @@ enableRobotsTXT = true
   # 🔹 Newsroom 메인 섹션/아카이브 설정
   blogDir = "news"         # View Archive 버튼 → /news 로 이동
   mainSections = ["news"]  # 메인에 나오는 글 타입 = content/news/*
-
+  contact_email = "bearlavender@naver.com"
 [markup.goldmark.renderer]
   unsafe = true          # raw HTML 렌더 허용
 

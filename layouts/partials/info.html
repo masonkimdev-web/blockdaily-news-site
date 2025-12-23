@@ -1,0 +1,19 @@
+<section class="post-info"
+  style="max-width: 760px; margin: 14px auto 0; padding: 14px 16px 12px;
+         border: 1px solid #f0f0f0; border-radius: 14px; background: #fff;">
+  <div style="font-size:12px; color:#777; line-height:1.6;">
+    <div style="margin-bottom:8px;">
+      {{ if .Date }}
+        게시일: <strong style="color:#333;">{{ .Date.Format "2006-01-02" }}</strong>
+      {{ end }}
+      {{ if .Lastmod }}
+        · 업데이트: <strong style="color:#333;">{{ .Lastmod.Format "2006-01-02" }}</strong>
+      {{ end }}
+    </div>
+
+    <div>
+      본 페이지는 정보 이해를 돕기 위한 참고 자료이며, 특정 투자 판단이나 행동을 유도하지 않습니다.
+      내용의 해석은 시점과 환경에 따라 달라질 수 있습니다.
+    </div>
+  </div>
+</section>
