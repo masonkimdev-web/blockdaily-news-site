@@ -57,17 +57,23 @@
 <div class="post-bottom"
      style="max-width:760px;margin:18px auto 0;display:flex;flex-direction:column;gap:14px;">
 
-  <!-- 운영자 + 고지: 2컬럼 -->
-  <div class="post-bottom-grid"
-       style="display:flex;gap:12px;flex-wrap:wrap;">
+  <div class="post-bottom-grid" style="display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;">
+    
     <div style="flex:1 1 320px;padding:16px;border:1px solid #eee;border-radius:12px;">
-  {{ partial "author.html" . }}
-</div>
-<div style="flex:1 1 320px;padding:16px;border:1px solid #eee;border-radius:12px;">
-  {{ partial "info.html" . }}
-</div>
+      <div style="margin:0;padding:0;">
+        {{ partial "author.html" . }}
+      </div>
+    </div>
+
+    <div style="flex:1 1 320px;padding:16px;border:1px solid #eee;border-radius:12px;">
+      <div style="margin:0;padding:0;">
+        {{ partial "info.html" . }}
+      </div>
+    </div>
 
   </div>
+</div>
+
 
   {{ if ne .Params.showPrevNext false }}
     {{ partial "prev_next.html" . }}
