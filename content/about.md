@@ -2,6 +2,7 @@
 title: "바이낸스 소개"
 date: 2025-01-01T09:00:00+09:00
 draft: false
+showPrevNext: false
 ---
 
 ![](/images/about/me.webp)
