@@ -60,12 +60,13 @@
   <!-- 운영자 + 고지: 2컬럼 -->
   <div class="post-bottom-grid"
        style="display:flex;gap:12px;flex-wrap:wrap;">
-    <div style="flex:1 1 320px;">
-      {{ partial "author.html" . }}
-    </div>
-    <div style="flex:1 1 320px;">
-      {{ partial "info.html" . }}
-    </div>
+    <div style="flex:1 1 320px;padding:16px;border:1px solid #eee;border-radius:12px;">
+  {{ partial "author.html" . }}
+</div>
+<div style="flex:1 1 320px;padding:16px;border:1px solid #eee;border-radius:12px;">
+  {{ partial "info.html" . }}
+</div>
+
   </div>
 
   {{ if ne .Params.showPrevNext false }}
