@@ -68,7 +68,9 @@
     </div>
   </div>
 
-  {{ partial "prev_next.html" . }}
+  {{ if ne .Params.showPrevNext false }}
+    {{ partial "prev_next.html" . }}
+  {{ end }}
 
   <!-- 댓글은 필요할 때만 노출 -->
   {{ partial "comments.html" . }}
