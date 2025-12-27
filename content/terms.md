@@ -2,6 +2,7 @@
 title: "이용 안내 및 서비스 약관"
 date: 2025-01-01T09:00:00+09:00
 draft: false
+showPrevNext: false
 ---
 
 본 페이지는 **바이낸스(이하 “사이트”)** 이용과 관련한  

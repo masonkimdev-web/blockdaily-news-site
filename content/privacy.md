@@ -2,6 +2,7 @@
 title: "개인정보 처리방침"
 date: 2025-01-01T09:00:00+09:00
 draft: false
+showPrevNext: false
 ---
 
 **바이낸스**(이하 “사이트”)는  
