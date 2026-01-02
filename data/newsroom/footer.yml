@@ -4,8 +4,6 @@ columns:
     links:
       - label: 소개
         url: /about/
-      - label: 바이낸스 가입방법
-        url: /signup-guide/
 
   - title: 기타
     links:
