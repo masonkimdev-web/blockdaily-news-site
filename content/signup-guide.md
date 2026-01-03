@@ -51,17 +51,37 @@ showPrevNext: false
 일반적으로 이메일 가입이 더 안정적입니다.
 
 ### ① 이메일 주소 입력  
-![이메일입력](/images/이미지-이메일입력.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-이메일입력.jpg" 
+    alt="이메일입력"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ② 이메일 인증코드 입력  
-![코드입력](/images/이미지-코드입력.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-코드입력.jpg" 
+    alt="코드입력"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ③ 비밀번호 설정
 - 영문 대/소문자 포함  
 - 숫자 + 특수문자 포함  
 - 8자 이상
 
-![비번추천코드](/images/이미지-비번추천코드.jpg)
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-비번추천코드.jpg" 
+    alt="비번추천코드"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ---
 
@@ -70,19 +90,54 @@ showPrevNext: false
 ## 4. 바이낸스 모바일 앱에서 인증(KYC) 진행하기
 
 ### ① 로그인 후 “Verify Now” 선택  
-![KYC버튼](/images/이미지-KYC버튼.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-KYC버튼.jpg" 
+    alt="KYC버튼"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ② 신분증 종류 선택  
-![신분증선택](/images/이미지-신분증선택.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-신분증선택.jpg" 
+    alt="신분증선택"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ③ 신분증 촬영  
-![신분증촬영](/images/이미지-신분증촬영.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-신분증촬영.jpg" 
+    alt="신분증촬영"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ④ 얼굴 인식  
-![얼굴인식](/images/이미지-얼굴인식.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-얼굴인식.jpg" 
+    alt="얼굴인식"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ⑤ 정보 입력 (국가, 생년월일 등)  
-![KYC정보](/images/이미지-KYC정보.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-KYC정보.jpg" 
+    alt="KYC정보"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 > 인증 완료까지 10분 ~ 1시간 정도 소요됩니다.
 
@@ -92,7 +147,13 @@ showPrevNext: false
 
 프로필 메뉴에서 인증 상태가 Unverified가 아니라 **Verified**로 표시되는지 확인하세요.
 
-![인증완료](/images/이미지-인증완료.jpg)
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-인증완료.jpg" 
+    alt="인증완료"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ---
 
@@ -101,22 +162,57 @@ showPrevNext: false
 보안 강화를 위해 반드시 설정을 추천드립니다.
 
 ### ① Security 메뉴로 이동  
-![보안메뉴](/images/이미지-보안메뉴.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-보안메뉴.jpg" 
+    alt="보안메뉴"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ② Authenticator App 선택  
-![OTP선택](/images/이미지-OTP선택.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-OTP선택.jpg" 
+    alt="OTP선택"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ③ 이메일 인증코드 입력  
-![OTP이메일](/images/이미지-OTP이메일.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-OTP이메일.jpg" 
+    alt="OTP이메일"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ④ OTP 발급키(QR/Key) 복사  
-![OTP키](/images/이미지-OTP키.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-OTP키.jpg" 
+    alt="OTP키"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ### ⑤ Google Authenticator 앱에서 신규 계정 생성  
 → 바이낸스에서 복사한 Key를 입력하세요.
 
 ### ⑥ 생성된 OTP 숫자를 바이낸스에 입력  
-![OTP완료](/images/이미지-OTP완료.jpg)
+
+<div style="text-align:center; margin: 14px 0;">
+  <img 
+    src="/images/이미지-OTP완료.jpg" 
+    alt="OTP완료"
+    style="max-width:400px; width:100%; height:auto;"
+  >
+</div>
 
 ---
 
