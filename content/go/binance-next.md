@@ -67,8 +67,8 @@ A. 바이낸스는 **메이커/테이커 수수료 구조**를 적용합니다.
 
 자동 이동이 되지 않는 경우 아래를 클릭하세요.
 
-👉 [바이낸스 공식 홈페이지로 이동](https://accounts.binance.com/register?ref=119113960)
+👉 [바이낸스 공식 홈페이지로 이동](https://accounts.binance.com/register?ref=BLOCKDNEWS)
 
 ---
 
-{{< redirect to="https://accounts.binance.com/register?ref=119113960" delay="1500" >}}
+{{< redirect to="https://accounts.binance.com/register?ref=BLOCKDNEWS" delay="1500" >}}
