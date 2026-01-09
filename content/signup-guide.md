@@ -14,13 +14,54 @@ showPrevNext: false
 
 ---
 
-<div align="center" style="margin: 18px 0;">
-  <a href="/go/binance-next/" target="_blank" rel="noopener noreferrer"
-     style="display:inline-block;padding:14px 28px;border-radius:14px;
-     background:#f3ba2f;color:#000;font-weight:600;font-size:17px;
-     text-decoration:none;">
-     🌐 공식 바이낸스 페이지 안내
-  </a>
+<div style="
+  max-width: 720px;
+  margin: 28px auto;
+  padding: 22px 26px;
+  border-radius: 16px;
+  background: #fffbe6;
+  border: 2px solid #f3ba2f;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+">
+
+  <!-- 로고 -->
+  <div style="flex-shrink:0;">
+    <img
+      src="/images/binance-logo.png"
+      alt="Binance Logo"
+      style="width:64px;height:64px;border-radius:50%;"
+    >
+  </div>
+
+  <!-- 텍스트 영역 -->
+  <div style="flex:1;">
+    <div style="font-size:18px;font-weight:700;margin-bottom:6px;">
+      수수료 20% 평생 할인 혜택
+    </div>
+    <div style="font-size:14px;color:#555;line-height:1.5;">
+      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
+    </div>
+    <div style="margin-top:14px;">
+      <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="
+           display:inline-block;
+           padding:12px 22px;
+           background:#f3ba2f;
+           color:#000;
+           font-weight:700;
+           font-size:15px;
+           border-radius:12px;
+           text-decoration:none;
+         ">
+        바이낸스 공식 홈페이지 바로가기
+      </a>
+    </div>
+  </div>
+
 </div>
 
 ---
@@ -252,13 +293,42 @@ showPrevNext: false
 
 ---
 
-<div align="center" style="margin: 18px 0;">
-  <a href="/go/binance-next/" target="_blank" rel="noopener noreferrer"
-     style="display:inline-block;padding:14px 28px;border-radius:14px;
-     background:#f3ba2f;color:#000;font-weight:600;font-size:17px;
-     text-decoration:none;">
-     🌐 공식 바이낸스 페이지 안내
-  </a>
+<!-- 로고 -->
+  <div style="flex-shrink:0;">
+    <img
+      src="/images/binance-logo.png"
+      alt="Binance Logo"
+      style="width:64px;height:64px;border-radius:50%;"
+    >
+  </div>
+
+  <!-- 텍스트 영역 -->
+  <div style="flex:1;">
+    <div style="font-size:18px;font-weight:700;margin-bottom:6px;">
+      수수료 20% 평생 할인 혜택
+    </div>
+    <div style="font-size:14px;color:#555;line-height:1.5;">
+      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
+    </div>
+    <div style="margin-top:14px;">
+      <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="
+           display:inline-block;
+           padding:12px 22px;
+           background:#f3ba2f;
+           color:#000;
+           font-weight:700;
+           font-size:15px;
+           border-radius:12px;
+           text-decoration:none;
+         ">
+        바이낸스 공식 홈페이지 바로가기
+      </a>
+    </div>
+  </div>
+
 </div>
 
 ---
