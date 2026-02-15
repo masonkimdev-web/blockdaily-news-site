@@ -23,8 +23,8 @@ IMAGE_BASE = "static/images/news"
 DEFAULT_CATEGORY = "블록체인"      # 카테고리 고정
 TIME_SUFFIX = "T09:00:00+09:00"    # 한국 시간 기준 고정
 
-MAX_POSTS = 100                    # 최대 가져올 포스트 수
-PER_PAGE = 50                      # WP API per_page (최대 100)
+MAX_POSTS = 10                    # 최대 가져올 포스트 수
+PER_PAGE = 1                      # WP API per_page (최대 100)
 # =========================
 
 
