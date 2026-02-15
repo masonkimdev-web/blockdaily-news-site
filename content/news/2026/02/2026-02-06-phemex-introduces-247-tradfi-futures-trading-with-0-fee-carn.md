@@ -14,7 +14,7 @@ tags:
   - "USDT정산"
   - "통합플랫폼"
 summary: "Phemex가 전통금융 자산을 24시간 거래할 수 있는 선물 플랫폼을 선보였다. 암호화폐와 기존 자산을 한곳에서 다룰 수 있는 이 새로운 서비스는 거래 시간과 비용 측면에서 여러 변화를 시도한다."
-thumbnail: "news/2026/02/2026-02-06-phemex-introduces-247-tradfi-futures-trading-with-0-fee-carn.jpg"
+thumbnail: "images/news/2026/02/2026-02-06-phemex-introduces-247-tradfi-futures-trading-with-0-fee-carn.jpg"
 ---
 
 전통 금융 시장은 보통 정해진 거래 시간에만 열려 있어서, 중요한 글로벌 이벤트가 발생해도 손쉽게 대응하기 어려운 경우가 있습니다. 반면 암호화폐 시장은 24시간 열려 있고, 언제든지 거래가 가능한 특징이 있죠. 이 두 시장의 차이점을 접목한 시도가 최근 Phemex에서 선보인 ‘TradFi 선물 거래’에서 눈에 띕니다.

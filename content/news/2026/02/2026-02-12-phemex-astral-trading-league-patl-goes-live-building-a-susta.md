@@ -14,7 +14,7 @@ tags:
   - "거래교육"
   - "Phemex"
 summary: "Phemex가 기존 단발성 거래 대회 방식을 바꿔 시즌별 진행하는 꾸준한 성장형 트레이딩 리그 'PATL'을 내놓았다. 단기 거래량에 치중하기보다 실력과 전략 발전을 중시하는 이 시스템은 다양한 난이도와 보상 구조로 거래자들의 지속적인 참여를 유도한다."
-thumbnail: "news/2026/02/2026-02-12-phemex-astral-trading-league-patl-goes-live-building-a-susta.jpg"
+thumbnail: "images/news/2026/02/2026-02-12-phemex-astral-trading-league-patl-goes-live-building-a-susta.jpg"
 ---
 
 암호화폐 파생상품 거래 대회는 거래자들에게 큰 관심을 받지만, 대체로 단기간 거래량에만 집중해 실질적인 실력 향상과는 동떨어진 경우가 많았습니다. 그래서 저는 이번에 Phemex에서 도입한 Phemex Astral Trading League(PATL)에 대해 공부하면서, ‘어떻게 하면 트레이더들이 더 체계적으로 성장할 수 있을까?’ 하는 질문이 자연스레 떠올랐어요. PATL은 기존의 반복적이고 단발적 이벤트들이 아니라, 시즌제로 운영되면서 일, 주, 월 단위로 진행되는 과제를 포함해 거래 실력을 단계별로 개선하도록 설계된 점이 인상적입니다.

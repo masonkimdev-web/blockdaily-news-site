@@ -14,7 +14,7 @@ tags:
   - "OndoFinance"
   - "Blockchain.com"
 summary: "블록체인 기술이 본격적으로 주식과 ETF 투자 영역까지 확장되고 있습니다. 이번에는 Blockchain.com과 Ondo Finance가 협력해 유럽 시장에 토큰화된 미국 주식과 ETF를 직접 지갑에서 거래할 수 있는 환경을 제공하게 되었습니다. 이 글에서는 그 의미와 가능성, 그리고 개인적 관점에서 주목할 점들을 살펴봅니다."
-thumbnail: "news/2026/02/2026-02-03-blockchaincom--ondo-finance-launch-onchain-tokenized-us-stoc.jpg"
+thumbnail: "images/news/2026/02/2026-02-03-blockchaincom--ondo-finance-launch-onchain-tokenized-us-stoc.jpg"
 ---
 
 요즘 디지털 자산 세계가 단순한 암호화폐를 넘어서 실물 자산까지 포괄하고 있는 흐름이 인상적입니다. 특히 미국 주식과 ETF를 블록체인 지갑에서 직접 사고팔 수 있다는 소식을 접하며, 이 변화가 앞으로 투자 환경에 어떤 영향을 미칠지 궁금해졌습니다. 단순한 투자 상품을 넘어 소유권과 거래 방식에까지 혁신을 가져오는 데 주목할 필요가 있어 보입니다.

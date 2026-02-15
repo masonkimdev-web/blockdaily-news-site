@@ -14,7 +14,7 @@ tags:
   - "기술융합"
   - "테크스타트업"
 summary: "Cango가 1,060만 달러 규모 지분 투자를 완료하고 주요 임원들의 6,500만 달러 추가 투자를 확보했다. 이 자금은 AI와 컴퓨팅 인프라 확장에 쓰일 예정이다. 블록체인과 에너지, AI가 교차하는 기업의 전략적 움직임을 짚어본다."
-thumbnail: "news/2026/02/2026-02-12-cango-inc-closed-the-us105-million-equity-investment-and-sec.jpg"
+thumbnail: "images/news/2026/02/2026-02-12-cango-inc-closed-the-us105-million-equity-investment-and-sec.jpg"
 ---
 
 비트코인 채굴을 기반으로 글로벌 에너지와 AI 컴퓨팅 플랫폼을 키워나가는 Cango가 최근 투자 유치 소식을 접하면서 여러 생각이 들었습니다. 단순히 채굴에 집중하던 기업이 대규모 주식 투자를 통해 AI 분야로 사업 영역을 확장한다는 점은 상당히 흥미로웠는데요, 블록체인 기술과 AI가 어떻게 융합될지 궁금해지기도 했습니다.

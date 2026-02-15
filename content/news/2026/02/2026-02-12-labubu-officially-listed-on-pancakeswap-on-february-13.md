@@ -14,7 +14,7 @@ tags:
   - "디지털자산"
   - "생태계확장"
 summary: "LABUBU 토큰이 BNB 체인 기반의 PancakeSwap에서 거래를 시작하며, 단순 토큰을 넘어 IP 생태계 확장의 신호탄을 쐈습니다. 이 글에서는 LABUBU의 생태계 구조와 핵심 포인트, 그리고 개인적인 궁금증을 중심으로 살펴봅니다."
-thumbnail: "news/2026/02/2026-02-12-labubu-officially-listed-on-pancakeswap-on-february-13.jpg"
+thumbnail: "images/news/2026/02/2026-02-12-labubu-officially-listed-on-pancakeswap-on-february-13.jpg"
 ---
 
 최근 LABUBU 토큰이 PancakeSwap에서 거래를 시작했다는 소식은 Web3 IP 분야에 관심 있는 이들에게 흥미로운 변화의 시작처럼 보입니다. 단순한 유틸리티 토큰 이상의 역할을 하며, 창작자와 투자자 모두를 아우르는 확장된 생태계로 나아가고 있기 때문입니다. 이런 움직임이 왜 중요한지, 그리고 앞으로는 어떤 의미를 가질지 생각해보았습니다.
