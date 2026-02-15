@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+  {{ partial "head.html" . }}
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/fonts.css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <nav class="header">
+    <div class="banner">
+      <a href="/" class="text">{{ .Site.Title }}</a>
+    </div>
+
+    <div class="head-meta">
+      <span><a href="/">Back to Home</a></span>
+      {{ with .Date }}
+        <span class="date">{{ .Format "2006-01-02" }}</span>
+      {{ end }}
+    </div>
+  </nav>
