@@ -28,8 +28,7 @@ date: 2026-02-25
 - 2FA 설정(권장: Google Authenticator)
 - 기본 보안(피싱코드, 출금주소 관리)
 
-👉 자세히: **[바이낸스 가입 방법](/guide/binance-signup/)**
-
+<a class="btnlink" href="/guide/binance-signup/">👉 자세히: 바이낸스 가입 방법</a>
 ---
 
 ## 2) 업비트 → 바이낸스 입금
@@ -38,8 +37,7 @@ date: 2026-02-25
 - 바이낸스 입금 주소 확인
 - 네트워크(체인) 실수 방지
 
-👉 자세히: **[입금 방법](/guide/deposit/)**
-
+<a class="btnlink" href="/guide/deposit/">👉 자세히: 입금 방법</a>
 ---
 
 ## 3) 거래 방법 (Spot / Futures)
@@ -47,8 +45,7 @@ date: 2026-02-25
 - 현물(Spot): 단순 매수/매도
 - 선물(Futures): 레버리지/롱/숏 (초보는 매우 주의)
 
-👉 자세히: **[거래 방법](/guide/trading/)**
-
+<a class="btnlink" href="/guide/trading/">👉 자세히: 거래 방법</a>
 ---
 
 ## 4) 출금 방법 (바이낸스 → 업비트)
@@ -57,8 +54,7 @@ date: 2026-02-25
 - 출금 네트워크 선택
 - 업비트 입금 확인 후 원화 출금
 
-👉 자세히: **[출금 방법](/guide/withdraw/)**
-
+<a class="btnlink" href="/guide/withdraw/">👉 자세히: 출금 방법</a>
 ---
 
 ## 자주 하는 실수 TOP 5

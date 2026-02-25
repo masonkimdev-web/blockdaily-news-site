@@ -201,32 +201,49 @@
     .card .t{font-weight:800; margin:0 0 6px}
     .card .d{margin:0; color:var(--muted); font-size:13px}
     /* 모바일: 사이드바 드로어 */
-@media (max-width: 980px){
-  .wrap{grid-template-columns:1fr}
-  .sidebar{
-    position: fixed;
-    left: 12px;
-    top: 72px;
-    bottom: 12px;
-    width: min(360px, calc(100vw - 24px));
-    z-index: 50;
-    transform: translateX(-120%);
-    transition: transform .18s ease;
-  }
-  body.menu-open .sidebar{ transform: translateX(0); }
+    @media (max-width: 980px){
+      body.menu-open{ overflow:hidden; }          /* ✅ 배경 스크롤 잠금 */
+    
+      .sidebar{
+        background: rgba(11,13,16,.98);          /* ✅ 불투명하게 */
+        border:1px solid var(--line);
+        box-shadow: 0 20px 60px rgba(0,0,0,.6);
+      }
+    
+      .overlay{
+        display:none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.72);             /* ✅ 더 진한 오버레이 */
+        z-index: 40;
+        touch-action: none;
+      }
+      body.menu-open .overlay{ display:block; }
+    }
+/* guide 본문 링크를 버튼처럼(특히 '자세히') */
+.main-inner a{
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
-  /* 본문은 전체 폭 */
-  .main{ width: 100%; }
+.main-inner a:hover{ opacity:.9; }
 
-  /* 어두운 오버레이 */
-  .overlay{
-    display:none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.55);
-    z-index: 40;
-  }
-  body.menu-open .overlay{ display:block; }
+/* "👉 자세히:" 같은 줄이 버튼처럼 보이게 */
+.main-inner a.btnlink{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid rgba(125,211,252,.35);
+  background: rgba(125,211,252,.10);
+  text-decoration:none;
+  font-weight:800;
+}
+.main-inner a.btnlink::after{
+  content:"→";
+  opacity:.9;
 }
   </style>
 </head>
