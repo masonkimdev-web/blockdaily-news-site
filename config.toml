@@ -15,6 +15,7 @@ enableRobotsTXT = true
   description = "블록체인, 가상자산, 온체인 데이터, 규제·정책까지 한 번에 보는 바이낸스 블록체인 칼럼"
   blogDir = "news"
   contact_email = "bearlavender@naver.com"
+  mainSections = ["블록체인"]   # ✅ 최상위로 이동
 
 [markup.goldmark.renderer]
   unsafe = true

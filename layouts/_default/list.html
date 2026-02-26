@@ -3,7 +3,12 @@
 <div class="container">
 <main class="list">
 {{ $pages := .Pages }}
-{{ if .IsHome }}{{ $pages = where .Site.RegularPages "Section" "in" site.MainSections }}{{ end }}
+
+{{/* 홈에서는 guide 같은 섹션이 섞이지 않게 news만 강제 */}}
+{{ if .IsHome }}
+  {{ $pages = where .Site.RegularPages "Section" "in" (slice "블록체인") }}
+{{ end }}
+
 {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
 {{ range $paginator.Pages }}
 <section class="article-list">
