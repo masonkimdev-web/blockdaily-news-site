@@ -3,6 +3,7 @@ title: "거래 방법 (Spot / Futures)"
 description: "현물(Spot)과 선물(Futures)의 차이, 초보가 따라할 수 있는 최소 행동 가이드."
 url: "/guide/trading/"
 date: 2026-02-25
+list: "never"   # ✅ 리스트(홈/아카이브/페이지네이션)에서 제외
 weight: 3
 ---
 
