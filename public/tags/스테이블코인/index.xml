@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>스테이블코인 on 바이낸스</title>
+    <link>https://blockdailynews.online/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</link>
+    <description>Recent content in 스테이블코인 on 바이낸스</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 08 Dec 2025 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://blockdailynews.online/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[바이낸스] Bybit와 Circle의 협력으로 USDC 활용이 확대되는 이유와 의미</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob/</link>
+      <pubDate>Mon, 08 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob/</guid>
+      <description>Bybit와 Circle이 손잡으면서 USDC의 접근성과 활용 범위가 크게 넓어졌습니다. 규제 준수와 글로벌 확장이라는 두 축으로 디지털 달러 생태계가 어떻게 진화하는지 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 내 지갑에 IBAN을? 블록체인과 은행 연결의 새로운 시도</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban/</guid>
+      <description>자기주권적 금융이면서도 전통 은행 시스템과 자연스럽게 연결되는 방법이 생겼다. 개인별 암호화폐 IBAN은 기존 지갑의 한계를 넘어 실생활 금융에 좀 더 가까워진 느낌을 준다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] USDT0와 Mantle, Bybit가 만드는 새로운 스테이블코인 경험</title>
+      <link>https://blockdailynews.online/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme/</link>
+      <pubDate>Thu, 27 Nov 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme/</guid>
+      <description>Mantle 네트워크와 Bybit가 함께 USDT의 차세대 크로스체인 버전인 USDT0를 지원하면서 스테이블코인 유동성의 변화를 예고한다. 이 협업은 단일 유동성 레이어와 간편한 크로스체인 전송이라는 시스템 혁신을 보여준다.</description>
+    </item>
+  </channel>
+</rss>

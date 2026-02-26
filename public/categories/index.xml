@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 바이낸스</title>
+    <link>https://blockdailynews.online/categories/</link>
+    <description>Recent content in Categories on 바이낸스</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 12 Feb 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://blockdailynews.online/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>블록체인</title>
+      <link>https://blockdailynews.online/categories/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</link>
+      <pubDate>Thu, 12 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/categories/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blockdailynews.online/categories/go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/categories/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://blockdailynews.online/categories/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/categories/guide/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

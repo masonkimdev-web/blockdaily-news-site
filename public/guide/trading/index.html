@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>거래 방법 (Spot / Futures) | 바이낸스</title>
+  <meta name="description" content="현물(Spot)과 선물(Futures)의 차이, 초보가 따라할 수 있는 최소 행동 가이드.">
+  <meta name="robots" content="index,follow" />
+
+  <style>
+    :root{
+      --bg:#0b0d10;
+      --panel:#0f1318;
+      --panel2:#111823;
+      --text:#e8edf2;
+      --muted:#a8b3bf;
+      --line:#1f2a37;
+      --brand:#7dd3fc;
+      --brand2:#a78bfa;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --r:16px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(125,211,252,.12), transparent 60%),
+                  radial-gradient(900px 600px at 110% 10%, rgba(167,139,250,.10), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+    }
+    a{color:inherit; text-decoration:none}
+
+    .topbar{
+      position:sticky; top:0; z-index:60;
+      backdrop-filter: blur(10px);
+      background: rgba(11,13,16,.7);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex; align-items:center; justify-content:space-between;
+      max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;
+      flex-wrap:nowrap;
+    }
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px;}
+    .badge{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid rgba(125,211,252,.35); background: rgba(125,211,252,.08); color: var(--brand);}
+    .cta{display:flex; gap:10px; align-items:center;}
+    .btn{display:inline-flex; align-items:center; justify-content:center; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(255,255,255,.03); cursor:pointer; transition: transform .08s ease, border-color .2s ease, background .2s ease; font-weight:600; white-space:nowrap;}
+    .btn:hover{transform: translateY(-1px); border-color: rgba(125,211,252,.35); background: rgba(255,255,255,.05)}
+    .btn.primary{border-color: rgba(125,211,252,.35); background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));}
+
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:16px;
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap:16px;
+    }
+
+    .sidebar{
+      position:sticky;
+      top:72px;
+      align-self:start;
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      background: rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .side-head{padding:14px 14px 10px; border-bottom:1px solid var(--line); background: rgba(255,255,255,.02);}
+    .side-title{font-weight:800; margin:0 0 8px; font-size:14px; color:var(--muted)}
+    .search{width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.25); color:var(--text); outline:none;}
+    .nav{padding:10px; display:flex; flex-direction:column; gap:6px; max-height: calc(100vh - 170px); overflow:auto;}
+    .nav a{padding:10px 10px; border-radius:12px; border:1px solid transparent; display:flex; gap:10px; align-items:center; color:var(--muted);}
+    .nav a:hover{background: rgba(255,255,255,.04); color:var(--text)}
+    .nav a.active{color:var(--text); border-color: rgba(125,211,252,.35); background: rgba(125,211,252,.08);}
+    .dot{width:8px; height:8px; border-radius:99px; background: rgba(125,211,252,.7); flex:0 0 auto; box-shadow: 0 0 0 4px rgba(125,211,252,.12);}
+
+    .main{border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
+    .main-inner{padding:22px 22px 30px;}
+    .crumb{color:var(--muted); font-size:13px; margin-bottom:10px;}
+
+    h1,h2,h3{line-height:1.25}
+    h1{font-size:28px; margin:6px 0 14px}
+    h2{font-size:18px; margin:22px 0 10px}
+    h3{font-size:15px; margin:18px 0 8px; color:var(--muted)}
+    p,li{color:var(--text); opacity:.92}
+    hr{border:none; border-top:1px solid var(--line); margin:18px 0}
+    code{font-family:var(--mono); font-size:13px; background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
+    pre{background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.07); border-radius:14px; padding:14px; overflow:auto; position:relative;}
+    pre code{background:transparent; border:none; padding:0}
+    .copy{position:absolute; top:10px; right:10px; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--muted); cursor:pointer; font-size:12px;}
+    .copy:hover{color:var(--text); border-color: rgba(125,211,252,.35)}
+
+     
+    .main-inner a{
+      color: var(--brand);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .main-inner a:hover{ opacity:.9; }
+    .main-inner a.btnlink{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid rgba(125,211,252,.35);
+      background: rgba(125,211,252,.10);
+      text-decoration:none;
+      font-weight:800;
+    }
+    .main-inner a.btnlink::after{ content:"→"; opacity:.9; }
+
+     
+    .disclaimer{
+      margin-top: 22px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.06);
+      background: rgba(255,255,255,.02);
+    }
+    .disclaimer-title{
+      font-weight: 600;
+      margin: 0 0 6px;
+      font-size: 11px;
+      letter-spacing: .4px;
+      color: rgba(255,255,255,.35);
+      text-transform: uppercase;
+    }
+    .disclaimer p{
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.6;
+      color: rgba(255,255,255,.55);
+    }
+    .disclaimer b{ font-weight: 600; }
+    .disclaimer a{
+      color: rgba(125,211,252,.8);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+     
+    .overlay{
+      display:none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.72);
+      z-index: 40;
+    }
+
+     
+    .cta-fixed{ display:none; }
+
+    @media (max-width: 980px){
+      body.menu-open{ overflow:hidden; }
+
+      .wrap{ display:block; }
+
+      .sidebar{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: min(86vw, 360px);
+        z-index: 50;
+        transform: translateX(-110%);
+        transition: transform .18s ease;
+        border-radius: 0 16px 16px 0;
+        background: rgba(11,13,16,.98);
+        box-shadow: 0 20px 60px rgba(0,0,0,.6);
+      }
+      body.menu-open .sidebar{ transform: translateX(0); }
+      body.menu-open .overlay{ display:block; }
+
+      .topbar-inner{ flex-wrap: wrap; }
+      #primaryCta{ display:none; }
+
+      .cta-fixed{
+        display:flex;
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        z-index: 60;
+        align-items:center;
+        justify-content:center;
+        padding: 14px 14px;
+        padding-bottom: calc(14px + env(safe-area-inset-bottom));
+        border-radius: 16px;
+        border: 1px solid rgba(125,211,252,.45);
+        background: linear-gradient(135deg, rgba(125,211,252,.22), rgba(167,139,250,.18));
+        color: var(--text);
+        font-weight: 900;
+        box-shadow: 0 14px 40px rgba(0,0,0,.55);
+      }
+
+      .main-inner{ padding-bottom: 110px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/">
+        <span>blockdailynews</span>
+        <span class="badge">GUIDE</span>
+      </a>
+      <div class="cta">
+        <button class="btn" id="menuBtn" type="button" aria-label="Open menu">Menu</button>
+        <a class="btn" href="/guide/">Guide Home</a>
+        <a class="btn primary" id="primaryCta" href="/go/binance-next/">평생 수수료 할인 받기</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <aside class="sidebar" aria-label="Guide navigation">
+      <div class="side-head">
+        <p class="side-title">빠른 탐색</p>
+        <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
+      </div>
+
+      <nav class="nav" id="navList">
+        <a href="/guide/" data-href="/guide/">
+          <span class="dot"></span>
+          <span>비트코인 하는법 가이드</span>
+        </a>
+
+        
+        
+          <a href="/guide/binance-signup/" data-href="/guide/binance-signup/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>바이낸스 가입 방법</span>
+          </a>
+        
+          <a href="/guide/deposit/" data-href="/guide/deposit/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>업비트 → 바이낸스 입금 방법</span>
+          </a>
+        
+          <a href="/guide/trading/" data-href="/guide/trading/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>거래 방법 (Spot / Futures)</span>
+          </a>
+        
+          <a href="/guide/withdraw/" data-href="/guide/withdraw/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>바이낸스 → 업비트 출금 방법</span>
+          </a>
+        
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="crumb">
+          <a href="/" style="color:var(--muted)">Home</a>
+          <span> / </span>
+          <a href="/guide/" style="color:var(--muted)">Guide</a>
+          <span> / </span>
+          <span style="color:var(--muted)">거래 방법 (Spot / Futures)</span>
+        </div>
+
+        <h1 id="거래-방법-spot--futures">거래 방법 (Spot / Futures)</h1>
+<h2 id="0-spot-vs-futures-차이">0) Spot vs Futures 차이</h2>
+<ul>
+<li><strong>Spot(현물)</strong>: 코인을 실제로 사고파는 거래</li>
+<li><strong>Futures(선물)</strong>: 레버리지로 포지션(롱/숏)을 잡는 거래 (청산 위험)</li>
+</ul>
+<blockquote>
+<p>초보는 기본적으로 <strong>Spot 위주</strong>로 익숙해진 뒤에 Futures를 접근하는 걸 권장합니다.</p>
+</blockquote>
+<hr>
+<h2 id="1-spot현물-기본-흐름">1) Spot(현물) 기본 흐름</h2>
+<ol>
+<li>Markets에서 거래쌍 선택(예: BTC/USDT)</li>
+<li>Buy(매수) / Sell(매도)</li>
+<li>지정가(Limit) vs 시장가(Market)
+<ul>
+<li>Market: 즉시 체결(편하지만 슬리피지 가능)</li>
+<li>Limit: 원하는 가격에 걸어둠</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-futures선물-최소-이해">2) Futures(선물) 최소 이해</h2>
+<ul>
+<li><strong>레버리지</strong>: 작은 증거금으로 큰 포지션</li>
+<li><strong>롱/숏</strong>: 상승/하락 방향 베팅</li>
+<li><strong>청산</strong>: 증거금 부족하면 강제 종료</li>
+</ul>
+<h3 id="초보-안전-장치강권">초보 안전 장치(강권)</h3>
+<ul>
+<li>레버리지 낮게(예: 2x 이하)</li>
+<li>손절(Stop) 개념 반드시 적용</li>
+<li>한 번에 크게 넣지 않기</li>
+</ul>
+<hr>
+<h2 id="다음-단계">다음 단계</h2>
+<p>👉 <strong><a href="/guide/withdraw/">바이낸스 → 업비트 출금 방법</a></strong> 으로 이동하세요.</p>
+
+
+        <div class="disclaimer" role="note" aria-label="교육용 고지">
+          <div class="disclaimer-title">educational notice</div>
+          <p>
+            ⚠️ 본 가이드는 <b>교육 및 정보 제공</b>을 위한 자료입니다.
+            <br/>
+            투자 판단 및 거래 결정에 대한 책임은 이용자 본인에게 있습니다.
+            <br/>
+          </p>
+        </div>
+
+        <hr/>
+        <p style="color:var(--muted); font-size:13px; margin:0;">
+          다음 단계는 왼쪽 메뉴에서 바로 이동할 수 있어요.
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    
+    (function(){
+      const current = location.pathname.replace(/\/+$/, '/') ;
+      const links = document.querySelectorAll('#navList a');
+      links.forEach(a=>{
+        const href = (a.getAttribute('data-href') || a.getAttribute('href') || '').replace(/\/+$/, '/');
+        if(href === current) a.classList.add('active');
+      });
+    })();
+
+    
+    (function(){
+      const input = document.getElementById('navSearch');
+      const items = Array.from(document.querySelectorAll('#navList a'));
+      input.addEventListener('input', ()=>{
+        const q = input.value.trim().toLowerCase();
+        items.forEach(a=>{
+          const t = a.textContent.toLowerCase();
+          a.style.display = (!q || t.includes(q)) ? '' : 'none';
+        });
+      });
+    })();
+
+    
+    (function(){
+      document.querySelectorAll('pre').forEach(pre=>{
+        const btn = document.createElement('button');
+        btn.className = 'copy';
+        btn.type = 'button';
+        btn.textContent = 'Copy';
+        btn.addEventListener('click', async ()=>{
+          const code = pre.innerText;
+          try{
+            await navigator.clipboard.writeText(code);
+            btn.textContent = 'Copied';
+            setTimeout(()=>btn.textContent='Copy', 900);
+          }catch(e){
+            btn.textContent = 'Failed';
+            setTimeout(()=>btn.textContent='Copy', 900);
+          }
+        });
+        pre.appendChild(btn);
+      });
+    })();
+
+    
+    (function(){
+      const btn = document.getElementById('menuBtn');
+      const overlay = document.getElementById('overlay');
+      if(!btn || !overlay) return;
+
+      const close = () => document.body.classList.remove('menu-open');
+      const toggle = () => {
+        document.body.classList.toggle('menu-open');
+        if(document.body.classList.contains('menu-open')){
+          setTimeout(()=> document.getElementById('navSearch')?.focus(), 50);
+        }
+      };
+
+      btn.addEventListener('click', toggle);
+      overlay.addEventListener('click', close);
+
+      document.querySelectorAll('#navList a').forEach(a=>{
+        a.addEventListener('click', close);
+      });
+
+      window.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape') close();
+      });
+    })();
+  </script>
+
+  
+  <a class="cta-fixed" href="/go/binance-next/">평생 수수료 할인 받기</a>
+
+  
+  
+    
+
+
+
+<nav class="post-prev-next"
+  style="max-width: 760px; margin: 18px auto 0; display:flex; gap:10px; flex-wrap:wrap;">
+  
+  
+    <a href="/guide/withdraw/"
+       style="flex:1 1 320px; padding:12px 14px; border:1px solid #eee; border-radius:14px;
+              text-decoration:none; color:#111; background:#fafafa;">
+      <div style="font-size:12px; color:#777; margin-bottom:6px;">← 이전 글</div>
+      <div style="font-weight:700; line-height:1.4;">바이낸스 → 업비트 출금 방법</div>
+    </a>
+  
+
+  
+    <a href="/guide/deposit/"
+       style="flex:1 1 320px; padding:12px 14px; border:1px solid #eee; border-radius:14px;
+              text-decoration:none; color:#111; background:#fafafa; text-align:left;">
+      <div style="font-size:12px; color:#777; margin-bottom:6px;">다음 글 →</div>
+      <div style="font-weight:700; line-height:1.4;">업비트 → 바이낸스 입금 방법</div>
+    </a>
+  
+
+</nav>
+
+
+  
+</body>
+</html>

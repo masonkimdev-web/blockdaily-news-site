@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>바이낸스</title>
+    <link>https://blockdailynews.online/</link>
+    <description>Recent content on 바이낸스</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 12 Feb 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://blockdailynews.online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>바이낸스 가입 방법</title>
+      <link>https://blockdailynews.online/guide/binance-signup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/guide/binance-signup/</guid>
+      <description>&lt;h1 id=&#34;바이낸스-가입-방법&#34;&gt;바이낸스 가입 방법&lt;/h1&gt;&#xA;&lt;h2 id=&#34;목표&#34;&gt;목표&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;계정 생성&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2FA(Authenticator)&lt;/strong&gt; 설정&lt;/li&gt;&#xA;&lt;li&gt;피싱/출금 보안 기본 세팅&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-가입-준비물&#34;&gt;1) 가입 준비물&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;이메일(또는 휴대폰)&lt;/li&gt;&#xA;&lt;li&gt;Authenticator 앱(권장: Google Authenticator)&lt;/li&gt;&#xA;&lt;li&gt;본인 확인용 신분증(필요 시)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-가입-흐름&#34;&gt;2) 가입 흐름&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;바이낸스 회원가입(이메일/휴대폰)&lt;/li&gt;&#xA;&lt;li&gt;인증 메일/문자 확인&lt;/li&gt;&#xA;&lt;li&gt;로그인 후 보안 설정 이동&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-보안-설정필수급&#34;&gt;3) 보안 설정(필수급)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3-1-2fa-설정&#34;&gt;3-1) 2FA 설정&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Authenticator 기반 2FA 활성화&lt;/li&gt;&#xA;&lt;li&gt;**백업키(복구키)**는 반드시 따로 보관&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-2-피싱-방지-코드권장&#34;&gt;3-2) 피싱 방지 코드(권장)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;바이낸스 메일에 고유 코드 표시되게 설정&lt;/li&gt;&#xA;&lt;li&gt;피싱 메일 구분에 도움&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-3-출금-주소-관리가능하면&#34;&gt;3-3) 출금 주소 관리(가능하면)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;출금 화이트리스트 기능 사용&lt;/li&gt;&#xA;&lt;li&gt;자주 쓰는 주소만 등록&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;체크포인트&#34;&gt;체크포인트&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 2FA 백업키 저장했는가?&lt;/li&gt;&#xA;&lt;li&gt;✅ 피싱방지코드 설정했는가?&lt;/li&gt;&#xA;&lt;li&gt;✅ 로그인 알림/보안 알림 켰는가?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;다음-단계&#34;&gt;다음 단계&lt;/h2&gt;&#xA;&lt;p&gt;👉 &lt;strong&gt;&lt;a href=&#34;https://blockdailynews.online/guide/deposit/&#34;&gt;업비트 → 바이낸스 입금 방법&lt;/a&gt;&lt;/strong&gt; 로 이동하세요.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>업비트 → 바이낸스 입금 방법</title>
+      <link>https://blockdailynews.online/guide/deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/guide/deposit/</guid>
+      <description>&lt;h1 id=&#34;업비트--바이낸스-입금-방법&#34;&gt;업비트 → 바이낸스 입금 방법&lt;/h1&gt;&#xA;&lt;h2 id=&#34;핵심-요약&#34;&gt;핵심 요약&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;업비트에서 코인 구매 → 바이낸스 입금 주소 확인 → 업비트 출금&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;가장 많이 터지는 문제 = 네트워크(체인) 선택 실수&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-어떤-코인을-보내야-하나&#34;&gt;1) 어떤 코인을 보내야 하나?&lt;/h2&gt;&#xA;&lt;p&gt;초보 기준은 보통 아래 중 하나를 씁니다(상황 따라 다름).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;USDT (네트워크 선택 중요)&lt;/li&gt;&#xA;&lt;li&gt;XRP / XLM (전송 빠르고 수수료 낮은 편, 태그/메모 주의)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;무엇을 고르든 &lt;strong&gt;바이낸스가 지원하는 네트워크/입금 방식&lt;/strong&gt; 먼저 확인하세요.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-바이낸스에서-입금-주소-확인&#34;&gt;2) 바이낸스에서 입금 주소 확인&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;바이낸스 → Wallet(지갑) → Deposit(입금)&lt;/li&gt;&#xA;&lt;li&gt;코인 선택&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Network(네트워크)&lt;/strong&gt; 선택&lt;/li&gt;&#xA;&lt;li&gt;주소 복사(필요 시 Memo/Tag도 같이)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-업비트에서-출금&#34;&gt;3) 업비트에서 출금&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;업비트 → 해당 코인 → 출금&lt;/li&gt;&#xA;&lt;li&gt;바이낸스 주소 붙여넣기&lt;/li&gt;&#xA;&lt;li&gt;네트워크 동일하게 선택&lt;/li&gt;&#xA;&lt;li&gt;소액 테스트(권장) → 정상 입금 확인 → 본 전송&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;실수-방지-체크리스트&#34;&gt;실수 방지 체크리스트&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 코인 종류가 동일한가?&lt;/li&gt;&#xA;&lt;li&gt;✅ 네트워크가 동일한가?&lt;/li&gt;&#xA;&lt;li&gt;✅ Memo/Tag가 필요한 코인인데 누락하지 않았나?&lt;/li&gt;&#xA;&lt;li&gt;✅ 소액 테스트를 했나?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;다음-단계&#34;&gt;다음 단계&lt;/h2&gt;&#xA;&lt;p&gt;👉 &lt;strong&gt;&lt;a href=&#34;https://blockdailynews.online/guide/trading/&#34;&gt;거래 방법(Spot/Futures)&lt;/a&gt;&lt;/strong&gt; 으로 이동하세요.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>거래 방법 (Spot / Futures)</title>
+      <link>https://blockdailynews.online/guide/trading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/guide/trading/</guid>
+      <description>&lt;h1 id=&#34;거래-방법-spot--futures&#34;&gt;거래 방법 (Spot / Futures)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;0-spot-vs-futures-차이&#34;&gt;0) Spot vs Futures 차이&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Spot(현물)&lt;/strong&gt;: 코인을 실제로 사고파는 거래&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Futures(선물)&lt;/strong&gt;: 레버리지로 포지션(롱/숏)을 잡는 거래 (청산 위험)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;초보는 기본적으로 &lt;strong&gt;Spot 위주&lt;/strong&gt;로 익숙해진 뒤에 Futures를 접근하는 걸 권장합니다.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-spot현물-기본-흐름&#34;&gt;1) Spot(현물) 기본 흐름&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Markets에서 거래쌍 선택(예: BTC/USDT)&lt;/li&gt;&#xA;&lt;li&gt;Buy(매수) / Sell(매도)&lt;/li&gt;&#xA;&lt;li&gt;지정가(Limit) vs 시장가(Market)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Market: 즉시 체결(편하지만 슬리피지 가능)&lt;/li&gt;&#xA;&lt;li&gt;Limit: 원하는 가격에 걸어둠&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-futures선물-최소-이해&#34;&gt;2) Futures(선물) 최소 이해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;레버리지&lt;/strong&gt;: 작은 증거금으로 큰 포지션&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;롱/숏&lt;/strong&gt;: 상승/하락 방향 베팅&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;청산&lt;/strong&gt;: 증거금 부족하면 강제 종료&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;초보-안전-장치강권&#34;&gt;초보 안전 장치(강권)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;레버리지 낮게(예: 2x 이하)&lt;/li&gt;&#xA;&lt;li&gt;손절(Stop) 개념 반드시 적용&lt;/li&gt;&#xA;&lt;li&gt;한 번에 크게 넣지 않기&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;다음-단계&#34;&gt;다음 단계&lt;/h2&gt;&#xA;&lt;p&gt;👉 &lt;strong&gt;&lt;a href=&#34;https://blockdailynews.online/guide/withdraw/&#34;&gt;바이낸스 → 업비트 출금 방법&lt;/a&gt;&lt;/strong&gt; 으로 이동하세요.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>바이낸스 → 업비트 출금 방법</title>
+      <link>https://blockdailynews.online/guide/withdraw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/guide/withdraw/</guid>
+      <description>&lt;h1 id=&#34;바이낸스--업비트-출금-방법&#34;&gt;바이낸스 → 업비트 출금 방법&lt;/h1&gt;&#xA;&lt;h2 id=&#34;핵심-요약&#34;&gt;핵심 요약&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;업비트에서 &lt;strong&gt;입금 주소&lt;/strong&gt; 확인 → 바이낸스에서 &lt;strong&gt;Withdraw(출금)&lt;/strong&gt; → 업비트 입금 확인&lt;/li&gt;&#xA;&lt;li&gt;여기서도 &lt;strong&gt;네트워크(체인) 실수&lt;/strong&gt;가 제일 위험합니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-업비트-입금-주소-확인&#34;&gt;1) 업비트 입금 주소 확인&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;업비트 → 입금 → 코인 선택&lt;/li&gt;&#xA;&lt;li&gt;네트워크 확인&lt;/li&gt;&#xA;&lt;li&gt;주소 복사(필요 시 태그/메모 포함)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-바이낸스-출금&#34;&gt;2) 바이낸스 출금&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;바이낸스 → Wallet → Withdraw&lt;/li&gt;&#xA;&lt;li&gt;코인 선택&lt;/li&gt;&#xA;&lt;li&gt;업비트 주소 붙여넣기&lt;/li&gt;&#xA;&lt;li&gt;네트워크 동일하게 선택&lt;/li&gt;&#xA;&lt;li&gt;소액 테스트(권장) → 본 출금&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;체크리스트&#34;&gt;체크리스트&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 주소/태그 정확한가?&lt;/li&gt;&#xA;&lt;li&gt;✅ 네트워크 동일한가?&lt;/li&gt;&#xA;&lt;li&gt;✅ 2FA 동작 확인했나?&lt;/li&gt;&#xA;&lt;li&gt;✅ 소액 테스트했나?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;마무리&#34;&gt;마무리&lt;/h2&gt;&#xA;&lt;p&gt;이제 원화가 필요하면 업비트에서 매도 후 원화 출금을 진행하면 됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[바이낸스] LABUBU 토큰, PancakeSwap 상장을 통해 열린 Web3 IP 생태계의 가능성</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-12-labubu-officially-listed-on-pancakeswap-on-february-13/</link>
+      <pubDate>Thu, 12 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-12-labubu-officially-listed-on-pancakeswap-on-february-13/</guid>
+      <description>LABUBU 토큰이 BNB 체인 기반의 PancakeSwap에서 거래를 시작하며, 단순 토큰을 넘어 IP 생태계 확장의 신호탄을 쐈습니다. 이 글에서는 LABUBU의 생태계 구조와 핵심 포인트, 그리고 개인적인 궁금증을 중심으로 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 거래 실력을 키우는 Phemex의 새로운 시즌제 트레이딩 리그, PATL 살펴보기</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-12-phemex-astral-trading-league-patl-goes-live-building-a-susta/</link>
+      <pubDate>Thu, 12 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-12-phemex-astral-trading-league-patl-goes-live-building-a-susta/</guid>
+      <description>Phemex가 기존 단발성 거래 대회 방식을 바꿔 시즌별 진행하는 꾸준한 성장형 트레이딩 리그 &amp;lsquo;PATL&amp;rsquo;을 내놓았다. 단기 거래량에 치중하기보다 실력과 전략 발전을 중시하는 이 시스템은 다양한 난이도와 보상 구조로 거래자들의 지속적인 참여를 유도한다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 글로벌 비트코인 채굴사 Cango, 대규모 주식 투자로 AI·컴퓨팅 확장 박차</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-12-cango-inc-closed-the-us105-million-equity-investment-and-sec/</link>
+      <pubDate>Thu, 12 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-12-cango-inc-closed-the-us105-million-equity-investment-and-sec/</guid>
+      <description>Cango가 1,060만 달러 규모 지분 투자를 완료하고 주요 임원들의 6,500만 달러 추가 투자를 확보했다. 이 자금은 AI와 컴퓨팅 인프라 확장에 쓰일 예정이다. 블록체인과 에너지, AI가 교차하는 기업의 전략적 움직임을 짚어본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 글로벌 비트코인 채굴 기업의 AI 인프라 도전, 무엇을 남길까?</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-09-cango-inc-releases-2025-letter-to-shareholders/</link>
+      <pubDate>Mon, 09 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-09-cango-inc-releases-2025-letter-to-shareholders/</guid>
+      <description>비트코인 채굴 중심의 글로벌 기업이 AI 컴퓨팅 인프라로 사업 전환을 시도하는 흐름을 살펴봅니다. 이 변화가 시장과 기술적 의미에서 갖는 함의를 공부하며, 제 관점에서 주목한 포인트를 공유합니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 24시간 열려 있는 전통자산 선물 거래, Phemex TradFi가 의미하는 것</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-06-phemex-introduces-247-tradfi-futures-trading-with-0-fee-carn/</link>
+      <pubDate>Fri, 06 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-06-phemex-introduces-247-tradfi-futures-trading-with-0-fee-carn/</guid>
+      <description>Phemex가 전통금융 자산을 24시간 거래할 수 있는 선물 플랫폼을 선보였다. 암호화폐와 기존 자산을 한곳에서 다룰 수 있는 이 새로운 서비스는 거래 시간과 비용 측면에서 여러 변화를 시도한다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 프라이빗 투자에 토큰화가 가져올 변화, Gamma Prime과 그 의미</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-05-gamma-prime--tokenized-capital-summit-hong-kong-showing-its-/</link>
+      <pubDate>Thu, 05 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-05-gamma-prime--tokenized-capital-summit-hong-kong-showing-its-/</guid>
+      <description>프라이빗 투자는 그간 접근이 어려웠던 영역 중 하나입니다. Gamma Prime의 토큰화된 투자 마켓플레이스는 비상관자산에 새로운 접근 방식을 제공하면서, 전통 금융과 블록체인 기술을 연결하는 가교 역할을 모색하고 있습니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 기관 디지털 재무 전략에서 주목받는 ‘실물 자산 토큰화’ 의미와 전망</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-04-zeta-network-group-outlines-strategic-focus-on-real-world-as/</link>
+      <pubDate>Wed, 04 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-04-zeta-network-group-outlines-strategic-focus-on-real-world-as/</guid>
+      <description>기관투자가들이 디지털 자산을 단순히 보유하는 단계를 넘어서 실물 자산 토큰화에 관심을 기울이고 있습니다. 이 글에서는 Zeta Network를 통해 살펴본 실물 자산 토큰화가 왜 점점 더 중요해지는지, 그리고 제가 공부하며 느낀 핵심 포인트와 질문들을 공유합니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 채굴 환경과 운영 전략에서 생각해볼 점들</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-04-cango-inc-announces-january-2026-bitcoin-production-and-mini/</link>
+      <pubDate>Wed, 04 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-04-cango-inc-announces-january-2026-bitcoin-production-and-mini/</guid>
+      <description>최근 비트코인 채굴 회사의 1월 실적과 운용 변화를 살펴보며, 날씨 영향과 해시파워 조정, 그리고 채굴된 코인의 활용 전략에 대해 이야기합니다. 직접 공부하며 느낀 주요 포인트와 함께 채굴 생태계의 다양성을 이해하는 데 도움이 될 글입니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 여러 게임에서 내 아이템을 키우는 새로운 시도, 에센스 오브 디 엘리먼츠</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-03-enjin-launches-essence-of-the-elements-a-cross-game-multiver/</link>
+      <pubDate>Tue, 03 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-03-enjin-launches-essence-of-the-elements-a-cross-game-multiver/</guid>
+      <description>여러 게임을 넘나들며 한 가지 아이템을 키우고 쓸 수 있는 새로운 블록체인 경험, 에센스 오브 디 엘리먼츠를 살펴봅니다. 게임 간 진짜 아이템 소유권과 확장성에 대해 공부하며 생각해본 점들을 공유합니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 유럽에서 블록체인 지갑으로 만나는 미국 주식과 ETF 이야기</title>
+      <link>https://blockdailynews.online/news/2026/02/2026-02-03-blockchaincom--ondo-finance-launch-onchain-tokenized-us-stoc/</link>
+      <pubDate>Tue, 03 Feb 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2026/02/2026-02-03-blockchaincom--ondo-finance-launch-onchain-tokenized-us-stoc/</guid>
+      <description>블록체인 기술이 본격적으로 주식과 ETF 투자 영역까지 확장되고 있습니다. 이번에는 Blockchain.com과 Ondo Finance가 협력해 유럽 시장에 토큰화된 미국 주식과 ETF를 직접 지갑에서 거래할 수 있는 환경을 제공하게 되었습니다. 이 글에서는 그 의미와 가능성, 그리고 개인적 관점에서 주목할 점들을 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>바이낸스 가입 방법 &amp; KYC 인증 총정리 (2026년 최신 가이드, 초보도 10분 완성)</title>
+      <link>https://blockdailynews.online/signup-guide/</link>
+      <pubDate>Thu, 01 Jan 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/signup-guide/</guid>
+      <description>&lt;p&gt;본 글은 &lt;strong&gt;세계 최대 규모 암호화폐 거래소 바이낸스&lt;/strong&gt;의&lt;br&gt;&#xA;가입 과정과 KYC 인증 절차, 입금·보안 설정 관련 내용을 정리한 &lt;strong&gt;정보 제공용 안내문&lt;/strong&gt;입니다. 투자 권유 목적이 전혀 없습니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div style=&#34;&#xD;&#xA;  max-width: 720px;&#xD;&#xA;  margin: 28px auto;&#xD;&#xA;  padding: 22px 26px;&#xD;&#xA;  border-radius: 16px;&#xD;&#xA;  background: #fffbe6;&#xD;&#xA;  border: 2px solid #f3ba2f;&#xD;&#xA;  display: flex;&#xD;&#xA;  align-items: center;&#xD;&#xA;  gap: 20px;&#xD;&#xA;&#34;&gt;&#xD;&#xA;  &lt;!-- 로고 --&gt;&#xD;&#xA;  &lt;div style=&#34;flex-shrink:0;&#34;&gt;&#xD;&#xA;    &lt;img&#xD;&#xA;      src=&#34;https://blockdailynews.online/images/binance-logo.png&#34;&#xD;&#xA;      alt=&#34;Binance Logo&#34;&#xD;&#xA;      style=&#34;width:64px;height:64px;border-radius:50%;&#34;&#xD;&#xA;    &gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;!-- 텍스트 영역 --&gt;&#xD;&#xA;  &lt;div style=&#34;flex:1;&#34;&gt;&#xD;&#xA;    &lt;div style=&#34;font-size:18px;font-weight:700;margin-bottom:6px;&#34;&gt;&#xD;&#xA;      수수료 20% 평생 할인 혜택&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div style=&#34;font-size:14px;color:#555;line-height:1.5;&#34;&gt;&#xD;&#xA;      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;div style=&#34;margin-top:14px;&#34;&gt;&#xD;&#xA;      &lt;a href=&#34;https://accounts.binance.com/register?ref=BLOCKDNEWS&#34;&#xD;&#xA;         target=&#34;_blank&#34;&#xD;&#xA;         rel=&#34;noopener noreferrer&#34;&#xD;&#xA;         style=&#34;&#xD;&#xA;           display:inline-block;&#xD;&#xA;           padding:12px 22px;&#xD;&#xA;           background:#f3ba2f;&#xD;&#xA;           color:#000;&#xD;&#xA;           font-weight:700;&#xD;&#xA;           font-size:15px;&#xD;&#xA;           border-radius:12px;&#xD;&#xA;           text-decoration:none;&#xD;&#xA;         &#34;&gt;&#xD;&#xA;        바이낸스 공식 홈페이지 바로가기&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-바이낸스-거래소란&#34;&gt;1. 바이낸스 거래소란?&lt;/h2&gt;&#xA;&lt;p&gt;바이낸스(Binance)는 2017년 설립된 글로벌 암호화폐 거래소로,&lt;br&gt;&#xA;현재 100여 개국 이상에서 서비스되고 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>바이낸스 가입 안내 – 뉴스 사이트 이용 가이드</title>
+      <link>https://blockdailynews.online/blockchain-guide/</link>
+      <pubDate>Thu, 01 Jan 2026 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/blockchain-guide/</guid>
+      <description>&lt;h2 id=&#34;바이낸스-가입-안내--뉴스-사이트-이용-가이드&#34;&gt;바이낸스 가입 안내 – 뉴스 사이트 이용 가이드&lt;/h2&gt;&#xA;&lt;p&gt;바이낸스는&lt;br&gt;&#xA;블록체인과 디지털 자산 시장의 주요 이슈를 정리해 제공하는&lt;br&gt;&#xA;&lt;strong&gt;독립적인 뉴스 미디어 사이트&lt;/strong&gt;입니다.&lt;/p&gt;&#xA;&lt;p&gt;이 사이트에는&lt;br&gt;&#xA;별도의 회원가입, 로그인, 계정 생성 절차가 없으며&lt;br&gt;&#xA;누구나 자유롭게 콘텐츠를 열람할 수 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;이 문서는&lt;br&gt;&#xA;‘바이낸스 가입방법’을 검색하거나&lt;br&gt;&#xA;사이트 이용 방식이 궁금한 분들을 위한&lt;br&gt;&#xA;&lt;strong&gt;공식 이용 안내 가이드&lt;/strong&gt;입니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;바이낸스-가입-이란-무엇인가요&#34;&gt;바이낸스 가입 이란 무엇인가요?&lt;/h3&gt;&#xA;&lt;p&gt;이 사이트에서 말하는 **‘가입’**은&lt;br&gt;&#xA;아이디 생성이나 회원 등록을 의미하지 않습니다.&lt;/p&gt;&#xA;&lt;p&gt;바이낸스 가입이란 다음과 같은 의미입니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 가격, 미국 GDP 발표 전 어떤 움직임을 보일까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-23-bitcoin-price-forecast-what-matters-ahead-of-the-us-gdp-repo/</link>
+      <pubDate>Tue, 23 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-23-bitcoin-price-forecast-what-matters-ahead-of-the-us-gdp-repo/</guid>
+      <description>비트코인은 중요한 미국 GDP 지표 발표를 앞두고 좁은 가격 구간에서 움직임을 보이고 있습니다. 경제 성장률이 예상치를 넘거나 못 미칠 때 비트코인은 어떻게 반응할지 함께 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Bitmine의 ETH 대량 보유와 기업 전략: 블록체인 투자에서 무엇을 배울까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-22-bitmine-immersion-bmnr-announces-eth-holdings-reach-4066-mil/</link>
+      <pubDate>Mon, 22 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-22-bitmine-immersion-bmnr-announces-eth-holdings-reach-4066-mil/</guid>
+      <description>Bitmine이 400만 개 이상의 이더리움을 보유하며 전체 공급량의 3.37%를 차지하는 상황을 살펴본다. 단순한 보유 규모를 넘어 회사가 추구하는 장기적 투자 방향과 스테이킹 인프라 구축까지 어떻게 진행되고 있는지 이야기한다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 9만 달러 돌파, 다시 시장 관심이 집중되는 이유는?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-22-bitcoin-surges-back-above-90000--whats-driving-the-latest-ra/</link>
+      <pubDate>Mon, 22 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-22-bitcoin-surges-back-above-90000--whats-driving-the-latest-ra/</guid>
+      <description>비트코인이 9만 달러선을 넘어 다시 상승 흐름을 보이고 있습니다. 금리 인하 기대와 기관 투자자들의 움직임이 복합적으로 작용하며 나타난 최근 변화의 배경과 제 관점을 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 가격이 1만 달러로 뚝 떨어질까? 마이크 맥글론의 예측을 살펴보다</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-22-bloomberg-analyst-mike-mcglone-predicts-bitcoin-crash-to-100/</link>
+      <pubDate>Mon, 22 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-22-bloomberg-analyst-mike-mcglone-predicts-bitcoin-crash-to-100/</guid>
+      <description>블룸버그의 마이크 맥글론이 비트코인이 내년에 1만 달러까지 하락할 수 있다고 전망하며 투자자들 사이에서 화제가 됐습니다. 이번 글에서는 그의 과거 예측과 현재 시장 상황을 바탕으로 이 전망이 현실적인지, 그리고 비트코인의 미래를 어떻게 바라봐야 할지 생각을 정리해 봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인과 금, 그리고 토큰화된 원자재가 내는 새로운 신호</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-21-why-bitcoin-is-underperforming-gold--and-what-tokenized-comm/</link>
+      <pubDate>Sun, 21 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-21-why-bitcoin-is-underperforming-gold--and-what-tokenized-comm/</guid>
+      <description>금과 비트코인의 최근 움직임 차이가 자본의 흐름과 투자자 관점에 어떤 변화를 만들어내는지 살펴봅니다. 토큰화된 원자재가 블록체인 생태계 내에서 어떤 역할을 하며, 디지털 금으로서 비트코인의 위치 변화에 대해 고민해봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] AI 기반 암호화폐 거래 플랫폼과 토큰 인수, 블록체인 업계에 주는 시사점</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-17-jzxn-in-discussions-to-acquire-1b-in-tokens-from-ai-trading-/</link>
+      <pubDate>Wed, 17 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-17-jzxn-in-discussions-to-acquire-1b-in-tokens-from-ai-trading-/</guid>
+      <description>최근 한 기업이 AI 기술과 암호화폐 거래를 접목한 프로젝트에 대규모 토큰 인수를 추진하며 관심을 모으고 있다. 이번 협력은 AI 진단부터 거래 엔진까지 통합하는 플랫폼 구축을 목표로 하며, 실제 시장 진입과 기술적 시너지에 주목해볼 만하다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 마이크로스트레티지 주가와 비트코인의 미래, 2028년이 중요한 이유</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-17-microstrategy-under-pressure-falling-bitcoin-prices-and-inde/</link>
+      <pubDate>Wed, 17 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-17-microstrategy-under-pressure-falling-bitcoin-prices-and-inde/</guid>
+      <description>마이크로스트레티지는 비트코인 가격 하락과 MSCI 지수 편출 가능성이라는 이중고 속에 놓여 있습니다. 이 상황이 특히 2028년에 중요한 전환점이 될 수 있다는 점을 집중적으로 다룹니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 일본 금리 인상과 비트코인 하락, 어떤 연결고리가 있을까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-17-japan-rate-shock-ahead-analysts-warn-of-a-2030-bitcoin-price/</link>
+      <pubDate>Wed, 17 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-17-japan-rate-shock-ahead-analysts-warn-of-a-2030-bitcoin-price/</guid>
+      <description>일본 중앙은행의 금리 인상이 비트코인 시장에 미칠 영향을 살펴봅니다. 과거 금리 변동과 비트코인 가격의 흐름을 통해 향후 시장 분위기는 어떻게 전개될지 고민해봤습니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 마이클 세일러가 바라보는 비트코인, 하락기에도 매수 신호가 의미하는 바는?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-15-michael-saylor-signals-further-bitcoin-purchases-as-btc-slid/</link>
+      <pubDate>Mon, 15 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-15-michael-saylor-signals-further-bitcoin-purchases-as-btc-slid/</guid>
+      <description>최근 비트코인 가격이 8만 8천 달러 아래로 잠시 떨어진 가운데, 마이클 세일러가 추가 매입 가능성을 내비쳤습니다. 이 글은 그 배경과 의미를 살펴보며, 일본 금리 인상 전망과 시장 변동성에 대해 생각해 봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 분산 AI 생태계의 새로운 시도, Gensyn $AI 토큰 세일 주목하기</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-15-gensyn-launches-ai-token-sale-on-sonar/</link>
+      <pubDate>Mon, 15 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-15-gensyn-launches-ai-token-sale-on-sonar/</guid>
+      <description>Gensyn이 자체 토큰인 $AI를 기반으로 한 토큰 세일을 진행하며 메인넷을 준비 중입니다. 분산 AI 네트워크에서 경제적 인센티브와 투명한 거래 체계를 어떻게 구현하는지 궁금한 분들을 위한 글입니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 $80,000 지지선, 기관 매집과 온체인 지표에서 본 의미</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-finds-structural-support-as-institutional-buying-anc/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-finds-structural-support-as-institutional-buying-anc/</guid>
+      <description>최근 비트코인 가격은 약 $90,000 부근에서 움직이고 있지만, 온체인 데이터를 보면 $80,000 부근에 중요한 지지선이 형성돼 있음을 알 수 있습니다. 특히 기관 투자자의 매집과 ETF 흐름이 눈에 띄며, 규제 환경 변화도 장기적으로 긍정적인 신호입니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 가격 횡보 속 나만의 주목 포인트 세 가지</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-enters-a-critical-decision-phase-as-consolidation-pe/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-enters-a-critical-decision-phase-as-consolidation-pe/</guid>
+      <description>비트코인은 최근 강한 변동성 없이 좁은 가격대에서 움직이고 있다. 이런 움직임이 다음 큰 상승의 신호인지, 아니면 더 깊은 조정의 시작인지 아직 명확하지 않다. 이번 글에서는 현재 비트코인이 처한 기술적 상황과 온체인 데이터, 기관 투자 동향을 중심으로 나눈 생각을 정리해본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 거래소 잔고 감소, 투자자들은 왜 BTC를 빼내고 있을까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-flight-investors-withdraw-more-than-196000-btc-from-/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-flight-investors-withdraw-more-than-196000-btc-from-/</guid>
+      <description>최근 비트코인 거래소 내 보유량이 2018년 가을 이후 최저치를 기록하며 투자자들의 자산 이동이 활발해지고 있습니다. 이 흐름이 무엇을 의미하는지, 그리고 장기 투자 관점에서 어떤 시사점을 줄 수 있는지 함께 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인과 안전자산, 무엇이 진짜 가치 있을까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-put-to-the-test--and-according-to-critics-it-failed/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-put-to-the-test--and-according-to-critics-it-failed/</guid>
+      <description>최근 미국 연방준비제도가 금리 인하와 양적완화 신호를 보내면서 안전자산과 비트코인의 가격이 엇갈리고 있습니다. 이런 변화 속에서 비트코인의 가치와 역할을 다시 생각해보는 글입니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인이 변화를 이끄는 금융 전략의 새로운 축으로 자리 잡다</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-emerges-as-a-core-pillar-of-modern-financial-strateg/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-emerges-as-a-core-pillar-of-modern-financial-strateg/</guid>
+      <description>비트코인은 단순한 투기 수단을 넘어 금융 전략의 핵심 자산으로 부상하고 있다. 기관 투자자들이 점차 비트코인을 보유 자산으로 인식하며, 금융 시장에서 그의 역할이 변화하는 과정을 살펴본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 일본 금리 인상이 비트코인 가격에 미치는 영향과 내 생각</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-faces-potential-drop-below-70000-as-bank-of-japan-in/</link>
+      <pubDate>Sun, 14 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-14-bitcoin-faces-potential-drop-below-70000-as-bank-of-japan-in/</guid>
+      <description>최근 일본은행의 금리 인상 가능성이 비트코인 가격 하락 압력으로 작용할 수 있다는 이야기가 있다. 글로벌 유동성 축소와 연관된 이 현상이 비트코인 시장에 어떤 의미를 지니는지 살펴보고, 제가 주목하는 포인트를 중심으로 정리해본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Jiuzi Holdings의 대규모 자금 확충, 암호자산 서비스 사업 전환에 주목하다</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-12-jiuzi-holdings-inc-company-secures-commitment-to-expand-priv/</link>
+      <pubDate>Fri, 12 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-12-jiuzi-holdings-inc-company-secures-commitment-to-expand-priv/</guid>
+      <description>Jiuzi Holdings가 기존 1200만 달러 규모에서 10억 달러까지 사모 투자 확대를 추진하며 암호자산 서비스 분야로의 전략적 전환을 가속화하고 있습니다. 이번 변화가 시사하는 의미와 암호자산 생태계 내에서 주목할 점을 함께 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 암호화폐 보안의 미래, Phemex가 보여주는 새로운 시도들</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-12-phemex-co-hosts-longitude-spotlighting-the-next-era-of-crypt/</link>
+      <pubDate>Fri, 12 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-12-phemex-co-hosts-longitude-spotlighting-the-next-era-of-crypt/</guid>
+      <description>Phemex가 주최한 LONGITUDE 행사에서는 암호화폐 보안의 변화와 발전 방향에 대해 다양한 대화가 오갔다. AI를 활용한 예측 보안과 Web2와 Web3를 잇는 지갑 개발 같은 혁신적 시도가 주목받은 자리였다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 2026년 디지털 금융 무대, 바이빗의 새로운 전략과 제도권 확장</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-institutional-sets-the-stage-for-2026-at-high-profile-/</link>
+      <pubDate>Mon, 08 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-institutional-sets-the-stage-for-2026-at-high-profile-/</guid>
+      <description>바이빗이 아부다비에서 열린 기관 투자자 대상 행사에서 2026년 전략 방향과 규제 기반 확장 계획을 소개했다. 이날 자리에서 다양한 규제 허가와 기관 맞춤형 서비스 강화가 주목받으며, 디지털 금융 시장에 대한 시사점을 얻을 수 있었다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Bybit와 Circle의 협력으로 USDC 활용이 확대되는 이유와 의미</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob/</link>
+      <pubDate>Mon, 08 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-08-bybit-and-circle-forge-strategic-partnership-to-advance-glob/</guid>
+      <description>Bybit와 Circle이 손잡으면서 USDC의 접근성과 활용 범위가 크게 넓어졌습니다. 규제 준수와 글로벌 확장이라는 두 축으로 디지털 달러 생태계가 어떻게 진화하는지 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 비트코인 채굴 현황과 전략적 전환, Cango의 2025년 11월 이야기</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-08-cango-inc-announces-november-2025-bitcoin-production-and-min/</link>
+      <pubDate>Mon, 08 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-08-cango-inc-announces-november-2025-bitcoin-production-and-min/</guid>
+      <description>Cango가 2025년 11월 비트코인 채굴 성과와 사업 방향을 공유하며, 해시레이트 확장과 운영 최적화, 증권시장 전환 같은 변화를 맞이한 과정을 살펴봅니다. 이 과정에서 저의 관점을 더해 장기 비전과 관련된 궁금증도 풀어봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 사용자 의견이 만든 변화, NovaGMT의 확장 이야기</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-08-how-user-feedback-pushed-novagmt-into-its-next-big-expansion/</link>
+      <pubDate>Mon, 08 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-08-how-user-feedback-pushed-novagmt-into-its-next-big-expansion/</guid>
+      <description>트레이딩 플랫폼 NovaGMT가 이용자들의 실제 피드백을 바탕으로 빠르게 성장하면서 새로운 시장과 기능을 선보이고 있습니다. 사용자 경험과 커뮤니티 형성에 주목해 살펴본 변화의 배경과 의미를 정리했습니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Bybit PWM, 변동성 속에서도 꾸준한 수익률을 낸 비결은?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-05-bybit-private-wealth-management-beat-november-downtrend-with/</link>
+      <pubDate>Fri, 05 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-05-bybit-private-wealth-management-beat-november-downtrend-with/</guid>
+      <description>이번 글에서는 Bybit의 Private Wealth Management가 불안정한 암호화폐 시장에서도 안정적인 수익을 낸 사례를 살펴봅니다. 다양한 전략과 데이터 기반 운용이 어떻게 성과로 이어졌는지 이해해보겠습니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Phemex 연말 선물거래 대회, 내게 의미 있는 점은 무엇일까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-04-phemex-ignites-year-end-trading-frenzy-with-450000-futures-a/</link>
+      <pubDate>Thu, 04 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-04-phemex-ignites-year-end-trading-frenzy-with-450000-futures-a/</guid>
+      <description>Phemex가 총 상금 45만 USDT 규모로 연말 선물거래 대회를 진행한다. 초보자와 경험자를 모두 포용하는 대회 구조와 일상적으로 참여 가능한 이벤트들이 흥미롭다. 이번 경험을 통해 파생상품 시장과 커뮤니티 인센티브가 어떻게 맞물리는지 살펴본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Bybit와 Komainu 협업이 보여주는 기관투자자 디지털 자산 거래의 새로운 가능성</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-03-bybit-partners-with-komainu-to-offer-247-secure-trading-of-s/</link>
+      <pubDate>Wed, 03 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-03-bybit-partners-with-komainu-to-offer-247-secure-trading-of-s/</guid>
+      <description>Bybit와 Komainu의 협업은 기관투자자가 디지털 자산을 안전하게 보관하면서 24시간 거래할 수 있는 환경을 조성합니다. 이 글에서는 이 파트너십의 핵심 요소와 제가 느낀 점을 정리해봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Bybit, Mantle, Aave가 그리는 미래형 온체인 DeFi 유동성 생태계</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-bybit-mantle-and-aave-partner-to-bring-institutional-grade-d/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-bybit-mantle-and-aave-partner-to-bring-institutional-grade-d/</guid>
+      <description>Bybit, Mantle, Aave가 손잡아 글로벌 규모로 확장하는 기관급 DeFi 유동성의 흐름을 살펴봅니다. 서로 다른 강점을 결합한 이번 협력이 어떻게 중앙화 거래소와 탈중앙화 금융의 연결고리를 강화하는지 알아봅니다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] Cango의 비트코인 채굴 성장과 새로운 전략, 무엇을 시사할까?</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-cango-inc-reports-third-quarter-2025-unaudited-financial-res/</guid>
+      <description>Cango가 최근 분기 실적에서 비트코인 채굴 사업의 성장을 보여주며 운영 효율성과 자본 구조 변화에 대한 인사이트를 제공한다. 이번 글에서는 채굴 해시레이트 증가와 비용 관리, 그리고 장기 전략에 대해 살펴본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 내 지갑에 IBAN을? 블록체인과 은행 연결의 새로운 시도</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-mt-pelerin-launches-the-crypto-iban/</guid>
+      <description>자기주권적 금융이면서도 전통 은행 시스템과 자연스럽게 연결되는 방법이 생겼다. 개인별 암호화폐 IBAN은 기존 지갑의 한계를 넘어 실생활 금융에 좀 더 가까워진 느낌을 준다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 대기업의 10억 달러 규모 암호화폐 투자 전략, 블록체인 자산 관리에 새로운 시사점</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-following-the-appointment-of-sav-persico-as-chief-operating-/</guid>
+      <description>Token Cat Limited가 대규모 암호화폐 투자 정책을 수립하며 블록체인 자산 관리에 대한 관심이 커지고 있다. 이 정책은 철저한 리스크 관리와 명확한 거버넌스를 기반으로 장기적 가치를 추구하는 점이 특징이다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] 스포츠 배팅 앱과 암호화폐 거래 앱, 의외의 닮은 점과 그 의미</title>
+      <link>https://blockdailynews.online/news/2025/12/2025-12-02-betway-and-the-unexpected-resemblance-to-crypto-platforms/</link>
+      <pubDate>Tue, 02 Dec 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/12/2025-12-02-betway-and-the-unexpected-resemblance-to-crypto-platforms/</guid>
+      <description>스포츠 배팅과 암호화폐 거래 앱은 전혀 다른 목적을 갖고 있지만, 사용자 경험 측면에서는 놀랍도록 비슷하다. 두 앱이 어떻게 실시간 변동성과 사용자의 반응을 이끌어내는지 살펴본다.</description>
+    </item>
+    <item>
+      <title>[바이낸스] USDT0와 Mantle, Bybit가 만드는 새로운 스테이블코인 경험</title>
+      <link>https://blockdailynews.online/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme/</link>
+      <pubDate>Thu, 27 Nov 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/news/2025/11/2025-11-27-mantle-and-bybit-unite-to-bring-usdt0-the-omnichain-deployme/</guid>
+      <description>Mantle 네트워크와 Bybit가 함께 USDT의 차세대 크로스체인 버전인 USDT0를 지원하면서 스테이블코인 유동성의 변화를 예고한다. 이 협업은 단일 유동성 레이어와 간편한 크로스체인 전송이라는 시스템 혁신을 보여준다.</description>
+    </item>
+    <item>
+      <title>개인정보 처리방침</title>
+      <link>https://blockdailynews.online/privacy/</link>
+      <pubDate>Wed, 01 Jan 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/privacy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;바이낸스&lt;/strong&gt;(이하 “사이트”)는&lt;br&gt;&#xA;「개인정보 보호법」 등 관련 법령을 준수하며,&lt;br&gt;&#xA;이용자의 개인정보를 보호하기 위해 다음과 같은 개인정보 처리방침을 수립·공개합니다.&lt;/p&gt;&#xA;&lt;p&gt;본 방침은 &lt;strong&gt;2025년 12월 20일부터 시행&lt;/strong&gt;됩니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-수집하는-개인정보-항목&#34;&gt;1. 수집하는 개인정보 항목&lt;/h2&gt;&#xA;&lt;p&gt;사이트는 원칙적으로 &lt;strong&gt;개인정보를 최소한으로 수집&lt;/strong&gt;합니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-자동-수집-정보&#34;&gt;① 자동 수집 정보&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;접속 일시, IP 주소, 브라우저 종류, 접속 페이지, 오류 기록 등&lt;/li&gt;&#xA;&lt;li&gt;해당 정보는 서버 로그 또는 호스팅 서비스를 통해 자동 생성될 수 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-통계분석-도구-이용-시&#34;&gt;② 통계·분석 도구 이용 시&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;사이트 이용 현황 분석을 위해 웹 분석 도구(예: Google Analytics 등)를 사용할 수 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;이 경우 페이지 조회수, 방문 경로, 체류 시간, 대략적인 위치 정보 등이&lt;br&gt;&#xA;**개인을 직접 식별할 수 없는 형태(익명 또는 가명)**로 수집될 수 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-문의-시-수집-정보&#34;&gt;③ 문의 시 수집 정보&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;이용자가 이메일 문의를 통해 직접 제공한 정보&lt;br&gt;&#xA;(이메일 주소, 문의 내용 등)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-개인정보의-수집-및-이용-목적&#34;&gt;2. 개인정보의 수집 및 이용 목적&lt;/h2&gt;&#xA;&lt;p&gt;수집된 개인정보는 다음 목적에 한하여 이용됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>바이낸스 소개</title>
+      <link>https://blockdailynews.online/about/</link>
+      <pubDate>Wed, 01 Jan 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blockdailynews.online/images/about/me.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;바이낸스&lt;/strong&gt;는&lt;br&gt;&#xA;블록체인과 가상자산 산업에서 발생한&lt;br&gt;&#xA;주요 사건, 개념, 구조, 흐름을 정리·분석하는&lt;br&gt;&#xA;&lt;strong&gt;정보 아카이브 성격의 사이트&lt;/strong&gt;입니다.&lt;/p&gt;&#xA;&lt;p&gt;단기적인 이슈 전달이나 속보 제공보다는,&lt;br&gt;&#xA;시간의 흐름 속에서 기술과 산업이 형성되어 온&lt;br&gt;&#xA;배경과 맥락을 함께 정리하여&lt;br&gt;&#xA;보다 입체적으로 이해할 수 있도록 정보를 제공합니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-이-사이트에-대하여&#34;&gt;1. 이 사이트에 대하여&lt;/h2&gt;&#xA;&lt;p&gt;바이낸스는&lt;br&gt;&#xA;블록체인 기술과 생태계를 이해하는 과정에서 필요한&lt;br&gt;&#xA;기초 정보와 구조적 맥락을 정리해 두기 위한 공간입니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;블록체인 구조와 작동 방식에 대한 정리&lt;/li&gt;&#xA;&lt;li&gt;기술 변화가 만들어낸 산업 흐름과 배경&lt;/li&gt;&#xA;&lt;li&gt;주요 사건과 이슈가 갖는 의미와 맥락&lt;/li&gt;&#xA;&lt;li&gt;개념 이해를 돕기 위한 설명과 정리&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;완성된 결론을 제시하기보다는,&lt;br&gt;&#xA;정보가 어떤 흐름 속에서 등장했고&lt;br&gt;&#xA;어떻게 연결되는지를 중심으로 구성합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>바이비트 거래소 장점 수수료 정보 가입 및 인증 가이드</title>
+      <link>https://blockdailynews.online/bybit/</link>
+      <pubDate>Wed, 01 Jan 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/bybit/</guid>
+      <description>해외 가상자산 거래소 바이비트 거래소 장점, 수수료 정보 제공 및 신규 가입을 준비하는 분들을 위한 교육용 가이드 — 모바일 가입 절차, 본인인증 과정, 보안 설정 방법까지 단계별로 정리했습니다.</description>
+    </item>
+    <item>
+      <title>이용 안내 및 서비스 약관</title>
+      <link>https://blockdailynews.online/terms/</link>
+      <pubDate>Wed, 01 Jan 2025 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/terms/</guid>
+      <description>&lt;p&gt;본 페이지는 &lt;strong&gt;바이낸스(이하 “사이트”)&lt;/strong&gt; 이용과 관련한&lt;br&gt;&#xA;기본적인 안내 사항과 약관을 정리한 것입니다.&lt;br&gt;&#xA;이용자는 본 사이트에 접속하거나 콘텐츠를 이용함으로써&lt;br&gt;&#xA;아래 내용에 동의한 것으로 간주됩니다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-서비스의-성격&#34;&gt;1. 서비스의 성격&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;본 사이트는 블록체인을 공부하며 정리한 생각과 해석을&lt;br&gt;&#xA;&lt;strong&gt;개인적인 칼럼 형식으로 기록하는 공간&lt;/strong&gt;입니다.&lt;/li&gt;&#xA;&lt;li&gt;사이트에 게시된 모든 글은&lt;br&gt;&#xA;특정 사실을 단정하거나 공신력을 주장하지 않습니다.&lt;/li&gt;&#xA;&lt;li&gt;콘텐츠는 운영자의 개인적인 사고와 관점을 정리한 글이며,&lt;br&gt;&#xA;해석은 언제든지 달라질 수 있습니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-이용자의-이해와-책임&#34;&gt;2. 이용자의 이해와 책임&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;사이트의 모든 콘텐츠는&lt;br&gt;&#xA;개인적인 의견 및 사고 기록으로 제공됩니다.&lt;/li&gt;&#xA;&lt;li&gt;이용자는 콘텐츠를 하나의 참고 관점으로 받아들이며,&lt;br&gt;&#xA;이를 어떻게 해석하거나 활용할지는 전적으로 이용자 본인의 판단에 따릅니다.&lt;/li&gt;&#xA;&lt;li&gt;사이트의 내용은&lt;br&gt;&#xA;특정 판단이나 행동을 유도하기 위한 목적이 아닙니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-저작권-및-콘텐츠-이용&#34;&gt;3. 저작권 및 콘텐츠 이용&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;사이트에 게시된 모든 글과 콘텐츠의 저작권은&lt;br&gt;&#xA;별도의 표시가 없는 한 &lt;strong&gt;운영자&lt;/strong&gt;에게 귀속됩니다.&lt;/li&gt;&#xA;&lt;li&gt;개인적인 목적(블로그, SNS 등)으로 일부 내용을 인용하는 경우,&lt;br&gt;&#xA;&lt;strong&gt;출처(사이트명 및 URL)를 명확히 표시&lt;/strong&gt;하면 허용됩니다.&lt;/li&gt;&#xA;&lt;li&gt;콘텐츠의 무단 복제, 수정, 상업적 이용, 대량 배포는&lt;br&gt;&#xA;사전 동의 없이 금지됩니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;4-외부-링크에-대한-안내&#34;&gt;4. 외부 링크에 대한 안내&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;사이트에는 참고를 위해 외부 웹사이트로 연결되는 링크가 포함될 수 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;외부 사이트는 해당 운영자의 책임 하에 관리되며,&lt;br&gt;&#xA;그 내용이나 서비스에 대해 사이트 운영자는 책임을 지지 않습니다.&lt;/li&gt;&#xA;&lt;li&gt;외부 링크 이용으로 발생하는 문제는&lt;br&gt;&#xA;이용자와 해당 사이트 간의 사항입니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;5-면책-조항&#34;&gt;5. 면책 조항&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;사이트는 콘텐츠의 정확성, 완전성, 최신성에 대해&lt;br&gt;&#xA;보장하지 않습니다.&lt;/li&gt;&#xA;&lt;li&gt;사이트 이용 과정에서 발생하는&lt;br&gt;&#xA;직·간접적인 불이익이나 손해에 대해&lt;br&gt;&#xA;관련 법령이 허용하는 범위 내에서 책임을 제한합니다.&lt;/li&gt;&#xA;&lt;li&gt;사이트의 구조, 콘텐츠, 운영 방식은&lt;br&gt;&#xA;운영자의 판단에 따라 변경될 수 있습니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;6-서비스-변경-및-중단&#34;&gt;6. 서비스 변경 및 중단&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;사이트는 운영상 필요에 따라&lt;br&gt;&#xA;사전 공지 없이 콘텐츠 구성이나 제공 방식을 변경할 수 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;시스템 점검, 호스팅 문제, 운영상의 사유로&lt;br&gt;&#xA;서비스가 일시적으로 중단될 수 있습니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;7-약관의-변경&#34;&gt;7. 약관의 변경&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;본 약관은 관련 법령 또는 운영 정책에 따라 변경될 수 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;약관이 변경되는 경우,&lt;br&gt;&#xA;본 페이지의 수정 또는 사이트 내 공지를 통해 안내합니다.&lt;/li&gt;&#xA;&lt;li&gt;변경 이후에도 사이트를 계속 이용하는 경우,&lt;br&gt;&#xA;변경된 약관에 동의한 것으로 간주합니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;8-문의처&#34;&gt;8. 문의처&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;운영자:&lt;/strong&gt; 황정식&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;이메일:&lt;/strong&gt; &lt;a href=&#34;mailto:bearlavender@naver.com&#34;&gt;bearlavender@naver.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;사이트 이용과 관련한 문의 사항은&lt;br&gt;&#xA;위 이메일을 통해 연락해 주시기 바랍니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>바이낸스 가입방법 A to Z 가이드 (2025 최신)</title>
+      <link>https://blockdailynews.online/binance/</link>
+      <pubDate>Mon, 02 Dec 2024 09:00:00 +0900</pubDate>
+      <guid>https://blockdailynews.online/binance/</guid>
+      <description>해외 가상자산 거래소 바이낸스 거래소 장점, 수수료 정보 제공 및 신규 가입을 준비하는 분들을 위한 교육용 가이드 — 모바일 가입 절차, 본인인증 과정, 보안 설정 방법까지 단계별로 정리했습니다</description>
+    </item>
+    <item>
+      <title>OKX 거래소 장점, 수수료 정보 제공 그리고 회원가입 및 인증 가이드</title>
+      <link>https://blockdailynews.online/okx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/okx/</guid>
+      <description>해외 가상자산 거래소 OKX 거래소 장점, 수수료 정보 제공 및 신규 가입을 준비하는 분들을 위한 교육용 가이드 — 모바일 가입 절차, 본인인증 과정, 보안 설정 방법까지 단계별로 정리했습니다.</description>
+    </item>
+    <item>
+      <title>비트겟(bitget) 거래소 장점, 수수료 정보, 보안 그리고 가입 인증 가이드</title>
+      <link>https://blockdailynews.online/bitget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockdailynews.online/bitget/</guid>
+      <description>Bitget(비트겟) 거래소 신규 가입자를 위한 단계별 안내 — 이메일 가입, 본인인증(KYC), 입출금 및 거래 설정까지 한눈에 정리했습니다.</description>
+    </item>
+  </channel>
+</rss>

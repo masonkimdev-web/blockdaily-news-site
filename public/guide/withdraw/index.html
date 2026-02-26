@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>바이낸스 → 업비트 출금 방법 | 바이낸스</title>
+  <meta name="description" content="바이낸스에서 업비트로 출금하는 절차(주소/네트워크/화이트리스트/소액 테스트 포함).">
+  <meta name="robots" content="index,follow" />
+
+  <style>
+    :root{
+      --bg:#0b0d10;
+      --panel:#0f1318;
+      --panel2:#111823;
+      --text:#e8edf2;
+      --muted:#a8b3bf;
+      --line:#1f2a37;
+      --brand:#7dd3fc;
+      --brand2:#a78bfa;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --r:16px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(125,211,252,.12), transparent 60%),
+                  radial-gradient(900px 600px at 110% 10%, rgba(167,139,250,.10), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+    }
+    a{color:inherit; text-decoration:none}
+
+    .topbar{
+      position:sticky; top:0; z-index:60;
+      backdrop-filter: blur(10px);
+      background: rgba(11,13,16,.7);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex; align-items:center; justify-content:space-between;
+      max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;
+      flex-wrap:nowrap;
+    }
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px;}
+    .badge{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid rgba(125,211,252,.35); background: rgba(125,211,252,.08); color: var(--brand);}
+    .cta{display:flex; gap:10px; align-items:center;}
+    .btn{display:inline-flex; align-items:center; justify-content:center; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(255,255,255,.03); cursor:pointer; transition: transform .08s ease, border-color .2s ease, background .2s ease; font-weight:600; white-space:nowrap;}
+    .btn:hover{transform: translateY(-1px); border-color: rgba(125,211,252,.35); background: rgba(255,255,255,.05)}
+    .btn.primary{border-color: rgba(125,211,252,.35); background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));}
+
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:16px;
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap:16px;
+    }
+
+    .sidebar{
+      position:sticky;
+      top:72px;
+      align-self:start;
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      background: rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .side-head{padding:14px 14px 10px; border-bottom:1px solid var(--line); background: rgba(255,255,255,.02);}
+    .side-title{font-weight:800; margin:0 0 8px; font-size:14px; color:var(--muted)}
+    .search{width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.25); color:var(--text); outline:none;}
+    .nav{padding:10px; display:flex; flex-direction:column; gap:6px; max-height: calc(100vh - 170px); overflow:auto;}
+    .nav a{padding:10px 10px; border-radius:12px; border:1px solid transparent; display:flex; gap:10px; align-items:center; color:var(--muted);}
+    .nav a:hover{background: rgba(255,255,255,.04); color:var(--text)}
+    .nav a.active{color:var(--text); border-color: rgba(125,211,252,.35); background: rgba(125,211,252,.08);}
+    .dot{width:8px; height:8px; border-radius:99px; background: rgba(125,211,252,.7); flex:0 0 auto; box-shadow: 0 0 0 4px rgba(125,211,252,.12);}
+
+    .main{border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
+    .main-inner{padding:22px 22px 30px;}
+    .crumb{color:var(--muted); font-size:13px; margin-bottom:10px;}
+
+    h1,h2,h3{line-height:1.25}
+    h1{font-size:28px; margin:6px 0 14px}
+    h2{font-size:18px; margin:22px 0 10px}
+    h3{font-size:15px; margin:18px 0 8px; color:var(--muted)}
+    p,li{color:var(--text); opacity:.92}
+    hr{border:none; border-top:1px solid var(--line); margin:18px 0}
+    code{font-family:var(--mono); font-size:13px; background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
+    pre{background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.07); border-radius:14px; padding:14px; overflow:auto; position:relative;}
+    pre code{background:transparent; border:none; padding:0}
+    .copy{position:absolute; top:10px; right:10px; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--muted); cursor:pointer; font-size:12px;}
+    .copy:hover{color:var(--text); border-color: rgba(125,211,252,.35)}
+
+     
+    .main-inner a{
+      color: var(--brand);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .main-inner a:hover{ opacity:.9; }
+    .main-inner a.btnlink{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid rgba(125,211,252,.35);
+      background: rgba(125,211,252,.10);
+      text-decoration:none;
+      font-weight:800;
+    }
+    .main-inner a.btnlink::after{ content:"→"; opacity:.9; }
+
+     
+    .disclaimer{
+      margin-top: 22px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.06);
+      background: rgba(255,255,255,.02);
+    }
+    .disclaimer-title{
+      font-weight: 600;
+      margin: 0 0 6px;
+      font-size: 11px;
+      letter-spacing: .4px;
+      color: rgba(255,255,255,.35);
+      text-transform: uppercase;
+    }
+    .disclaimer p{
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.6;
+      color: rgba(255,255,255,.55);
+    }
+    .disclaimer b{ font-weight: 600; }
+    .disclaimer a{
+      color: rgba(125,211,252,.8);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+     
+    .overlay{
+      display:none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.72);
+      z-index: 40;
+    }
+
+     
+    .cta-fixed{ display:none; }
+
+    @media (max-width: 980px){
+      body.menu-open{ overflow:hidden; }
+
+      .wrap{ display:block; }
+
+      .sidebar{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: min(86vw, 360px);
+        z-index: 50;
+        transform: translateX(-110%);
+        transition: transform .18s ease;
+        border-radius: 0 16px 16px 0;
+        background: rgba(11,13,16,.98);
+        box-shadow: 0 20px 60px rgba(0,0,0,.6);
+      }
+      body.menu-open .sidebar{ transform: translateX(0); }
+      body.menu-open .overlay{ display:block; }
+
+      .topbar-inner{ flex-wrap: wrap; }
+      #primaryCta{ display:none; }
+
+      .cta-fixed{
+        display:flex;
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        z-index: 60;
+        align-items:center;
+        justify-content:center;
+        padding: 14px 14px;
+        padding-bottom: calc(14px + env(safe-area-inset-bottom));
+        border-radius: 16px;
+        border: 1px solid rgba(125,211,252,.45);
+        background: linear-gradient(135deg, rgba(125,211,252,.22), rgba(167,139,250,.18));
+        color: var(--text);
+        font-weight: 900;
+        box-shadow: 0 14px 40px rgba(0,0,0,.55);
+      }
+
+      .main-inner{ padding-bottom: 110px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/">
+        <span>blockdailynews</span>
+        <span class="badge">GUIDE</span>
+      </a>
+      <div class="cta">
+        <button class="btn" id="menuBtn" type="button" aria-label="Open menu">Menu</button>
+        <a class="btn" href="/guide/">Guide Home</a>
+        <a class="btn primary" id="primaryCta" href="/go/binance-next/">평생 수수료 할인 받기</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <aside class="sidebar" aria-label="Guide navigation">
+      <div class="side-head">
+        <p class="side-title">빠른 탐색</p>
+        <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
+      </div>
+
+      <nav class="nav" id="navList">
+        <a href="/guide/" data-href="/guide/">
+          <span class="dot"></span>
+          <span>비트코인 하는법 가이드</span>
+        </a>
+
+        
+        
+          <a href="/guide/binance-signup/" data-href="/guide/binance-signup/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>바이낸스 가입 방법</span>
+          </a>
+        
+          <a href="/guide/deposit/" data-href="/guide/deposit/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>업비트 → 바이낸스 입금 방법</span>
+          </a>
+        
+          <a href="/guide/trading/" data-href="/guide/trading/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>거래 방법 (Spot / Futures)</span>
+          </a>
+        
+          <a href="/guide/withdraw/" data-href="/guide/withdraw/">
+            <span class="dot" style="opacity:.55"></span>
+            <span>바이낸스 → 업비트 출금 방법</span>
+          </a>
+        
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="crumb">
+          <a href="/" style="color:var(--muted)">Home</a>
+          <span> / </span>
+          <a href="/guide/" style="color:var(--muted)">Guide</a>
+          <span> / </span>
+          <span style="color:var(--muted)">바이낸스 → 업비트 출금 방법</span>
+        </div>
+
+        <h1 id="바이낸스--업비트-출금-방법">바이낸스 → 업비트 출금 방법</h1>
+<h2 id="핵심-요약">핵심 요약</h2>
+<ul>
+<li>업비트에서 <strong>입금 주소</strong> 확인 → 바이낸스에서 <strong>Withdraw(출금)</strong> → 업비트 입금 확인</li>
+<li>여기서도 <strong>네트워크(체인) 실수</strong>가 제일 위험합니다.</li>
+</ul>
+<hr>
+<h2 id="1-업비트-입금-주소-확인">1) 업비트 입금 주소 확인</h2>
+<ol>
+<li>업비트 → 입금 → 코인 선택</li>
+<li>네트워크 확인</li>
+<li>주소 복사(필요 시 태그/메모 포함)</li>
+</ol>
+<hr>
+<h2 id="2-바이낸스-출금">2) 바이낸스 출금</h2>
+<ol>
+<li>바이낸스 → Wallet → Withdraw</li>
+<li>코인 선택</li>
+<li>업비트 주소 붙여넣기</li>
+<li>네트워크 동일하게 선택</li>
+<li>소액 테스트(권장) → 본 출금</li>
+</ol>
+<hr>
+<h2 id="체크리스트">체크리스트</h2>
+<ul>
+<li>✅ 주소/태그 정확한가?</li>
+<li>✅ 네트워크 동일한가?</li>
+<li>✅ 2FA 동작 확인했나?</li>
+<li>✅ 소액 테스트했나?</li>
+</ul>
+<hr>
+<h2 id="마무리">마무리</h2>
+<p>이제 원화가 필요하면 업비트에서 매도 후 원화 출금을 진행하면 됩니다.</p>
+<p>👉 다시 처음으로: <strong><a href="/guide/">비트코인 하는법 가이드</a></strong></p>
+
+
+        <div class="disclaimer" role="note" aria-label="교육용 고지">
+          <div class="disclaimer-title">educational notice</div>
+          <p>
+            ⚠️ 본 가이드는 <b>교육 및 정보 제공</b>을 위한 자료입니다.
+            <br/>
+            투자 판단 및 거래 결정에 대한 책임은 이용자 본인에게 있습니다.
+            <br/>
+          </p>
+        </div>
+
+        <hr/>
+        <p style="color:var(--muted); font-size:13px; margin:0;">
+          다음 단계는 왼쪽 메뉴에서 바로 이동할 수 있어요.
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    
+    (function(){
+      const current = location.pathname.replace(/\/+$/, '/') ;
+      const links = document.querySelectorAll('#navList a');
+      links.forEach(a=>{
+        const href = (a.getAttribute('data-href') || a.getAttribute('href') || '').replace(/\/+$/, '/');
+        if(href === current) a.classList.add('active');
+      });
+    })();
+
+    
+    (function(){
+      const input = document.getElementById('navSearch');
+      const items = Array.from(document.querySelectorAll('#navList a'));
+      input.addEventListener('input', ()=>{
+        const q = input.value.trim().toLowerCase();
+        items.forEach(a=>{
+          const t = a.textContent.toLowerCase();
+          a.style.display = (!q || t.includes(q)) ? '' : 'none';
+        });
+      });
+    })();
+
+    
+    (function(){
+      document.querySelectorAll('pre').forEach(pre=>{
+        const btn = document.createElement('button');
+        btn.className = 'copy';
+        btn.type = 'button';
+        btn.textContent = 'Copy';
+        btn.addEventListener('click', async ()=>{
+          const code = pre.innerText;
+          try{
+            await navigator.clipboard.writeText(code);
+            btn.textContent = 'Copied';
+            setTimeout(()=>btn.textContent='Copy', 900);
+          }catch(e){
+            btn.textContent = 'Failed';
+            setTimeout(()=>btn.textContent='Copy', 900);
+          }
+        });
+        pre.appendChild(btn);
+      });
+    })();
+
+    
+    (function(){
+      const btn = document.getElementById('menuBtn');
+      const overlay = document.getElementById('overlay');
+      if(!btn || !overlay) return;
+
+      const close = () => document.body.classList.remove('menu-open');
+      const toggle = () => {
+        document.body.classList.toggle('menu-open');
+        if(document.body.classList.contains('menu-open')){
+          setTimeout(()=> document.getElementById('navSearch')?.focus(), 50);
+        }
+      };
+
+      btn.addEventListener('click', toggle);
+      overlay.addEventListener('click', close);
+
+      document.querySelectorAll('#navList a').forEach(a=>{
+        a.addEventListener('click', close);
+      });
+
+      window.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape') close();
+      });
+    })();
+  </script>
+
+  
+  <a class="cta-fixed" href="/go/binance-next/">평생 수수료 할인 받기</a>
+
+  
+  
+    
+
+
+
+<nav class="post-prev-next"
+  style="max-width: 760px; margin: 18px auto 0; display:flex; gap:10px; flex-wrap:wrap;">
+  
+  
+
+  
+    <a href="/guide/trading/"
+       style="flex:1 1 320px; padding:12px 14px; border:1px solid #eee; border-radius:14px;
+              text-decoration:none; color:#111; background:#fafafa; text-align:left;">
+      <div style="font-size:12px; color:#777; margin-bottom:6px;">다음 글 →</div>
+      <div style="font-weight:700; line-height:1.4;">거래 방법 (Spot / Futures)</div>
+    </a>
+  
+
+</nav>
+
+
+  
+</body>
+</html>
