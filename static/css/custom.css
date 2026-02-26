@@ -121,3 +121,69 @@
     width: 100%;
   }
 }
+/* Guide Bottom CTA */
+.cta-card{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  padding:16px 18px;
+  border-radius:16px;
+  border:2px solid rgba(245, 158, 11, .45);
+  background: rgba(245, 158, 11, .12);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.cta-left{
+  flex:0 0 auto;
+  width:52px;
+  height:52px;
+  border-radius:14px;
+  background: rgba(0,0,0,.25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.cta-logo{
+  width:34px;
+  height:34px;
+  object-fit:contain;
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,.25));
+}
+
+.cta-body{ flex:1 1 auto; min-width:0; }
+
+.cta-title{
+  font-weight:800;
+  font-size:16px;
+  line-height:1.2;
+  margin-bottom:6px;
+}
+
+.cta-desc{
+  opacity:.85;
+  font-size:13px;
+  line-height:1.35;
+  margin-bottom:12px;
+}
+
+.cta-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  padding:12px 14px;
+  border-radius:14px;
+  background:#f59e0b;          /* ✅ 노란색 */
+  color:#111827;
+  font-weight:800;
+  text-decoration:none;
+  box-shadow: 0 10px 24px rgba(245,158,11,.25);
+}
+
+.cta-btn:hover{ filter: brightness(.97); }
+.cta-btn:active{ transform: translateY(1px); }
+
+@media (min-width: 900px){
+  .cta-btn{ width:auto; }
+}
