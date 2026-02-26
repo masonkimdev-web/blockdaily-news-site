@@ -8,12 +8,16 @@
   {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   <meta name="robots" content="index,follow" />
 
-  {{/* list.html과 동일 스타일 유지 */}}
   <style>
     :root{
-      --bg:#0b0d10; --panel:#0f1318; --panel2:#111823;
-      --text:#e8edf2; --muted:#a8b3bf; --line:#1f2a37;
-      --brand:#7dd3fc; --brand2:#a78bfa;
+      --bg:#0b0d10;
+      --panel:#0f1318;
+      --panel2:#111823;
+      --text:#e8edf2;
+      --muted:#a8b3bf;
+      --line:#1f2a37;
+      --brand:#7dd3fc;
+      --brand2:#a78bfa;
       --shadow: 0 10px 30px rgba(0,0,0,.35);
       --r:16px;
       --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -29,8 +33,18 @@
       color:var(--text);
     }
     a{color:inherit; text-decoration:none}
-    .topbar{position:sticky; top:0; z-index:20; backdrop-filter: blur(10px); background: rgba(11,13,16,.7); border-bottom:1px solid var(--line);}
-    .topbar-inner{display:flex; align-items:center; justify-content:space-between; max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;}
+
+    .topbar{
+      position:sticky; top:0; z-index:60;
+      backdrop-filter: blur(10px);
+      background: rgba(11,13,16,.7);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex; align-items:center; justify-content:space-between;
+      max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;
+      flex-wrap:nowrap;
+    }
     .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px;}
     .badge{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid rgba(125,211,252,.35); background: rgba(125,211,252,.08); color: var(--brand);}
     .cta{display:flex; gap:10px; align-items:center;}
@@ -38,10 +52,25 @@
     .btn:hover{transform: translateY(-1px); border-color: rgba(125,211,252,.35); background: rgba(255,255,255,.05)}
     .btn.primary{border-color: rgba(125,211,252,.35); background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));}
 
-    .wrap{max-width:1200px; margin:0 auto; padding:16px; display:grid; grid-template-columns: 320px 1fr; gap:16px;}
-    @media (max-width: 980px){.wrap{grid-template-columns:1fr}.sidebar{position:relative; top:auto}}
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:16px;
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap:16px;
+    }
 
-    .sidebar{position:sticky; top:72px; align-self:start; border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
+    .sidebar{
+      position:sticky;
+      top:72px;
+      align-self:start;
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      background: rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
     .side-head{padding:14px 14px 10px; border-bottom:1px solid var(--line); background: rgba(255,255,255,.02);}
     .side-title{font-weight:800; margin:0 0 8px; font-size:14px; color:var(--muted)}
     .search{width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.25); color:var(--text); outline:none;}
@@ -54,6 +83,7 @@
     .main{border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
     .main-inner{padding:22px 22px 30px;}
     .crumb{color:var(--muted); font-size:13px; margin-bottom:10px;}
+
     h1,h2,h3{line-height:1.25}
     h1{font-size:28px; margin:6px 0 14px}
     h2{font-size:18px; margin:22px 0 10px}
@@ -65,122 +95,119 @@
     pre code{background:transparent; border:none; padding:0}
     .copy{position:absolute; top:10px; right:10px; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--muted); cursor:pointer; font-size:12px;}
     .copy:hover{color:var(--text); border-color: rgba(125,211,252,.35)}
-     /* 모바일: 사이드바 드로어 */
-     @media (max-width: 980px){
-      body.menu-open{ overflow:hidden; }          /* ✅ 배경 스크롤 잠금 */
-    
+
+    /* guide 본문 링크 */
+    .main-inner a{
+      color: var(--brand);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .main-inner a:hover{ opacity:.9; }
+    .main-inner a.btnlink{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid rgba(125,211,252,.35);
+      background: rgba(125,211,252,.10);
+      text-decoration:none;
+      font-weight:800;
+    }
+    .main-inner a.btnlink::after{ content:"→"; opacity:.9; }
+
+    /* 교육/면책 고지 */
+    .disclaimer{
+      margin-top: 22px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.06);
+      background: rgba(255,255,255,.02);
+    }
+    .disclaimer-title{
+      font-weight: 600;
+      margin: 0 0 6px;
+      font-size: 11px;
+      letter-spacing: .4px;
+      color: rgba(255,255,255,.35);
+      text-transform: uppercase;
+    }
+    .disclaimer p{
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.6;
+      color: rgba(255,255,255,.55);
+    }
+    .disclaimer b{ font-weight: 600; }
+    .disclaimer a{
+      color: rgba(125,211,252,.8);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* overlay */
+    .overlay{
+      display:none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.72);
+      z-index: 40;
+    }
+
+    /* 모바일: 드로어 + 하단 CTA */
+    .cta-fixed{ display:none; }
+
+    @media (max-width: 980px){
+      body.menu-open{ overflow:hidden; }
+
+      .wrap{ display:block; }
+
       .sidebar{
-        background: rgba(11,13,16,.98);          /* ✅ 불투명하게 */
-        border:1px solid var(--line);
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: min(86vw, 360px);
+        z-index: 50;
+        transform: translateX(-110%);
+        transition: transform .18s ease;
+        border-radius: 0 16px 16px 0;
+        background: rgba(11,13,16,.98);
         box-shadow: 0 20px 60px rgba(0,0,0,.6);
       }
-    
-      .overlay{
-        display:none;
-        position: fixed;
-        inset: 0;
-        background: rgba(0,0,0,.72);             /* ✅ 더 진한 오버레이 */
-        z-index: 40;
-        touch-action: none;
-      }
+      body.menu-open .sidebar{ transform: translateX(0); }
       body.menu-open .overlay{ display:block; }
+
+      .topbar-inner{ flex-wrap: wrap; }
+      #primaryCta{ display:none; }
+
+      .cta-fixed{
+        display:flex;
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        z-index: 60;
+        align-items:center;
+        justify-content:center;
+        padding: 14px 14px;
+        padding-bottom: calc(14px + env(safe-area-inset-bottom));
+        border-radius: 16px;
+        border: 1px solid rgba(125,211,252,.45);
+        background: linear-gradient(135deg, rgba(125,211,252,.22), rgba(167,139,250,.18));
+        color: var(--text);
+        font-weight: 900;
+        box-shadow: 0 14px 40px rgba(0,0,0,.55);
+      }
+
+      .main-inner{ padding-bottom: 110px; }
     }
-/* guide 본문 링크를 버튼처럼(특히 '자세히') */
-.main-inner a{
-  color: var(--brand);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.main-inner a:hover{ opacity:.9; }
-
-/* "👉 자세히:" 같은 줄이 버튼처럼 보이게 */
-.main-inner a.btnlink{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  padding:10px 12px;
-  border-radius:12px;
-  border:1px solid rgba(125,211,252,.35);
-  background: rgba(125,211,252,.10);
-  text-decoration:none;
-  font-weight:800;
-}
-.main-inner a.btnlink::after{
-  content:"→";
-  opacity:.9;
-}
-/* 모바일: 하단 고정 CTA */
-.cta-fixed{
-  display:none;
-}
-
-@media (max-width: 980px){
-  .topbar-inner{ flex-wrap: wrap; }  /* 상단 영역 줄바꿈 허용 */
-
-  /* 상단 primary 버튼은 숨기고(짤림 방지), 하단 고정으로 이동 */
-  #primaryCta{ display:none; }
-
-  .cta-fixed{
-    display:flex;
-    position: fixed;
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
-    z-index: 60;
-    align-items:center;
-    justify-content:center;
-    padding: 14px 14px;
-    border-radius: 16px;
-    border: 1px solid rgba(125,211,252,.45);
-    background: linear-gradient(135deg, rgba(125,211,252,.22), rgba(167,139,250,.18));
-    color: var(--text);
-    font-weight: 900;
-    box-shadow: 0 14px 40px rgba(0,0,0,.55);
-  }
-
-  /* 하단 CTA 때문에 본문 끝이 가려지지 않도록 패딩 확보 */
-  .main-inner{ padding-bottom: 90px; }
-}
- /* 교육/면책 고지 (톤 다운 버전) */
-.disclaimer{
-  margin-top: 22px;
-  padding: 12px 14px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,.06);
-  background: rgba(255,255,255,.02);   /* 훨씬 연하게 */
-}
-
-.disclaimer-title{
-  font-weight: 600;                    /* 굵기 줄임 */
-  margin: 0 0 6px;
-  font-size: 11px;                     /* 더 작게 */
-  letter-spacing: .4px;
-  color: rgba(255,255,255,.35);         /* 회색 */
-  text-transform: uppercase;
-}
-
-.disclaimer p{
-  margin: 0;
-  font-size: 12px;                     /* 본문보다 작게 */
-  line-height: 1.6;
-  color: rgba(255,255,255,.55);         /* 부드러운 회색 */
-}
-
-.disclaimer b{
-  font-weight: 600;                    /* 강조도 줄임 */
-}
-
-.disclaimer a{
-  color: rgba(125,211,252,.8);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
   </style>
 </head>
 
 <body>
   <div class="overlay" id="overlay"></div>
+
   <div class="topbar">
     <div class="topbar-inner">
       <a class="brand" href="{{ "/" | relURL }}">
@@ -196,11 +223,12 @@
   </div>
 
   <div class="wrap">
-    <aside class="sidebar">
+    <aside class="sidebar" aria-label="Guide navigation">
       <div class="side-head">
         <p class="side-title">빠른 탐색</p>
         <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
       </div>
+
       <nav class="nav" id="navList">
         <a href="{{ "/guide/" | relURL }}" data-href="{{ "/guide/" | relURL }}">
           <span class="dot"></span>
@@ -232,15 +260,12 @@
         <div class="disclaimer" role="note" aria-label="교육용 고지">
           <div class="disclaimer-title">educational notice</div>
           <p>
-            ⚠️ 본 문서는 <b>교육 및 정보 제공</b>을 목적으로 작성된 가이드입니다. 특정 거래소 이용이나 투자 판단을 권유하지 않으며,
-            모든 결정과 결과에 대한 책임은 이용자 본인에게 있습니다.
+            ⚠️ 본 가이드는 <b>교육 및 정보 제공</b>을 위한 자료입니다.
             <br/>
-            암호화폐 및 파생상품(선물) 거래는 높은 변동성과 손실 위험을 포함합니다.
+            투자 판단 및 거래 결정에 대한 책임은 이용자 본인에게 있습니다.
             <br/>
-            일부 링크에는 제휴(affiliate) 링크가 포함될 수 있으며, 이를 통해 사이트 운영에 필요한 소정의 수수료를 받을 수 있습니다.
           </p>
         </div>
-        
 
         <hr/>
         <p style="color:var(--muted); font-size:13px; margin:0;">
@@ -295,34 +320,40 @@
         pre.appendChild(btn);
       });
     })();
-        // Menu drawer toggle (mobile)
-  (function(){
-    const btn = document.getElementById('menuBtn');
-    const overlay = document.getElementById('overlay');
-    if(!btn || !overlay) return;
 
-    const close = () => document.body.classList.remove('menu-open');
-    const toggle = () => document.body.classList.toggle('menu-open');
+    // Menu drawer toggle (mobile)
+    (function(){
+      const btn = document.getElementById('menuBtn');
+      const overlay = document.getElementById('overlay');
+      if(!btn || !overlay) return;
 
-    btn.addEventListener('click', toggle);
-    overlay.addEventListener('click', close);
+      const close = () => document.body.classList.remove('menu-open');
+      const toggle = () => {
+        document.body.classList.toggle('menu-open');
+        if(document.body.classList.contains('menu-open')){
+          setTimeout(()=> document.getElementById('navSearch')?.focus(), 50);
+        }
+      };
 
-    // 메뉴 클릭하면 자동 닫기
-    document.querySelectorAll('#navList a').forEach(a=>{
-      a.addEventListener('click', close);
-    });
+      btn.addEventListener('click', toggle);
+      overlay.addEventListener('click', close);
 
-    // ESC로 닫기
-    window.addEventListener('keydown', (e)=>{
-      if(e.key === 'Escape') close();
-    });
-  })();
+      document.querySelectorAll('#navList a').forEach(a=>{
+        a.addEventListener('click', close);
+      });
+
+      window.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape') close();
+      });
+    })();
   </script>
+
+  <!-- Mobile fixed CTA -->
   <a class="cta-fixed" href="{{ "/go/binance-next/" | relURL }}">평생 수수료 할인 받기</a>
+
+  <!-- ✅ prev/next는 반드시 body 안에서 렌더링 -->
+  {{ if ne .Params.showPrevNext false }}
+    {{ partial "prev_next.html" . }}
+  {{ end }}
 </body>
-{{ if ne .Params.showPrevNext false }}
-{{ partial "prev_next.html" . }}
-{{ end }}
-
-
 </html>
