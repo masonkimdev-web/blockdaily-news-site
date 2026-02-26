@@ -141,34 +141,40 @@
 
   /* 하단 CTA 때문에 본문 끝이 가려지지 않도록 패딩 확보 */
   .main-inner{ padding-bottom: 90px; }
-  /* 교육/면책 고지 박스 */
-.disclaimer{
-  margin-top: 18px;
-  padding: 14px 14px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,.10);
-  background: rgba(0,0,0,.28);
 }
+ /* 교육/면책 고지 (톤 다운 버전) */
+.disclaimer{
+  margin-top: 22px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.06);
+  background: rgba(255,255,255,.02);   /* 훨씬 연하게 */
+}
+
 .disclaimer-title{
-  font-weight: 900;
-  letter-spacing: .2px;
-  margin: 0 0 8px;
-  color: var(--muted);
-  font-size: 12px;
+  font-weight: 600;                    /* 굵기 줄임 */
+  margin: 0 0 6px;
+  font-size: 11px;                     /* 더 작게 */
+  letter-spacing: .4px;
+  color: rgba(255,255,255,.35);         /* 회색 */
   text-transform: uppercase;
 }
+
 .disclaimer p{
   margin: 0;
-  font-size: 13px;
-  line-height: 1.65;
-  color: var(--text);
-  opacity: .9;
+  font-size: 12px;                     /* 본문보다 작게 */
+  line-height: 1.6;
+  color: rgba(255,255,255,.55);         /* 부드러운 회색 */
 }
+
+.disclaimer b{
+  font-weight: 600;                    /* 강조도 줄임 */
+}
+
 .disclaimer a{
-  color: var(--brand);
+  color: rgba(125,211,252,.8);
   text-decoration: underline;
   text-underline-offset: 3px;
-}
 }
   </style>
 </head>
