@@ -3,6 +3,7 @@ title = "비트코인 하는법 가이드"
 description = "바이낸스 가입 → 업비트 입금 → 거래(현물/선물) → 출금까지 초보자 기준으로 정리한 4단계 가이드."
 url = "/guide/"
 list = "never"
+draft = false
 categories = ["guide"]
 
 [_build]

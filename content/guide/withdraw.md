@@ -4,6 +4,7 @@ description = "바이낸스에서 업비트로 출금하는 절차(주소/네트
 url = "/guide/withdraw/"
 list = "never"
 weight = 4
+draft = false
 categories = ["guide"]
 
 [_build]

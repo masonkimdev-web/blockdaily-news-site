@@ -4,6 +4,7 @@ description = "바이낸스 계정 생성부터 2FA 설정, 기본 보안 세팅
 url = "/guide/binance-signup/"
 list = "never"
 weight = 1
+draft = false
 categories = ["guide"]
 
 [_build]
