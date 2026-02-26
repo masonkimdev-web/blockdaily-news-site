@@ -1,13 +1,14 @@
----
-title: "바이낸스 가입 방법"
-description: "바이낸스 계정 생성부터 2FA 설정, 기본 보안 세팅까지 초보자용 체크리스트로 정리."
-url: "/guide/binance-signup/"
-list: "never"   # ✅ 리스트(홈/아카이브/페이지네이션)에서 제외
-weight: 1
-categories: ["guide"]
-_build:
-  render: "always"
----
++++
+title = "바이낸스 가입 방법"
+description = "바이낸스 계정 생성부터 2FA 설정, 기본 보안 세팅까지 초보자용 체크리스트로 정리."
+url = "/guide/binance-signup/"
+list = "never"
+weight = 1
+categories = ["guide"]
+
+[_build]
+render = "always"
++++
 
 # 바이낸스 가입 방법
 
