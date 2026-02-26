@@ -6,7 +6,7 @@
 
 {{/* 홈에서는 guide 같은 섹션이 섞이지 않게 news만 강제 */}}
 {{ if .IsHome }}
-  {{ $pages = where .Site.RegularPages "Section" "in" (slice "블록체인") }}
+  {{ $pages = where .Site.RegularPages "Section" "in" (slice "news") }}
 {{ end }}
 
 {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
