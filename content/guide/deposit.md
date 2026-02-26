@@ -4,6 +4,9 @@ description: "업비트에서 코인 구매 후 바이낸스로 안전하게 입
 url: "/guide/deposit/"
 list: "never"   # ✅ 리스트(홈/아카이브/페이지네이션)에서 제외
 weight: 2
+categories: ["guide"]
+_build:
+  render: "always"
 ---
 
 # 업비트 → 바이낸스 입금 방법
