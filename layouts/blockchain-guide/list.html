@@ -1,4 +1,4 @@
-{{- /* layouts/guide/single.html */ -}}
+{{- /* layouts/blockchain-guide/list.html */ -}}
 <!doctype html>
 <html lang="{{ .Site.Language.Lang | default "en" }}">
 <head>
@@ -42,15 +42,37 @@
     }
     .topbar-inner{
       display:flex; align-items:center; justify-content:space-between;
-      max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;
+      max-width:1200px; margin:0 auto; padding:14px 16px;
+      gap:12px;
       flex-wrap:nowrap;
     }
-    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px;}
-    .badge{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid rgba(125,211,252,.35); background: rgba(125,211,252,.08); color: var(--brand);}
-    .cta{display:flex; gap:10px; align-items:center;}
-    .btn{display:inline-flex; align-items:center; justify-content:center; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(255,255,255,.03); cursor:pointer; transition: transform .08s ease, border-color .2s ease, background .2s ease; font-weight:600; white-space:nowrap;}
+    .brand{
+      display:flex; align-items:center; gap:10px; font-weight:700;
+      letter-spacing:.2px;
+    }
+    .badge{
+      font-size:12px; padding:4px 10px; border-radius:999px;
+      border:1px solid rgba(125,211,252,.35);
+      background: rgba(125,211,252,.08);
+      color: var(--brand);
+    }
+    .cta{ display:flex; gap:10px; align-items:center; }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      cursor:pointer;
+      transition: transform .08s ease, border-color .2s ease, background .2s ease;
+      font-weight:600;
+      white-space:nowrap;
+    }
     .btn:hover{transform: translateY(-1px); border-color: rgba(125,211,252,.35); background: rgba(255,255,255,.05)}
-    .btn.primary{border-color: rgba(125,211,252,.35); background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));}
+    .btn.primary{
+      border-color: rgba(125,211,252,.35);
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));
+    }
 
     .wrap{
       max-width:1200px;
@@ -71,18 +93,56 @@
       box-shadow: var(--shadow);
       overflow:hidden;
     }
-    .side-head{padding:14px 14px 10px; border-bottom:1px solid var(--line); background: rgba(255,255,255,.02);}
+    .side-head{
+      padding:14px 14px 10px;
+      border-bottom:1px solid var(--line);
+      background: rgba(255,255,255,.02);
+    }
     .side-title{font-weight:800; margin:0 0 8px; font-size:14px; color:var(--muted)}
-    .search{width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.25); color:var(--text); outline:none;}
-    .nav{padding:10px; display:flex; flex-direction:column; gap:6px; max-height: calc(100vh - 170px); overflow:auto;}
-    .nav a{padding:10px 10px; border-radius:12px; border:1px solid transparent; display:flex; gap:10px; align-items:center; color:var(--muted);}
+    .search{
+      width:100%;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.25);
+      color:var(--text);
+      outline:none;
+    }
+    .nav{
+      padding:10px;
+      display:flex; flex-direction:column; gap:6px;
+      max-height: calc(100vh - 170px);
+      overflow:auto;
+    }
+    .nav a{
+      padding:10px 10px;
+      border-radius:12px;
+      border:1px solid transparent;
+      display:flex; gap:10px; align-items:center;
+      color:var(--muted);
+    }
     .nav a:hover{background: rgba(255,255,255,.04); color:var(--text)}
-    .nav a.active{color:var(--text); border-color: rgba(125,211,252,.35); background: rgba(125,211,252,.08);}
-    .dot{width:8px; height:8px; border-radius:99px; background: rgba(125,211,252,.7); flex:0 0 auto; box-shadow: 0 0 0 4px rgba(125,211,252,.12);}
+    .nav a.active{
+      color:var(--text);
+      border-color: rgba(125,211,252,.35);
+      background: rgba(125,211,252,.08);
+    }
+    .dot{
+      width:8px; height:8px; border-radius:99px;
+      background: rgba(125,211,252,.7);
+      flex:0 0 auto;
+      box-shadow: 0 0 0 4px rgba(125,211,252,.12);
+    }
 
-    .main{border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
-    .main-inner{padding:22px 22px 30px;}
-    .crumb{color:var(--muted); font-size:13px; margin-bottom:10px;}
+    .main{
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      background: rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .main-inner{padding:22px 22px 30px}
+    .crumb{ color:var(--muted); font-size:13px; margin-bottom:10px; }
 
     h1,h2,h3{line-height:1.25}
     h1{font-size:28px; margin:6px 0 14px}
@@ -90,11 +150,52 @@
     h3{font-size:15px; margin:18px 0 8px; color:var(--muted)}
     p,li{color:var(--text); opacity:.92}
     hr{border:none; border-top:1px solid var(--line); margin:18px 0}
-    code{font-family:var(--mono); font-size:13px; background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
-    pre{background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.07); border-radius:14px; padding:14px; overflow:auto; position:relative;}
+
+    code{
+      font-family:var(--mono);
+      font-size: 13px;
+      background: rgba(0,0,0,.35);
+      border:1px solid rgba(255,255,255,.06);
+      padding:2px 6px;
+      border-radius:8px;
+    }
+    pre{
+      background: rgba(0,0,0,.35);
+      border:1px solid rgba(255,255,255,.07);
+      border-radius:14px;
+      padding:14px;
+      overflow:auto;
+      position:relative;
+    }
     pre code{background:transparent; border:none; padding:0}
-    .copy{position:absolute; top:10px; right:10px; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--muted); cursor:pointer; font-size:12px;}
+    .copy{
+      position:absolute;
+      top:10px; right:10px;
+      padding:6px 10px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color:var(--muted);
+      cursor:pointer;
+      font-size:12px;
+    }
     .copy:hover{color:var(--text); border-color: rgba(125,211,252,.35)}
+
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap:12px;
+      margin-top:14px;
+    }
+    @media (max-width: 640px){ .cards{grid-template-columns:1fr} }
+    .card{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px;
+      background: rgba(0,0,0,.18);
+    }
+    .card .t{font-weight:800; margin:0 0 6px}
+    .card .d{margin:0; color:var(--muted); font-size:13px}
 
     /* guide 본문 링크 */
     .main-inner a{
@@ -145,7 +246,7 @@
       text-underline-offset: 3px;
     }
 
-    /* overlay */
+    /* overlay (기본은 숨김) */
     .overlay{
       display:none;
       position: fixed;
@@ -158,7 +259,7 @@
     .cta-fixed{ display:none; }
 
     @media (max-width: 980px){
-      body.menu-open{ overflow:hidden; }
+      body.menu-open{ overflow:hidden; } /* 배경 스크롤 잠금 */
 
       .wrap{ display:block; }
 
@@ -179,6 +280,8 @@
       body.menu-open .overlay{ display:block; }
 
       .topbar-inner{ flex-wrap: wrap; }
+
+      /* 상단 primary 버튼 숨김(짤림 방지) */
       #primaryCta{ display:none; }
 
       .cta-fixed{
@@ -216,8 +319,8 @@
       </a>
       <div class="cta">
         <button class="btn" id="menuBtn" type="button" aria-label="Open menu">비트코인 하는법 가이드</button>
-        <a class="btn" href="{{ "/guide/" | relURL }}">Guide Home</a>
-        <a class="btn primary" id="primaryCta" href="/go/binance-next/">평생 수수료 할인 가입</a>
+        <a class="btn" href="{{ .RelPermalink }}">Guide Home</a>
+        <a class="btn primary" id="primaryCta" href="/go/binance-next/">평생 수수료 할인 받기</a>
       </div>
     </div>
   </div>
@@ -228,15 +331,13 @@
         <p class="side-title">빠른 탐색</p>
         <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
       </div>
-
       <nav class="nav" id="navList">
-        <a href="{{ "/guide/" | relURL }}" data-href="{{ "/guide/" | relURL }}">
+        <a href="{{ .RelPermalink }}" data-href="{{ .RelPermalink }}">
           <span class="dot"></span>
-          <span>비트코인 하는법 가이드</span>
+          <span>{{ .Title }}</span>
         </a>
 
-        {{ $sec := site.GetPage "section" "guide" }}
-        {{ range $sec.Pages.ByWeight }}
+        {{ range .Pages.ByWeight }}
           <a href="{{ .RelPermalink }}" data-href="{{ .RelPermalink }}">
             <span class="dot" style="opacity:.55"></span>
             <span>{{ .Title }}</span>
@@ -250,9 +351,7 @@
         <div class="crumb">
           <a href="{{ "/" | relURL }}" style="color:var(--muted)">Home</a>
           <span> / </span>
-          <a href="{{ "/guide/" | relURL }}" style="color:var(--muted)">Guide</a>
-          <span> / </span>
-          <span style="color:var(--muted)">{{ .Title }}</span>
+          <span style="color:var(--muted)">Guide</span>
         </div>
 
         {{ .Content }}
@@ -268,9 +367,16 @@
         </div>
 
         <hr/>
-        <p style="color:var(--muted); font-size:13px; margin:0;">
-          다음 단계는 왼쪽 메뉴에서 바로 이동할 수 있어요.
-        </p>
+
+        <h2>바로 이어서 보기</h2>
+        <div class="cards">
+          {{ range first 4 (.Pages.ByWeight) }}
+            <a class="card" href="{{ .RelPermalink }}">
+              <p class="t">{{ .Title }}</p>
+              <p class="d">{{ .Params.description | default "단계별 설명을 확인하세요." }}</p>
+            </a>
+          {{ end }}
+        </div>
       </div>
     </main>
   </div>
@@ -338,10 +444,12 @@
       btn.addEventListener('click', toggle);
       overlay.addEventListener('click', close);
 
+      // 메뉴 클릭하면 자동 닫기
       document.querySelectorAll('#navList a').forEach(a=>{
         a.addEventListener('click', close);
       });
 
+      // ESC로 닫기
       window.addEventListener('keydown', (e)=>{
         if(e.key === 'Escape') close();
       });
@@ -349,11 +457,6 @@
   </script>
 
   <!-- Mobile fixed CTA -->
-{{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
-
-  <!-- ✅ prev/next는 반드시 body 안에서 렌더링 -->
-  {{ if ne .Params.showPrevNext false }}
-    {{ partial "prev_next.html" . }}
-  {{ end }}
+  <a class="cta-fixed" href="{{ "/go/binance-next/" | relURL }}">평생 수수료 할인 받기</a>
 </body>
 </html>
