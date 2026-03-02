@@ -1,7 +1,7 @@
 +++
 title = "바이낸스 → 업비트 출금 방법"
 description = "바이낸스에서 업비트로 출금하는 절차(주소/네트워크/화이트리스트/소액 테스트 포함)."
-url = "/guide/withdraw/"
+url = "/blockchain-guide/withdraw/"
 list = "never"
 weight = 4
 draft = false

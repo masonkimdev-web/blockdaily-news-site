@@ -1,7 +1,7 @@
 +++
 title = "거래 방법 (Spot / Futures)"
 description = "현물(Spot)과 선물(Futures)의 차이, 초보가 따라할 수 있는 최소 행동 가이드."
-url = "/guide/trading/"
+url = "/blockchain-guide/trading/"
 list = "never"
 weight = 3
 draft = false
