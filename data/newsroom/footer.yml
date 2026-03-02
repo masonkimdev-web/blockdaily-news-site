@@ -4,8 +4,6 @@ columns:
     links:
       - label: 소개
         url: /about/
-      - label: 블록체인 뉴스 가이드
-        url: /blockchain-guide/
 
   - title: 기타
     links:
