@@ -7,7 +7,7 @@ weight = 1
 draft = false
 categories = ["guide"]
 
-[_build]
+[build]
 render = "always"
 +++
 
@@ -26,9 +26,9 @@ render = "always"
   display: flex;
   align-items: center;
   gap: 20px;
+  color: #111;
 ">
 
-  <!-- 로고 -->
   <div style="flex-shrink:0;">
     <img
       src="/images/binance-logo.png"
@@ -37,12 +37,11 @@ render = "always"
     >
   </div>
 
-  <!-- 텍스트 영역 -->
   <div style="flex:1;">
-    <div style="font-size:18px;font-weight:700;margin-bottom:6px;color:#fff;">
-  수수료 20% 평생 할인 혜택
-</div>
-    <div style="font-size:14px;color:#555;line-height:1.5;">
+    <div style="font-size:18px;font-weight:800;margin-bottom:6px;color:#111;">
+      수수료 20% 평생 할인 혜택
+    </div>
+    <div style="font-size:14px;color:#333;line-height:1.5;">
       아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
     </div>
     <div style="margin-top:14px;">
@@ -54,7 +53,7 @@ render = "always"
            padding:12px 22px;
            background:#f3ba2f;
            color:#000;
-           font-weight:700;
+           font-weight:800;
            font-size:15px;
            border-radius:12px;
            text-decoration:none;
