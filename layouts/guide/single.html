@@ -349,7 +349,7 @@
   </script>
 
   <!-- Mobile fixed CTA -->
- {{< binance_cta href="https://accounts.binance.com/register?ref=BLOCKDNEWS" >}}
+{{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
 
   <!-- ✅ prev/next는 반드시 body 안에서 렌더링 -->
   {{ if ne .Params.showPrevNext false }}
