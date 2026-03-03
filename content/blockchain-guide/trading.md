@@ -11,7 +11,7 @@ categories = ["guide"]
 render = "always"
 +++
 
-# 거래 방법 (Spot / Futures)
+# 비트코인 하는법 3단계 - 거래 방법 (Spot / Futures)
 
 ## 0) Spot vs Futures 차이
 - **Spot(현물)**: 코인을 실제로 사고파는 거래
