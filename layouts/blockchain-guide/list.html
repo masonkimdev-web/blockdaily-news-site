@@ -457,6 +457,11 @@
   </script>
 
   <!-- Mobile fixed CTA -->
-  <a class="cta-fixed" href="{{ "/go/binance-next/" | relURL }}">평생 수수료 할인 받기</a>
+  {{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
+
+  <!-- ✅ prev/next는 반드시 body 안에서 렌더링 -->
+  {{ if ne .Params.showPrevNext false }}
+    {{ partial "prev_next.html" . }}
+  {{ end }}
 </body>
 </html>
