@@ -26,10 +26,10 @@ render = "always"
     <div class="binance-hero-title">수수료 20% 할인 적용 후<br>바이낸스 가입하기</div>
     <p class="binance-hero-desc">세계 최대 거래량을 가진 글로벌 거래소로, <b>한국어 지원</b>, <b>초보자도 가입 가능</b>, <b>모바일 앱 사용 편의성</b>이 강점입니다.</p>
     <div class="binance-points">
-      <span>세계 최대 거래소</span>
-      <span>한국어 지원</span>
-      <span>초보자도 5분 가입 가능</span>
-      <span>수수료 20% 할인 적용</span>
+<span>세계 최대 거래소</span>
+<span>모바일 앱 사용 편리</span>
+<span>초보자도 5분 가입 가능</span>
+<span>수수료 20% 할인 적용</span>
     </div>
     <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS" target="_blank" rel="noopener noreferrer" class="binance-hero-button">20% 할인 적용하고 가입하기</a>
     <div class="binance-hero-note">본 페이지는 투자 권유가 아닌 정보 제공용 안내입니다.</div>
