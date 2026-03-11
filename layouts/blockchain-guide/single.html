@@ -1,4 +1,4 @@
-{{- /* layouts/blockchain-guide/single.html */ -}}
+{{- /* layouts/blockchain-guide/list.html */ -}}
 <!doctype html>
 <html lang="{{ .Site.Language.Lang | default "en" }}">
 <head>
@@ -22,7 +22,10 @@
       --r:16px;
       --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      --binance:#f3ba2f;
+      --binanceText:#111;
     }
+
     *{box-sizing:border-box}
     body{
       margin:0;
@@ -42,15 +45,37 @@
     }
     .topbar-inner{
       display:flex; align-items:center; justify-content:space-between;
-      max-width:1200px; margin:0 auto; padding:14px 16px; gap:12px;
+      max-width:1200px; margin:0 auto; padding:14px 16px;
+      gap:12px;
       flex-wrap:nowrap;
     }
-    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px;}
-    .badge{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid rgba(125,211,252,.35); background: rgba(125,211,252,.08); color: var(--brand);}
-    .cta{display:flex; gap:10px; align-items:center;}
-    .btn{display:inline-flex; align-items:center; justify-content:center; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(255,255,255,.03); cursor:pointer; transition: transform .08s ease, border-color .2s ease, background .2s ease; font-weight:600; white-space:nowrap;}
+    .brand{
+      display:flex; align-items:center; gap:10px; font-weight:700;
+      letter-spacing:.2px;
+    }
+    .badge{
+      font-size:12px; padding:4px 10px; border-radius:999px;
+      border:1px solid rgba(125,211,252,.35);
+      background: rgba(125,211,252,.08);
+      color: var(--brand);
+    }
+    .cta{ display:flex; gap:10px; align-items:center; }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      cursor:pointer;
+      transition: transform .08s ease, border-color .2s ease, background .2s ease;
+      font-weight:600;
+      white-space:nowrap;
+    }
     .btn:hover{transform: translateY(-1px); border-color: rgba(125,211,252,.35); background: rgba(255,255,255,.05)}
-    .btn.primary{border-color: rgba(125,211,252,.35); background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));}
+    .btn.primary{
+      border-color: rgba(125,211,252,.35);
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));
+    }
 
     .wrap{
       max-width:1200px;
@@ -71,18 +96,56 @@
       box-shadow: var(--shadow);
       overflow:hidden;
     }
-    .side-head{padding:14px 14px 10px; border-bottom:1px solid var(--line); background: rgba(255,255,255,.02);}
+    .side-head{
+      padding:14px 14px 10px;
+      border-bottom:1px solid var(--line);
+      background: rgba(255,255,255,.02);
+    }
     .side-title{font-weight:800; margin:0 0 8px; font-size:14px; color:var(--muted)}
-    .search{width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.25); color:var(--text); outline:none;}
-    .nav{padding:10px; display:flex; flex-direction:column; gap:6px; max-height: calc(100vh - 170px); overflow:auto;}
-    .nav a{padding:10px 10px; border-radius:12px; border:1px solid transparent; display:flex; gap:10px; align-items:center; color:var(--muted);}
+    .search{
+      width:100%;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.25);
+      color:var(--text);
+      outline:none;
+    }
+    .nav{
+      padding:10px;
+      display:flex; flex-direction:column; gap:6px;
+      max-height: calc(100vh - 170px);
+      overflow:auto;
+    }
+    .nav a{
+      padding:10px 10px;
+      border-radius:12px;
+      border:1px solid transparent;
+      display:flex; gap:10px; align-items:center;
+      color:var(--muted);
+    }
     .nav a:hover{background: rgba(255,255,255,.04); color:var(--text)}
-    .nav a.active{color:var(--text); border-color: rgba(125,211,252,.35); background: rgba(125,211,252,.08);}
-    .dot{width:8px; height:8px; border-radius:99px; background: rgba(125,211,252,.7); flex:0 0 auto; box-shadow: 0 0 0 4px rgba(125,211,252,.12);}
+    .nav a.active{
+      color:var(--text);
+      border-color: rgba(125,211,252,.35);
+      background: rgba(125,211,252,.08);
+    }
+    .dot{
+      width:8px; height:8px; border-radius:99px;
+      background: rgba(125,211,252,.7);
+      flex:0 0 auto;
+      box-shadow: 0 0 0 4px rgba(125,211,252,.12);
+    }
 
-    .main{border:1px solid var(--line); border-radius:var(--r); background: rgba(255,255,255,.03); box-shadow: var(--shadow); overflow:hidden;}
-    .main-inner{padding:22px 22px 30px;}
-    .crumb{color:var(--muted); font-size:13px; margin-bottom:10px;}
+    .main{
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      background: rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .main-inner{padding:22px 22px 30px}
+    .crumb{ color:var(--muted); font-size:13px; margin-bottom:10px; }
 
     h1,h2,h3{line-height:1.25}
     h1{font-size:28px; margin:6px 0 14px}
@@ -90,19 +153,60 @@
     h3{font-size:15px; margin:18px 0 8px; color:var(--muted)}
     p,li{color:var(--text); opacity:.92}
     hr{border:none; border-top:1px solid var(--line); margin:18px 0}
-    code{font-family:var(--mono); font-size:13px; background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.06); padding:2px 6px; border-radius:8px;}
-    pre{background: rgba(0,0,0,.35); border:1px solid rgba(255,255,255,.07); border-radius:14px; padding:14px; overflow:auto; position:relative;}
+
+    code{
+      font-family:var(--mono);
+      font-size: 13px;
+      background: rgba(0,0,0,.35);
+      border:1px solid rgba(255,255,255,.06);
+      padding:2px 6px;
+      border-radius:8px;
+    }
+    pre{
+      background: rgba(0,0,0,.35);
+      border:1px solid rgba(255,255,255,.07);
+      border-radius:14px;
+      padding:14px;
+      overflow:auto;
+      position:relative;
+    }
     pre code{background:transparent; border:none; padding:0}
-    .copy{position:absolute; top:10px; right:10px; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background: rgba(255,255,255,.04); color:var(--muted); cursor:pointer; font-size:12px;}
+    .copy{
+      position:absolute;
+      top:10px; right:10px;
+      padding:6px 10px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color:var(--muted);
+      cursor:pointer;
+      font-size:12px;
+    }
     .copy:hover{color:var(--text); border-color: rgba(125,211,252,.35)}
 
-    /* guide 본문 링크 */
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap:12px;
+      margin-top:14px;
+    }
+    @media (max-width: 640px){ .cards{grid-template-columns:1fr} }
+    .card{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px;
+      background: rgba(0,0,0,.18);
+    }
+    .card .t{font-weight:800; margin:0 0 6px}
+    .card .d{margin:0; color:var(--muted); font-size:13px}
+
     .main-inner a{
       color: var(--brand);
       text-decoration: underline;
       text-underline-offset: 3px;
     }
     .main-inner a:hover{ opacity:.9; }
+
     .main-inner a.btnlink{
       display:inline-flex;
       align-items:center;
@@ -115,6 +219,116 @@
       font-weight:800;
     }
     .main-inner a.btnlink::after{ content:"→"; opacity:.9; }
+
+    /* ===== Hero summary ===== */
+    .hero-mini{
+      margin: 0 0 18px;
+      padding: 16px 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(125,211,252,.18);
+      background: linear-gradient(135deg, rgba(125,211,252,.08), rgba(167,139,250,.06));
+    }
+    .hero-mini-title{
+      margin: 0 0 8px;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--brand);
+      letter-spacing: .2px;
+    }
+    .hero-mini p{
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    /* ===== Binance CTA card ===== */
+    .binance-hero-card{
+      max-width: 760px;
+      margin: 22px auto;
+      padding: 22px;
+      border-radius: 18px;
+      background: #fffbe6;
+      border: 2px solid var(--binance);
+      color: var(--binanceText);
+      display:flex;
+      align-items:center;
+      gap:20px;
+      box-shadow: 0 14px 35px rgba(0,0,0,.18);
+    }
+    .binance-hero-logo{
+      flex-shrink:0;
+    }
+    .binance-hero-logo img{
+      width:72px;
+      height:72px;
+      border-radius:50%;
+      display:block;
+    }
+    .binance-hero-text{
+      flex:1;
+      min-width:0;
+    }
+    .binance-kicker{
+      display:inline-block;
+      margin-bottom:8px;
+      padding:6px 10px;
+      border-radius:999px;
+      background: rgba(243,186,47,.22);
+      font-size:12px;
+      font-weight:800;
+      color:#6a4b00;
+    }
+    .binance-hero-title{
+      margin:0 0 8px;
+      font-size:26px;
+      line-height:1.25;
+      font-weight:900;
+      color:#111;
+    }
+    .binance-hero-desc{
+      margin:0 0 12px;
+      font-size:15px;
+      line-height:1.65;
+      color:#333;
+    }
+    .binance-points{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:0 0 14px;
+    }
+    .binance-points span{
+      display:inline-flex;
+      align-items:center;
+      padding:8px 10px;
+      border-radius:999px;
+      background: rgba(0,0,0,.06);
+      color:#222;
+      font-size:13px;
+      font-weight:700;
+    }
+    .binance-hero-button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:14px 22px;
+      border-radius:14px;
+      background: var(--binance);
+      color:#111 !important;
+      font-size:16px;
+      font-weight:900;
+      text-decoration:none !important;
+      box-shadow: 0 10px 20px rgba(243,186,47,.28);
+    }
+    .binance-hero-button:hover{
+      transform: translateY(-1px);
+      opacity:1 !important;
+    }
+    .binance-hero-note{
+      margin-top:10px;
+      font-size:12px;
+      color:#555;
+      line-height:1.5;
+    }
 
     /* 교육/면책 고지 */
     .disclaimer{
@@ -145,7 +359,6 @@
       text-underline-offset: 3px;
     }
 
-    /* overlay */
     .overlay{
       display:none;
       position: fixed;
@@ -154,14 +367,12 @@
       z-index: 40;
     }
 
-    /* 모바일: 드로어 + 하단 CTA */
     .cta-fixed{ display:none; }
 
     @media (max-width: 980px){
-      body.menu-open{ overflow:hidden; } /* 배경 스크롤 잠금 */
-    
+      body.menu-open{ overflow:hidden; }
       .wrap{ display:block; }
-    
+
       .sidebar{
         position: fixed;
         left: 0;
@@ -177,51 +388,57 @@
       }
       body.menu-open .sidebar{ transform: translateX(0); }
       body.menu-open .overlay{ display:block; }
-    
-      .topbar-inner{ flex-wrap: wrap; }
-    
-      /* 상단 primary 버튼 숨김(짤림 방지) */
+
+      .topbar-inner{ flex-wrap: nowrap; }
       #primaryCta{ display:none; }
-    
-      /* ✅ 모바일 하단 CTA (가독성/클릭률 우선) */
+      #guideHomeBtn{ display:none; }
+
+      .binance-hero-card{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:16px;
+        padding:18px;
+      }
+      .binance-hero-logo img{
+        width:64px;
+        height:64px;
+      }
+      .binance-hero-title{
+        font-size:22px;
+      }
+      .binance-hero-desc{
+        font-size:14px;
+      }
+      .binance-hero-button{
+        width:100%;
+      }
+
       .cta-fixed{
         display:flex;
         position: fixed;
         left: 12px;
         right: 12px;
         bottom: 12px;
-    
-        z-index: 9999; /* 다른 fixed 요소보다 위로 */
-    
+        z-index: 9999;
         align-items:center;
         justify-content:center;
-    
         padding: 16px 14px;
         padding-bottom: calc(16px + env(safe-area-inset-bottom));
-    
         border-radius: 16px;
-    
-        /* 바이낸스 색상으로 대비 확실히 */
         background: #f3ba2f;
         border: 1px solid rgba(0,0,0,.25);
-    
         color: #111;
         font-weight: 900;
         letter-spacing: .2px;
-    
         box-shadow: 0 14px 40px rgba(0,0,0,.55);
-    
-        /* iOS에서 흐려지는 효과 방지 */
         -webkit-font-smoothing: antialiased;
         text-shadow: none;
       }
-    
-      /* 눌림 피드백 */
       .cta-fixed:active{
         transform: translateY(1px);
       }
-    
-      .main-inner{ padding-bottom: 120px; } /* 버튼 높이 여유 */
+
+      .main-inner{ padding-bottom: 120px; }
     }
   </style>
 </head>
@@ -236,9 +453,9 @@
         <span class="badge">GUIDE</span>
       </a>
       <div class="cta">
-
         <button class="btn" id="menuBtn" type="button" aria-label="Open menu">가이드 목차</button>
-        <a class="btn primary" id="primaryCta" href="https://accounts.binance.com/register?ref=BLOCKDNEWS">바이낸스 20% 수수료 할인 가입</a>
+        <a class="btn" id="guideHomeBtn" href="{{ .RelPermalink }}">Guide Home</a>
+        <a class="btn primary" id="primaryCta" href="/go/binance-next/">20% 할인 적용하고 가입하기</a>
       </div>
     </div>
   </div>
@@ -249,15 +466,13 @@
         <p class="side-title">빠른 탐색</p>
         <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
       </div>
-
       <nav class="nav" id="navList">
-        <a href="{{ "/blockchain-guide/" | relURL }}" data-href="{{ "/blockchain-guide/" | relURL }}">
+        <a href="{{ .RelPermalink }}" data-href="{{ .RelPermalink }}">
           <span class="dot"></span>
-          <span>비트코인 하는법 가이드</span>
+          <span>{{ .Title }}</span>
         </a>
 
-        {{ $sec := site.GetPage "section" "blockchain-guide" }}
-        {{ range $sec.Pages.ByWeight }}
+        {{ range .Pages.ByWeight }}
           <a href="{{ .RelPermalink }}" data-href="{{ .RelPermalink }}">
             <span class="dot" style="opacity:.55"></span>
             <span>{{ .Title }}</span>
@@ -271,9 +486,7 @@
         <div class="crumb">
           <a href="{{ "/" | relURL }}" style="color:var(--muted)">Home</a>
           <span> / </span>
-          <a href="{{ "/blockchain-guide/" | relURL }}" style="color:var(--muted)">Guide</a>
-          <span> / </span>
-          <span style="color:var(--muted)">{{ .Title }}</span>
+          <span style="color:var(--muted)">Guide</span>
         </div>
 
         {{ .Content }}
@@ -284,20 +497,25 @@
             ⚠️ 본 가이드는 <b>교육 및 정보 제공</b>을 위한 자료입니다.
             <br/>
             투자 판단 및 거래 결정에 대한 책임은 이용자 본인에게 있습니다.
-            <br/>
           </p>
         </div>
 
         <hr/>
-        <p style="color:var(--muted); font-size:13px; margin:0;">
-          다음 단계는 왼쪽 메뉴에서 바로 이동할 수 있어요.
-        </p>
+
+        <h2>바로 이어서 보기</h2>
+        <div class="cards">
+          {{ range first 4 (.Pages.ByWeight) }}
+            <a class="card" href="{{ .RelPermalink }}">
+              <p class="t">{{ .Title }}</p>
+              <p class="d">{{ .Params.description | default "단계별 설명을 확인하세요." }}</p>
+            </a>
+          {{ end }}
+        </div>
       </div>
     </main>
   </div>
 
   <script>
-    // Active link highlight
     (function(){
       const current = location.pathname.replace(/\/+$/, '/') ;
       const links = document.querySelectorAll('#navList a');
@@ -307,7 +525,6 @@
       });
     })();
 
-    // Sidebar search filter
     (function(){
       const input = document.getElementById('navSearch');
       const items = Array.from(document.querySelectorAll('#navList a'));
@@ -320,7 +537,6 @@
       });
     })();
 
-    // Add copy buttons to code blocks
     (function(){
       document.querySelectorAll('pre').forEach(pre=>{
         const btn = document.createElement('button');
@@ -342,7 +558,6 @@
       });
     })();
 
-    // Menu drawer toggle (mobile)
     (function(){
       const btn = document.getElementById('menuBtn');
       const overlay = document.getElementById('overlay');
@@ -369,10 +584,8 @@
     })();
   </script>
 
-  <!-- Mobile fixed CTA -->
-{{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
+  {{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
 
-  <!-- ✅ prev/next는 반드시 body 안에서 렌더링 -->
   {{ if ne .Params.showPrevNext false }}
     {{ partial "prev_next.html" . }}
   {{ end }}
