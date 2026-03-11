@@ -24,7 +24,7 @@ render = "always"
   <div class="binance-hero-text">
     <div class="binance-kicker">초보자용 시작 가이드</div>
     <div class="binance-hero-title">수수료 20% 할인 적용 후<br>바이낸스 가입하기</div>
-    <p class="binance-hero-desc">세계 최대 거래량을 가진 글로벌 거래소로, <b>한국어 지원</b>, <b>초보자도 가입 가능</b>, <b>모바일 앱 사용 편의성</b>이 강점입니다.</p>
+    <p class="binance-hero-desc">세계 최대 거래량을 가진 글로벌 거래소로, <b>초보자도 가입 가능</b>, <b>모바일 앱 사용 편의성</b>이 강점입니다.</p>
     <div class="binance-points">
 <span>세계 최대 거래소</span>
 <span>모바일 앱 사용 편리</span>
