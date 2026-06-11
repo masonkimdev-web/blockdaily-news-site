@@ -32,6 +32,8 @@ render = "always"
 3. **Transfer(전송)** 버튼을 클릭합니다.
 4. 이동 경로를 아래와 같이 설정합니다.
 
+![롱 숏 진입 화면](/images/future2.PNG)
+
 - From : Spot Wallet
 - To : USDⓈ-M Futures
 
@@ -114,7 +116,7 @@ Cross 또는 Isolated 옆에 표시되는 숫자는 레버리지 배수를 의�
 
 선물거래의 가장 큰 특징은 상승장과 하락장 모두 수익을 노릴 수 있다는 점입니다.
 
-![롱 숏 진입 화면](/images/future2.PNG)
+
 
 ### Long (롱)
 
