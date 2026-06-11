@@ -1,7 +1,7 @@
 +++
 title = "바이낸스 선물거래 하는 방법 (초보자 가이드)"
 description = "바이낸스 선물거래를 처음 시작하는 사람들을 위한 입문 가이드"
-url = "/blockchain-guide/futures-trading/"
+url = "/blockchain-guide/trading/"
 list = "never"
 weight = 3
 draft = false
