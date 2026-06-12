@@ -1,19 +1,328 @@
+
+<div style="
+  max-width: 720px;
+  margin: 20px auto 30px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background: #fffbe6;
+  border: 2px solid #f3ba2f;
+  text-align: center;
+">
+
+  <img
+    src="/images/binance-logo.png"
+    alt="Binance"
+    style="width:72px;height:72px;margin-bottom:10px;"
+  >
+
+  <h3 style="margin:0;color:#111;">
+    바이낸스 수수료 20% 평생 할인
+  </h3>
+
+  <p style="margin-top:10px;color:#444;">
+    아래 링크로 가입하면 수수료 할인 코드가 자동 적용됩니다.
+  </p>
+
+  <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+     target="_blank"
+     rel="nofollow sponsored noopener noreferrer"
+     style="
+        display:inline-block;
+        margin-top:10px;
+        padding:12px 24px;
+        background:#f3ba2f;
+        color:#000;
+        font-weight:700;
+        border-radius:12px;
+        text-decoration:none;
+     ">
+     바이낸스 가입하기
+  </a>
+
+</div>
+
 +++
-title = "바이낸스 가입 방법"
-description = "바이낸스 계정 생성부터 2FA 설정, 기본 보안 세팅까지 초보자용 체크리스트로 정리."
-url = "/blockchain-guide/blockchain-guide/"
+title = "바이낸스 선물거래 하는 방법 (초보자 가이드)"
+description = "바이낸스 선물거래를 처음 시작하는 사람들을 위한 실전 가이드"
+url = "/blockchain-guide/trading/"
 list = "never"
-weight = 1
+weight = 3
 draft = false
 categories = ["guide"]
 
-[build]
+[_build]
 render = "always"
 +++
-# 비트코인 하는법 1단계 - 바이낸스 가입 방법
 
-본 글은 **세계 최대 규모 암호화폐 거래소 바이낸스**의  
-가입 과정과 KYC 인증 절차, 입금·보안 설정 관련 내용을 정리한 **정보 제공용 안내문**입니다. 투자 권유 목적이 전혀 없습니다.
+# 비트코인 하는법 3단계 - 바이낸스 선물거래 하는 방법
+
+바이낸스 선물거래는 코인 가격이 상승할 때뿐만 아니라 하락할 때도 수익을 노릴 수 있는 거래 방식입니다.
+
+현물거래와 달리 레버리지를 활용할 수 있기 때문에 적은 자금으로도 큰 규모의 거래가 가능하지만, 손실 역시 확대될 수 있으므로 반드시 원리를 이해한 후 시작하는 것이 좋습니다.
+
+---
+
+## 1. 선물 계좌로 USDT 이동하기
+
+<p align="center">
+<img src="/images/trade-future1.PNG" alt="선물 계좌로 USDT 이동하기" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+선물거래를 하기 위해서는 먼저 선물 계좌에 증거금을 준비해야 합니다.
+
+1. Assets 선택
+2. Transfer 클릭
+3. Spot Wallet → USDⓈ-M Futures
+4. 금액 입력
+5. Confirm Transfer
+
+전송이 완료되면 선물 계좌에서 거래가 가능합니다.
+
+---
+
+## 2. Cross와 Isolated 설정하기
+
+<p align="center">
+<img src="/images/trade-future2.PNG" alt="Cross Isolated" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+선물거래를 시작하기 전에 마진 모드를 선택해야 합니다.
+
+### Cross
+
+계좌 전체 자산을 증거금으로 사용
+
+### Isolated
+
+해당 포지션 금액만 증거금으로 사용
+
+처음 시작하는 경우에는 Isolated 모드를 추천합니다.
+
+---
+
+## 3. 레버리지 설정하기
+
+<p align="center">
+<img src="/images/trade-future3.PNG" alt="레버리지 설정" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+레버리지는 적은 자금으로 더 큰 금액을 거래할 수 있게 해주는 기능입니다.
+
+예를 들어
+
+- 보유 자금 : 100 USDT
+- 레버리지 : 10배
+
+라면 1,000 USDT 규모의 거래가 가능합니다.
+
+초보자는 2배~5배 정도의 낮은 레버리지부터 시작하는 것을 추천합니다.
+
+---
+
+<div style="
+  max-width:720px;
+  margin:30px auto;
+  padding:18px;
+  border-radius:14px;
+  background:#fff8e1;
+  border:1px solid #f3ba2f;
+  text-align:center;
+">
+
+<strong>아직 바이낸스 계정이 없다면?</strong><br><br>
+
+<a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+   target="_blank"
+   rel="nofollow sponsored noopener noreferrer"
+   style="
+      display:inline-block;
+      padding:10px 20px;
+      background:#f3ba2f;
+      color:#000;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:700;
+   ">
+   수수료 20% 할인받고 가입하기
+</a>
+
+</div>
+
+---
+
+## 4. TP / SL 설정하기
+
+<p align="center">
+<img src="/images/trade-future4.PNG" alt="TP SL 설정" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+TP와 SL은 선물거래에서 반드시 알아야 하는 기능입니다.
+
+### TP (Take Profit)
+
+목표 수익 도달 시 자동 익절
+
+### SL (Stop Loss)
+
+설정한 손실 구간 도달 시 자동 손절
+
+감정적인 매매를 줄일 수 있기 때문에 적극적으로 활용하는 것이 좋습니다.
+
+---
+
+## 5. 주문 화면 이해하기
+
+<p align="center">
+<img src="/images/trade-future5.PNG" alt="주문 화면" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+주문 화면에서는
+
+- 레버리지
+- 주문 방식
+- 주문 금액
+- TP / SL
+- 청산 가격
+
+등을 확인할 수 있습니다.
+
+특히 예상 청산가격은 반드시 확인해야 합니다.
+
+---
+
+## 6. 롱(Long)과 숏(Short) 진입하기
+
+<p align="center">
+<img src="/images/trade-future6.PNG" alt="롱 숏 진입" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+### Long
+
+가격 상승 예상
+
+### Short
+
+가격 하락 예상
+
+예를 들어 비트코인이 하락할 것으로 예상된다면 Short 포지션을 선택합니다.
+
+---
+
+## 7. 포지션 확인하기
+
+<p align="center">
+<img src="/images/trade-future7.PNG" alt="포지션 확인" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+포지션 진입 후에는
+
+- 진입 가격
+- 현재 가격
+- 수익률
+- 청산 가격
+
+을 실시간으로 확인할 수 있습니다.
+
+---
+
+## 8. 차트 화면 확인하기
+
+<p align="center">
+<img src="/images/trade-future8.PNG" alt="차트 화면" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+차트는 거래 방향을 판단하는 가장 중요한 도구입니다.
+
+15분봉, 1시간봉, 4시간봉 등을 함께 확인하며 거래하는 것이 좋습니다.
+
+---
+
+## 9. 포지션 보유 중 레버리지 변경하기
+
+<p align="center">
+<img src="/images/trade-future9.PNG" alt="레버리지 변경" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+포지션 보유 중에도 레버리지 조정이 가능합니다.
+
+다만 레버리지를 높일수록 청산 위험도 함께 증가합니다.
+
+---
+
+## 10. TP/SL 실제 설정하기
+
+<p align="center">
+<img src="/images/trade-future10.PNG" alt="TP SL 등록" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+TP와 SL 가격을 입력하여 자동 매매 규칙을 설정할 수 있습니다.
+
+예시
+
+- TP : +20%
+- SL : -5%
+
+---
+
+## 11. 익절 / 손절 주문 확인하기
+
+<p align="center">
+<img src="/images/trade-future11.PNG" alt="주문 확인" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+Open Orders 탭에서 등록된 주문을 확인할 수 있습니다.
+
+필요에 따라 수정 및 취소도 가능합니다.
+
+---
+
+## 12. 포지션 종료하기
+
+<p align="center">
+<img src="/images/trade-future12.PNG" alt="포지션 종료" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+거래를 종료할 때는 Close 기능을 사용합니다.
+
+### Market Close
+
+즉시 종료
+
+### Limit Close
+
+지정 가격 종료
+
+---
+
+## 13. 시장가로 수익 실현하기
+
+<p align="center">
+<img src="/images/trade-future13.PNG" alt="시장가 종료" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+빠르게 정리하고 싶다면 Market Close를 사용하면 됩니다.
+
+---
+
+## 14. 최종 수익 확인하기
+
+<p align="center">
+<img src="/images/trade-future14.PNG" alt="수익 확인" style="width:100%;max-width:760px;height:auto;border-radius:12px;">
+</p>
+
+거래 종료 후 선물 계좌 잔액을 확인할 수 있습니다.
+
+수익이 발생하면 잔액이 증가하고 손실이 발생하면 잔액이 감소합니다.
+
+---
+
+## 초보자를 위한 선물거래 원칙
+
+- Isolated 사용
+- 낮은 레버리지 사용
+- 손절 필수
+- 감정적인 매매 금지
+- 여유 자금으로만 거래
 
 ---
 
@@ -42,13 +351,15 @@ render = "always"
     <div style="font-size:18px;font-weight:800;margin-bottom:6px;color:#111;">
       수수료 20% 평생 할인 혜택
     </div>
+
     <div style="font-size:14px;color:#333;line-height:1.5;">
-      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
+      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동 적용됩니다.
     </div>
+
     <div style="margin-top:14px;">
       <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
          target="_blank"
-         rel="noopener noreferrer"
+         rel="nofollow sponsored noopener noreferrer"
          style="
            display:inline-block;
            padding:12px 22px;
@@ -62,275 +373,8 @@ render = "always"
         바이낸스 공식 홈페이지 바로가기
       </a>
     </div>
+
   </div>
-
-</div>
-
----
-
-## 1. 바이낸스 거래소란?
-
-바이낸스(Binance)는 2017년 설립된 글로벌 암호화폐 거래소로,  
-현재 100여 개국 이상에서 서비스되고 있습니다.
-
-- **거래 가능 코인 수:** 약 350종+  
-- **일일 거래량:** 약 100조 원 이상  
-- **지원 언어:** 한국어 포함 다국어  
-
-### 주요 기능
-- 현물(Spot) / 선물(Futures) 거래  
-- 예치·스테이킹(Earn)  
-- 런치패드(Launchpad)  
-- NFT 마켓 및 Web3 지갑  
-- 바이낸스 카드 / 글로벌 결제 기능  
-
-👉 초보자는 **현물거래 + 입출금만 익혀도 충분**합니다.
-
----
-
-## 2. 바이낸스 회원가입 진행하기
-
-가입은 **이메일 또는 휴대폰 번호**로 가능합니다.  
-일반적으로 이메일 가입이 더 안정적입니다.
-
-### ① 이메일 주소 입력  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-이메일입력.jpg" 
-    alt="이메일입력"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ② 이메일 인증코드 입력  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-코드입력.jpg" 
-    alt="코드입력"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ③ 비밀번호 설정
-- 영문 대/소문자 포함  
-- 숫자 + 특수문자 포함  
-- 8자 이상
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-비번추천코드.jpg" 
-    alt="비번추천코드"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
----
-
-## 3. 바이낸스 가입방법 완료
-
-## 4. 바이낸스 모바일 앱에서 인증(KYC) 진행하기
-
-### ① 로그인 후 “Verify Now” 선택  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-KYC버튼.jpg" 
-    alt="KYC버튼"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ② 신분증 종류 선택  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-신분증선택.jpg" 
-    alt="신분증선택"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ③ 신분증 촬영  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-신분증촬영.jpg" 
-    alt="신분증촬영"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ④ 얼굴 인식  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-얼굴인식.jpg" 
-    alt="얼굴인식"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ⑤ 정보 입력 (국가, 생년월일 등)  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-KYC정보.jpg" 
-    alt="KYC정보"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-> 인증 완료까지 10분 ~ 1시간 정도 소요됩니다.
-
----
-
-## 5. KYC 완료 확인하기
-
-프로필 메뉴에서 인증 상태가 Unverified가 아니라 **Verified**로 표시되는지 확인하세요.
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-인증완료.jpg" 
-    alt="인증완료"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
----
-
-## 6. 구글 OTP(2단계 인증) 설정하기
-
-보안 강화를 위해 반드시 설정을 추천드립니다.
-
-### ① Security 메뉴로 이동  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-보안메뉴.jpg" 
-    alt="보안메뉴"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ② Authenticator App 선택  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-OTP선택.jpg" 
-    alt="OTP선택"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ③ 이메일 인증코드 입력  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-OTP이메일.jpg" 
-    alt="OTP이메일"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ④ OTP 발급키(QR/Key) 복사  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-OTP키.jpg" 
-    alt="OTP키"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
-### ⑤ Google Authenticator 앱에서 신규 계정 생성  
-→ 바이낸스에서 복사한 Key를 입력하세요.
-
-### ⑥ 생성된 OTP 숫자를 바이낸스에 입력  
-
-<div style="text-align:center; margin: 14px 0;">
-  <img 
-    src="/images/이미지-OTP완료.jpg" 
-    alt="OTP완료"
-    style="max-width:400px; width:100%; height:auto;"
-  >
-</div>
-
----
-
-## 7. 가입 후 필수 관리 팁
-
-- OTP 복구키는 반드시 따로 저장  
-- 이메일 비밀번호는 거래소 비밀번호와 다르게 설정  
-- 공식 앱스토어에서만 다운로드  
-- VPN 사용 주의  
-- 로그인 히스토리와 기기 관리 주기적 점검  
-
----
-
-## 8. 핵심 요약표
-
-| 단계 | 주요 내용 |
-|------|-----------|
-| 1 | 공식 사이트 접속 |
-| 2 | 이메일 회원가입 |
-| 3 | 인증코드 입력 |
-| 4 | 추천코드 입력(선택) |
-| 5 | OTP 2단계 보안 설정 |
-| 6 | 신원 인증(KYC) 완료 |
-| 7 | USDT 입금 |
-| 8 | 거래 시작 |
-
----
-
-## 9. 마무리 요약
-
-바이낸스는 세계 1위 거래량과 글로벌 보안을 갖춘 거래소로,  
-초보자도 *“공식 사이트 접속 → 회원가입 → KYC → 입금 → 거래”*  
-이 네 단계만 익히면 충분히 이용할 수 있습니다.
-
-처음에는 **현물**을 추천하며,  
-익숙해지면 선물/런치패드/Earn 기능도 확장해보세요.
-
----
-
-<!-- 로고 -->
-  <div style="flex-shrink:0;">
-    <img
-      src="/images/binance-logo.png"
-      alt="Binance Logo"
-      style="width:64px;height:64px;border-radius:50%;"
-    >
-  </div>
-
-  <!-- 텍스트 영역 -->
-  <div style="flex:1;">
-    <div style="font-size:18px;font-weight:700;margin-bottom:6px;">
-      수수료 20% 평생 할인 혜택
-    </div>
-    <div style="font-size:14px;color:#555;line-height:1.5;">
-      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
-    </div>
-    <div style="margin-top:14px;">
-      <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
-         target="_blank"
-         rel="noopener noreferrer"
-         style="
-           display:inline-block;
-           padding:12px 22px;
-           background:#f3ba2f;
-           color:#000;
-           font-weight:700;
-           font-size:15px;
-           border-radius:12px;
-           text-decoration:none;
-         ">
-        바이낸스 공식 홈페이지 바로가기
-      </a>
-    </div>
-  </div>
-
 </div>
 
 ---
