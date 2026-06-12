@@ -145,7 +145,14 @@ SL은 Stop Loss의 약자로, 손실이 커지기 전에 자동으로 손절하�
   text-align:center;
   color:#111;
 ">
-<strong>아직 바이낸스 계정이 없다면?</strong><br><br>
+<strong><h3 style="
+margin:0 0 10px 0;
+color:#111 !important;
+font-size:24px;
+font-weight:800;
+">
+아직 바이낸스 계정이 없다면?
+</h3></strong><br><br>
 <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
    target="_blank"
    rel="nofollow sponsored noopener noreferrer"
