@@ -375,11 +375,9 @@ TP/SL 설정이 완료되면 **Open Orders** 탭에서 주문을 확인할 수 �
     <div style="font-size:18px;font-weight:800;margin-bottom:6px;color:#111;">
       수수료 20% 평생 할인 혜택
     </div>
-
     <div style="font-size:14px;color:#333;line-height:1.5;">
       아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
     </div>
-
     <div style="margin-top:14px;">
       <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
          target="_blank"
@@ -397,7 +395,6 @@ TP/SL 설정이 완료되면 **Open Orders** 탭에서 주문을 확인할 수 �
         바이낸스 공식 홈페이지 바로가기
       </a>
     </div>
-
   </div>
 </div>
 
