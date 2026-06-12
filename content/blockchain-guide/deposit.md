@@ -33,6 +33,7 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP1"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 2. Add Funds 선택
@@ -44,6 +45,7 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP2"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 3. On-Chain Deposit 선택
@@ -55,6 +57,7 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP3"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 4. USDT 선택
@@ -66,8 +69,45 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP4"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
+
+<div style="
+  max-width:720px;
+  margin:30px auto;
+  padding:18px;
+  border-radius:14px;
+  background:#fff8e1;
+  border:1px solid #f3ba2f;
+  text-align:center;
+  color:#111;
+">
+<strong><h3 style="
+margin:0 0 10px 0;
+color:#111 !important;
+font-size:24px;
+font-weight:800;
+">
+아직 바이낸스 계정이 없다면?
+</h3></strong><br><br>
+<a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+   target="_blank"
+   rel="nofollow sponsored noopener noreferrer"
+   style="
+      display:inline-block;
+      padding:10px 20px;
+      background:#f3ba2f;
+      color:#000;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:700;
+   ">
+   수수료 20% 할인받고 가입하기
+</a>
+</div>
+
+---
 ## ✅ STEP 5. 네트워크 선택 (중요)
 
 👉 **Tron (TRC20)** 선택 권장
@@ -82,6 +122,7 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP5"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 6. 입금 주소 복사
@@ -98,6 +139,7 @@ render = "always"
        alt="바이낸스 입금주소 확인 STEP6"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 # 2️⃣ 업비트에서 바이낸스로 출금하기
@@ -120,6 +162,7 @@ render = "always"
        alt="업비트에서 바이낸스 출금 STEP2"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 3. 출금 클릭
@@ -130,6 +173,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP3"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 4. 네트워크 선택
@@ -144,6 +188,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP4"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 5. 출금 수량 입력
@@ -157,6 +202,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP5"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 6. 바이낸스 입금 주소 붙여넣기
@@ -171,6 +217,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP6"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 7. 계정 정보 확인
@@ -184,6 +231,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP7"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 8. 최종 확인
@@ -198,6 +246,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP8"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 9. 2채널 인증 진행
@@ -209,6 +258,7 @@ USDT 상세 화면에서 **출금** 버튼을 클릭합니다.
        alt="업비트에서 바이낸스 출금 STEP9"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
 ## ✅ STEP 10. 출금 완료 및 입금 확인
@@ -222,8 +272,59 @@ USDT 입금을 확인할 수 있습니다.
        alt="업비트에서 바이낸스 출금 STEP10"
        style="max-width:400px; width:100%; height:auto;" />
 </p>
+
 ---
 
+
+<div style="
+  max-width: 720px;
+  margin: 28px auto;
+  padding: 22px 26px;
+  border-radius: 16px;
+  background: #fffbe6;
+  border: 2px solid #f3ba2f;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #111;
+">
+
+  <div style="flex-shrink:0;">
+    <img
+      src="/images/binance-logo.png"
+      alt="Binance Logo"
+      style="width:64px;height:64px;border-radius:50%;"
+    >
+  </div>
+
+  <div style="flex:1;">
+    <div style="font-size:18px;font-weight:800;margin-bottom:6px;color:#111;">
+      수수료 20% 평생 할인 혜택
+    </div>
+    <div style="font-size:14px;color:#333;line-height:1.5;">
+      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
+    </div>
+    <div style="margin-top:14px;">
+      <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
+         target="_blank"
+         rel="nofollow sponsored noopener noreferrer"
+         style="
+           display:inline-block;
+           padding:12px 22px;
+           background:#f3ba2f;
+           color:#000;
+           font-weight:800;
+           font-size:15px;
+           border-radius:12px;
+           text-decoration:none;
+         ">
+        바이낸스 공식 홈페이지 바로가기
+      </a>
+    </div>
+  </div>
+</div>
+
+---
 # ⚠ 자주 발생하는 실수
 
 ### ❌ 네트워크 불일치
