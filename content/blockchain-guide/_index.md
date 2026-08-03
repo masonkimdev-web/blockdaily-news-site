@@ -1,6 +1,6 @@
 +++
-title = "바이낸스 가입 방법"
-description = "비트코인 처음 시작하는 초보자를 위한 바이낸스 가입 방법 가이드. 계정 생성, KYC 인증, 2FA 보안 설정까지 한 번에 정리."
+title = "바이낸스 가입방법: 계정 생성부터 본인인증까지"
+description = "바이낸스 가입방법을 화면별로 확인하세요. 계정 생성, 이메일 인증, 본인인증(KYC), OTP 보안 설정까지 기존 단계별 이미지와 함께 안내합니다."
 url = "/blockchain-guide/"
 list = "never"
 draft = false
@@ -10,31 +10,44 @@ categories = ["guide"]
 render = "always"
 +++
 
-# 비트코인 하는법 1단계: 바이낸스 가입부터 시작하세요
+# 바이낸스 가입방법: 계정 생성부터 본인인증까지
 
 <div class="hero-mini">
-  <div class="hero-mini-title">비트코인 처음이라면 이렇게 시작하세요</div>
-  <p>비트코인을 처음 시작하는 경우 보통 <b>거래소 가입 → 신원인증(KYC) → 입금 → 구매</b> 순서로 진행합니다. 이 글은 그중 <b>첫 단계인 바이낸스 가입 방법</b>을 초보자 기준으로 쉽게 정리한 안내입니다.</p>
+  <div class="hero-mini-title">처음 가입하는 분을 위한 화면별 가이드</div>
+  <p>계정 생성부터 본인인증(KYC), OTP 보안 설정까지 실제 화면 순서대로 안내합니다. 가입 페이지를 새 창으로 열어두고 아래 가이드를 보면서 진행할 수 있습니다.</p>
 </div>
 
 <div class="binance-hero-card">
   <div class="binance-hero-logo">
-    <img src="/images/binance-logo.png" alt="Binance Logo">
+    <img src="/images/binance-logo.png" alt="바이낸스 로고" width="1080" height="1080" fetchpriority="high" decoding="async">
   </div>
   <div class="binance-hero-text">
-    <div class="binance-kicker">초보자용 시작 가이드</div>
-    <div class="binance-hero-title">수수료 20% 할인 적용 후<br>바이낸스 가입하기</div>
-    <p class="binance-hero-desc">세계 최대 거래량을 가진 글로벌 거래소로, <b>초보자도 가입 가능</b>, <b>모바일 앱 사용 편의성</b>이 강점입니다.</p>
+    <div class="binance-kicker">바이낸스 회원가입 가이드</div>
+    <div class="binance-hero-title">가입 화면을 함께 열고<br>한 단계씩 따라 하세요</div>
+    <p class="binance-hero-desc">버튼을 누르면 바이낸스 외부 가입 페이지가 새 창으로 열립니다. 이 가이드와 번갈아 보며 계정 생성부터 보안 설정까지 진행하세요.</p>
     <div class="binance-points">
-<span>세계 최대 거래소</span>
-<span>모바일 앱 사용 편리</span>
-<span>초보자도 5분 가입 가능</span>
-<span>수수료 20% 할인 적용</span>
+<span>계정 생성</span>
+<span>본인인증(KYC)</span>
+<span>OTP 보안 설정</span>
     </div>
-    <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS" target="_blank" rel="noopener noreferrer" class="binance-hero-button">20% 할인 적용하고 가입하기</a>
-    <div class="binance-hero-note">본 페이지는 투자 권유가 아닌 정보 제공용 안내입니다.</div>
+    <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS" target="_blank" rel="noopener noreferrer nofollow sponsored" class="binance-hero-button" data-binance-cta data-cta-location="hero">바이낸스 가입 화면 열고 따라 하기</a>
+    <div class="binance-hero-note"><b>제휴 안내:</b> 이 페이지에는 바이낸스 추천인 링크가 포함되어 있으며, 해당 링크를 통해 가입하면 사이트 운영자에게 제휴 수익이 발생할 수 있습니다.</div>
   </div>
 </div>
+
+<div class="risk-notice" role="note" aria-label="암호화폐 위험 안내">
+  <b>위험 안내:</b> 암호화폐는 가격 변동성이 크고 원금 손실 가능성이 있습니다. 가입 자체와 투자는 다른 행동이며, 입금이나 거래 전에 수수료와 위험을 확인하세요.
+</div>
+
+<section class="guide-start" aria-labelledby="guide-start-title">
+  <h2 id="guide-start-title">시작 전 빠른 안내</h2>
+  <div class="guide-start-grid">
+    <div><b>준비물</b><ul><li>사용 가능한 이메일 또는 휴대전화</li><li>본인 명의 신분증</li><li>OTP를 설치할 스마트폰</li></ul></div>
+    <div><b>진행 흐름</b><ol><li>계정 생성</li><li>본인인증</li><li>OTP 보안 설정</li></ol></div>
+  </div>
+  <p>우선 가입 페이지를 새 창으로 연 뒤 아래 가이드를 순서대로 따라 하세요.</p>
+  <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS" target="_blank" rel="noopener noreferrer nofollow sponsored" class="guide-cta" data-binance-cta data-cta-location="before_guide">가입 페이지에서 1단계 시작하기</a>
+</section>
 
 ---
 
@@ -225,45 +238,6 @@ render = "always"
 ---
 
 <!-- 로고 -->
-  <div style="flex-shrink:0;">
-    <img
-      src="/images/binance-logo.png"
-      alt="Binance Logo"
-      style="width:64px;height:64px;border-radius:50%;"
-    >
-  </div>
-
-  <!-- 텍스트 영역 -->
-  <div style="flex:1;">
-    <div style="font-size:18px;font-weight:700;margin-bottom:6px;">
-      수수료 20% 평생 할인 혜택
-    </div>
-    <div style="font-size:14px;color:#555;line-height:1.5;">
-      아래 링크로 가입하시면 거래 수수료 20% 할인 코드가 자동으로 적용됩니다.
-    </div>
-    <div style="margin-top:14px;">
-      <a href="https://accounts.binance.com/register?ref=BLOCKDNEWS"
-         target="_blank"
-         rel="noopener noreferrer"
-         style="
-           display:inline-block;
-           padding:12px 22px;
-           background:#f3ba2f;
-           color:#000;
-           font-weight:700;
-           font-size:15px;
-           border-radius:12px;
-           text-decoration:none;
-         ">
-        바이낸스 공식 홈페이지 바로가기
-      </a>
-    </div>
-  </div>
-
-</div>
-
----
-
 
 ## 다음 단계
 

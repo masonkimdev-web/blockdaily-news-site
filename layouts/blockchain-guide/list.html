@@ -1,12 +1,34 @@
 {{- /* layouts/blockchain-guide/list.html */ -}}
+{{- $referralURL := "https://accounts.binance.com/register?ref=BLOCKDNEWS" -}}
+{{- $faqs := .Site.Data.blockchain_guide_faq -}}
 <!doctype html>
 <html lang="{{ .Site.Language.Lang | default "en" }}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <title>바이낸스 가입방법: 계정 생성부터 본인인증까지 | BlockDailyNews</title>
   {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:site_name" content="BlockDailyNews" />
+  <meta property="og:title" content="바이낸스 가입방법: 계정 생성부터 본인인증까지" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:image" content="{{ "images/join-binance/binance_guide.webp" | absURL }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="바이낸스 가입방법: 계정 생성부터 본인인증까지" />
+  <meta name="twitter:description" content="{{ .Params.description }}" />
+  <meta name="twitter:image" content="{{ "images/join-binance/binance_guide.webp" | absURL }}" />
+  {{- $faqEntities := slice -}}
+  {{- range $faqs -}}
+    {{- $faqEntities = $faqEntities | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) -}}
+  {{- end -}}
+  {{- $faqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqEntities -}}
+  {{- $breadcrumbSchema := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "홈" "item" .Site.BaseURL) (dict "@type" "ListItem" "position" 2 "name" "바이낸스 가입방법" "item" .Permalink)) -}}
+  <script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
+  <script type="application/ld+json">{{ $breadcrumbSchema | jsonify | safeJS }}</script>
 
   <style>
     :root{
@@ -36,6 +58,7 @@
       color:var(--text);
     }
     a{color:inherit; text-decoration:none}
+    :focus-visible{outline:3px solid #f3ba2f; outline-offset:3px}
 
     .topbar{
       position:sticky; top:0; z-index:60;
@@ -206,6 +229,10 @@
       text-underline-offset: 3px;
     }
     .main-inner a:hover{ opacity:.9; }
+    .main-inner img[src^="/images/이미지-"]{
+      aspect-ratio:966 / 2075;
+      object-fit:contain;
+    }
 
     .main-inner a.btnlink{
       display:inline-flex;
@@ -330,6 +357,62 @@
       line-height:1.5;
     }
 
+    .risk-notice{
+      margin:18px 0;
+      padding:12px 14px;
+      border-left:4px solid #f3ba2f;
+      border-radius:10px;
+      background:rgba(243,186,47,.08);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.65;
+    }
+    .guide-start{
+      margin:24px 0;
+      padding:20px;
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:rgba(255,255,255,.035);
+    }
+    .guide-start h2{margin-top:0}
+    .guide-start-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .guide-start ul,.guide-start ol{margin:8px 0 0;padding-left:22px}
+    .guide-start p{margin:16px 0 12px}
+    .guide-cta,.conversion-cta-button{
+      display:inline-flex;
+      min-height:48px;
+      align-items:center;
+      justify-content:center;
+      padding:12px 18px;
+      border-radius:12px;
+      background:var(--binance);
+      color:#111 !important;
+      font-weight:900;
+      text-decoration:none !important;
+    }
+    .conversion-cta{
+      margin:26px 0;
+      padding:18px;
+      border:1px solid rgba(243,186,47,.45);
+      border-radius:16px;
+      background:rgba(243,186,47,.08);
+      text-align:center;
+    }
+    .conversion-cta h2{margin:0 0 8px}
+    .conversion-cta p{margin:0 0 14px;color:var(--muted)}
+    .conversion-cta-note{margin:10px 0 0 !important;font-size:12px}
+    .faq-section{margin-top:34px}
+    .faq-item{border-top:1px solid var(--line)}
+    .faq-item:last-child{border-bottom:1px solid var(--line)}
+    .faq-item summary{
+      min-height:48px;
+      padding:14px 4px;
+      cursor:pointer;
+      font-weight:800;
+    }
+    .faq-item p{margin:0;padding:0 4px 16px;line-height:1.75;color:var(--muted)}
+    .mobile-sticky-wrap{display:none}
+
     /* 교육/면책 고지 */
     .disclaimer{
       margin-top: 22px;
@@ -413,6 +496,15 @@
         width:100%;
       }
 
+      .guide-start-grid{grid-template-columns:1fr;gap:14px}
+      .guide-start{padding:16px}
+      .guide-cta,.conversion-cta-button{width:100%}
+      .main-inner{font-size:16px;line-height:1.75}
+      .main-inner h1{font-size:clamp(26px,8vw,34px)}
+      .main-inner h2{font-size:20px;scroll-margin-top:84px}
+      .main-inner h3{font-size:17px;scroll-margin-top:84px}
+      .main-inner img{max-width:100%;height:auto}
+
       .cta-fixed{
         display:flex;
         position: fixed;
@@ -440,6 +532,49 @@
 
       .main-inner{ padding-bottom: 120px; }
     }
+    @media (max-width: 980px){
+      .mobile-sticky-wrap{
+        display:flex;
+        position:fixed;
+        left:10px;
+        right:10px;
+        bottom:calc(10px + env(safe-area-inset-bottom));
+        z-index:70;
+        align-items:center;
+        gap:8px;
+        padding:8px;
+        border:1px solid rgba(255,255,255,.18);
+        border-radius:16px;
+        background:rgba(15,19,24,.96);
+        box-shadow:0 14px 40px rgba(0,0,0,.55);
+      }
+      .mobile-sticky-wrap[hidden]{display:none}
+      .mobile-sticky-link{
+        min-height:48px;
+        flex:1;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:11px;
+        background:var(--binance);
+        color:#111;
+        font-weight:900;
+      }
+      .mobile-sticky-close{
+        width:44px;
+        height:44px;
+        border:0;
+        border-radius:10px;
+        background:transparent;
+        color:var(--text);
+        cursor:pointer;
+        font-size:22px;
+      }
+    }
+    @media (min-width:981px){.mobile-sticky-wrap{display:none !important}}
+    @media (prefers-reduced-motion:reduce){
+      *,*::before,*::after{scroll-behavior:auto !important;transition-duration:.01ms !important;animation-duration:.01ms !important}
+    }
   </style>
 </head>
 
@@ -455,7 +590,6 @@
       <div class="cta">
         <button class="btn" id="menuBtn" type="button" aria-label="Open menu">가이드 목차</button>
         <a class="btn" id="guideHomeBtn" href="{{ .RelPermalink }}">Guide Home</a>
-        <a class="btn primary" id="primaryCta" href="/go/binance-next/">20% 할인 적용하고 가입하기</a>
       </div>
     </div>
   </div>
@@ -464,7 +598,7 @@
     <aside class="sidebar" aria-label="Guide navigation">
       <div class="side-head">
         <p class="side-title">빠른 탐색</p>
-        <input class="search" id="navSearch" placeholder="Search (예: 입금, 선물, 출금)" />
+        <input class="search" id="navSearch" aria-label="가이드 검색" placeholder="Search (예: 입금, 선물, 출금)" />
       </div>
       <nav class="nav" id="navList">
         <a href="{{ .RelPermalink }}" data-href="{{ .RelPermalink }}">
@@ -489,7 +623,24 @@
           <span style="color:var(--muted)">Guide</span>
         </div>
 
-        {{ .Content }}
+        {{ .Content | replaceRE `(<img src="/images/이미지-[^"]+" alt="[^"]+")` `$1 loading="lazy" decoding="async"` | safeHTML }}
+
+        <section class="conversion-cta" id="finalBinanceCta" aria-labelledby="final-cta-title">
+          <h2 id="final-cta-title">가이드를 확인했다면 가입 화면에서 시작하세요</h2>
+          <p>바이낸스 외부 가입 페이지가 새 창으로 열립니다. 추천인 코드 적용 조건은 가입 화면에서 직접 확인하세요.</p>
+          <a class="conversion-cta-button" href="{{ $referralURL }}" target="_blank" rel="noopener noreferrer nofollow sponsored" data-binance-cta data-cta-location="final">바이낸스 가입 페이지로 이동하기</a>
+          <p class="conversion-cta-note">제휴 링크를 통해 가입하면 사이트 운영자에게 제휴 수익이 발생할 수 있습니다.</p>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+          <h2 id="faq-title">바이낸스 가입 자주 묻는 질문</h2>
+          {{ range $index, $faq := $faqs }}
+            <details class="faq-item" data-faq-question="{{ $faq.question }}">
+              <summary>{{ $faq.question }}</summary>
+              <p>{{ $faq.answer }}</p>
+            </details>
+          {{ end }}
+        </section>
 
         <div class="disclaimer" role="note" aria-label="교육용 고지">
           <div class="disclaimer-title">educational notice</div>
@@ -513,6 +664,18 @@
         </div>
       </div>
     </main>
+  </div>
+
+  <template id="middleCtaTemplate">
+    <aside class="conversion-cta conversion-cta-middle" aria-label="바이낸스 가입 보조 안내">
+      <p>계정 생성 단계까지 확인했습니다. 아직 가입하지 않았다면 새 창에서 가입 화면을 다시 열 수 있습니다.</p>
+      <a class="conversion-cta-button" href="{{ $referralURL }}" target="_blank" rel="noopener noreferrer nofollow sponsored" data-binance-cta data-cta-location="middle">아직 가입하지 않았다면 가입 화면 다시 열기</a>
+    </aside>
+  </template>
+
+  <div class="mobile-sticky-wrap" id="mobileStickyCta" aria-label="바이낸스 가입 바로가기">
+    <a class="mobile-sticky-link" href="{{ $referralURL }}" target="_blank" rel="noopener noreferrer nofollow sponsored" data-binance-cta data-cta-location="sticky" aria-label="바이낸스 가입 화면 새 창으로 열기">가입 화면 열기</a>
+    <button class="mobile-sticky-close" id="mobileStickyClose" type="button" aria-label="하단 가입 버튼 닫기">×</button>
   </div>
 
   <script>
@@ -582,9 +745,102 @@
         if(e.key === 'Escape') close();
       });
     })();
-  </script>
 
-  {{ partial "binance_cta.html" "https://accounts.binance.com/register?ref=BLOCKDNEWS" }}
+    (function(){
+      const headings = Array.from(document.querySelectorAll('.main-inner h2'));
+      const accountComplete = headings.find((heading) => heading.textContent.trim().startsWith('4. 바이낸스 가입 완료'));
+      const template = document.getElementById('middleCtaTemplate');
+      if(accountComplete && template){
+        let boundary = accountComplete.nextElementSibling;
+        while(boundary && boundary.tagName !== 'HR') boundary = boundary.nextElementSibling;
+        (boundary || accountComplete).after(template.content.cloneNode(true));
+      }
+    })();
+
+    (function(){
+      const eventParams = () => {
+        const query = new URLSearchParams(location.search);
+        const stored = {};
+        ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach((key) => {
+          const incoming = query.get(key);
+          if(incoming){
+            try{ sessionStorage.setItem('bdn_' + key, incoming); }catch(e){}
+            stored[key] = incoming;
+          }else{
+            try{ stored[key] = sessionStorage.getItem('bdn_' + key) || ''; }catch(e){ stored[key] = ''; }
+          }
+        });
+        return Object.assign({page_path: location.pathname}, stored);
+      };
+      const track = (eventName, params) => {
+        try{
+          const payload = Object.assign({}, eventParams(), params || {});
+          if(typeof window.gtag === 'function'){
+            window.gtag('event', eventName, payload);
+          }else{
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push(Object.assign({event:eventName}, payload));
+          }
+        }catch(e){}
+      };
+      const ctaParams = (link) => ({
+        cta_location: link.dataset.ctaLocation,
+        cta_text: link.textContent.trim(),
+        referral_destination: 'accounts.binance.com/register'
+      });
+
+      track('blockchain_guide_view');
+
+      const observed = new WeakSet();
+      const links = Array.from(document.querySelectorAll('[data-binance-cta]'));
+      if('IntersectionObserver' in window){
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if(entry.isIntersecting && !observed.has(entry.target)){
+              observed.add(entry.target);
+              track('binance_cta_impression', ctaParams(entry.target));
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {threshold:0.5});
+        links.forEach((link) => observer.observe(link));
+      }
+
+      document.addEventListener('click', (event) => {
+        const link = event.target.closest('[data-binance-cta]');
+        if(!link) return;
+        const params = ctaParams(link);
+        track('binance_cta_click', params);
+        track('outbound_referral_click', params);
+      });
+
+      document.querySelectorAll('.faq-item').forEach((item) => {
+        item.addEventListener('toggle', () => {
+          if(item.open) track('faq_open', {faq_question:item.dataset.faqQuestion});
+        });
+      });
+    })();
+
+    (function(){
+      const sticky = document.getElementById('mobileStickyCta');
+      const close = document.getElementById('mobileStickyClose');
+      const finalCta = document.getElementById('finalBinanceCta');
+      if(!sticky || !close) return;
+      try{ if(sessionStorage.getItem('bdn_sticky_closed') === '1') sticky.hidden = true; }catch(e){}
+      close.addEventListener('click', () => {
+        sticky.hidden = true;
+        try{ sessionStorage.setItem('bdn_sticky_closed','1'); }catch(e){}
+      });
+      if(finalCta && 'IntersectionObserver' in window){
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if(entry.isIntersecting) sticky.hidden = true;
+          });
+        }, {threshold:0.2});
+        observer.observe(finalCta);
+      }
+    })();
+  </script>
 
   {{ if ne .Params.showPrevNext false }}
     {{ partial "prev_next.html" . }}
